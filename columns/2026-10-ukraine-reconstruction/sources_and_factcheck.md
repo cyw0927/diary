@@ -1,176 +1,136 @@
-# 사실검증 및 출처표
+# 출처와 팩트체크 — 2026년 10월 9일 기준
 
-대상: 「우크라이나 재건 - 21세기 최악의 사기극」
-검증 기준일: 2026년 10월 9일
-출처 번호는 칼럼 말미의 '주요 출처' 목록과 같다.
+기존 원고의 **61개 출처 번호 전부**를 아래에서 판정했다. 번호 하나에 여러 URL이 있는 경우 실제 접근 기록은 64개다. HTTP 성공은 원문 접근의 결과이고 주장 검증은 별도다. 접근 기록 원본은 [JSON](data/original_source_access_audit.json), 수치·추가 출처는 [데이터 폴더](data/)에 있다.
 
-수정판에서는 재건 필요액과 지급 의무, 한국의 전쟁 지원과 재건 수주를 구분했다. 아래 기존 수치표는 앞선 원고의 검증 기록을 이어받은 것이며, 이번 수정에서 모든 행을 독립적으로 다시 검증했다는 뜻은 아니다. 이번에 재확인·추가한 쟁점과 확인 범위는 마지막 절에 따로 적었다.
+판정은 `확인 / 일부 확인 / 당사자 주장 / 수사기관 혐의 / 추정 / 미확인 / 반증 또는 수정 필요`로 구분했다. `확인`도 공개 자료의 해당 범위에 대한 판정이며 미래 성과나 기업 내부 모형까지 검증했다는 의미가 아니다. 자동화 수집 중 차단된 자료를 웹 도구로 읽은 경우 경로를 구분했다. PDF·기사 전문은 로컬 캐시에만 보관하고 Git에 올리지 않는다.
 
-## 검증 등급
+## 기존 61개 출처 감사
 
-| 등급 | 의미 |
-|---|---|
-| **A** | 1차 자료(정부·국제기구 원문, 원데이터)에서 직접 확인 |
-| **B** | 공신력 있는 언론이나 2차 보도로 확인. 1차 원문은 열람하지 못함 |
-| **C** | 필자 계산 또는 추론. 계산 근거를 함께 적음 |
+|번호|검증대상|판정|원문·위치|확인 범위·한계|본문 처리|직접 수집 결과|
+|---:|---|---|---|---|---|
+|1|RDNA5 피해·손실·필요 총액|확인|[원문1](https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released)|2026.2.23 발표; 195.1/666.7/587.7 십억 달러|유지; 서로 합산 금지|200 / 11,761자|
+|2|18부문·방법론·2026 재원 격차|확인|[원문1](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf)|표1·그림7·표5 및 부록. 손실기간 설명에 내부 문구 불일치|표 주석의 46개월 실제+18개월 전망=64개월 적용; 확보≠집행|200 / 187,726자|
+|3|8,000억 달러 Prosperity Plan|당사자 주장|[원문1](https://me.gov.ua/News/Detail/a39127c6-0df8-4880-b795-74150fd0c278?isSpecial=true&lang=uk-UA&title=UkraineProsperityPlan)|2026.1.3 정부 발표; 국가 현대화 계획임을 확인|지급 약속·RDNA 잔액과 구별|200 / 3,576자|
+|4|침공 전 저투자·국가 포획|확인|[원문1](https://www.worldbank.org/en/brief/2021/09/06/scd-consultations) · [원문2](https://thedocs.worldbank.org/en/doc/76b8952cdeee76b061cb9ced4baaee80-0080062021/original/Ukraine-SCD-2021-en.pdf)|2021 SCD 본문; 진단은 전쟁 이전|제도적 문제 사용; GDP 차이 전부의 단일 원인으로 단정 안 함|200 / 6,977자; 200 / 178,203자|
+|5|1990~2021 GDP·2021 투자율|확인|[원문1](https://api.worldbank.org/v2/country/UKR;POL;CZE;SVK;ROU;MDA;EST;LVA;LTU/indicator/NY.GDP.MKTP.KD?format=json&date=1990:2021&per_page=20000)|국가 페이지 대신 WDI API 3지표·9개국 CSV 재계산|UKR 62.9, GDPpc $4,775.95, 고정자본 13.2048%; 개인소득과 구별|200 / 7,899자|
+|6|상수35%·하수38% 비상, 식수손실36%|일부 확인|[원문1](https://zakon.rada.gov.ua/laws/show/388-2021-р)|공식 Rada 검색 색인 원문 문장 확인; 본문 직접 접근 실패|출처·접근 한계 명시; 국가 시설 전체의 노후비율로 쓰지 않음|실패 / 0자|
+|7|화력발전 설비90% 수명 소진|당사자 주장|[원문1](https://zn.ua/ECONOMICS/v-ukraine-90-enerhoblokov-tes-otrabotali-svoj-resurs-halushchenko.html)|2021.6.18 ZN 장관 인터뷰|장관 발언으로만 사용|200 / 8,164자|
+|8|기관차 노후95%|일부 확인|[원문1](https://gmk.center/?p=32065)|2020.10 GMK 업계 보도; UZ 기초통계 전수 미확보|기관차 대상임을 유지; 철도망 전체로 확대 안 함|200 / 4,679자|
+|9|CPI2021 32점·122위|미확인|[원문1](https://ti-ukraine.org/en/news/no-progress-ukraine-s-result-in-the-corruption-perceptions-index-2021/)|기존 TI 링크 직접 403; 이번 판의 원자료 재확인 미완|사용하지 않음; 2025 공식 자료 별도 검토|실패 / 0자|
+|10|취약국가지수2021 순위|미확인|[원문1](https://fragilestatesindex.org/)|링크는 홈페이지이며 해당 연도 데이터·산식 미확보|삭제; 홈페이지 HTTP200을 통계 검증으로 취급 안 함|200 / 972자|
+|11|2021 일반정부부채 비율|미확인|[원문1](https://www.imf.org/external/datamapper/)|IMF 일반 홈페이지로 정확한 조회계열 미확보|본문은 MoF 정부채무/정부보증채무의 2025 지표로 교체|실패 / 0자|
+|12|국토부 마리우폴 재건 면담|일부 확인|[원문1](https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?id=95086933)|기존 정부 링크 반복 리디렉션; 국토부 인용 전자신문[59]로 교차확인|정부 원문 직접 확보라고 표기하지 않음|실패 / 0자|
+|13|2022.5.20 마리우폴 통제|일부 확인|[원문1](https://triblive.com/news/world/russia-claims-to-have-taken-full-control-of-mariupol)|AP 기사의 재게재·아카이브 접근; 당시 러시아 발표를 보도|7월 제안의 현장 접근 조건에 사용|200 / 9,931자|
+|14|2022.10 합병 관련 UN 표결|확인|[원문1](https://www.aljazeera.com/news/2022/10/12/un-condemns-russias-move-to-annex-parts-of-ukraine)|기사에서 사건 확인; 사업성 논점과 별개|장황한 영토·법률 설명 삭제|200 / 5,182자|
+|15|러시아 점령 마리우폴의 변화|일부 확인|[원문1](https://www.sanjuandailystar.com/post/russian-occupied-mariupol-everything-ukrainian-must-go)|NYT 재게재 기사이지 본래 NYT 원문 직접 확인은 아님|도시 전체 복구 완료의 증거로 사용 안 함|200 / 8,963자|
+|16|아파트900채 압류|당사자 주장|[원문1](https://euromaidanpress.com/2026/05/13/russia-seizes-900-mariupol-apartments-from-owners-it-forced-to-flee/)|2026.5.13 망명 시의회 발표를 인용한 보도|전수 등기 확인 아님을 적고 소유·이용 불확실성에만 사용|200 / 8,516자|
+|17|2023 한국23억달러 지원 발표|일부 확인|[원문1](https://www.koreatimes.co.kr/foreignaffairs/20230910/seoul-pledges-23-bil-aid-package-to-rebuild-ukraine)|당시 언론 기사; 발표 단계|총 집행이나 추가 수주액으로 합산하지 않음|200 / 6,630자|
+|18|EDCF 최대21억달러 기본약정|확인|[원문1](https://www.kmu.gov.ua/en/news/ukraina-otrymaie-mozhlyvist-zaluchaty-kredytni-resursy-zahalnym-obsiahom-do-21-mlrd-vid-pivdennoi-korei-uriady-krain-pidpysaly-vidpovidnu-uhodu)|2024.4.19 내각 원문; 2024~2029 한도|약정 한도·개별 계약 구별|200 / 10,180자|
+|19|EDCF 개별1억달러 차관|확인|[원문1](https://www.kmu.gov.ua/en/news/ukraina-vpershe-otrymaie-pilhove-finansuvannia-vid-respubliky-koreia-serhii-marchenko-pidpysav-kredytnyi-dohovir-na-100-mln-dolariv-ssha)|2024.10.2 내각:20년·1%·재정지원 계약|계약 서명 확인, 집행 전액/건설수주로 변경 금지|200 / 9,505자|
+|20|철도차량20편성 한국 협력|당사자 주장|[원문1](https://mindev.gov.ua/en/news/spivpratsia-z-koreiskymy-kompaniiamy-posylyt-stiikist-ukrainskoi-zaliznytsi-oleksii-kuleba)|2025.9.17 부처 발표, 차관 요청·협력 단계|최종 공급자·수주 확정으로 사용 안 함|200 / 7,976자|
+|21|보리스필 공항9.83억달러|일부 확인|[원문1](https://www.koreajoongangdaily.com/business/kac-hyundai-ec-ink-983m-deal-to-revamp-kyiv-intl-airport/11017714)|2023.11 기사에 MOU로 명시|사업 규모와 확정 계약액 구별|200 / 5,238자|
+|22|기업 참여에 재원·수익 정보 부족|확인|[원문1](https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000189716) · [원문2](https://www.kiep.kr/galleryDownload.es?bid=0001&list_no=11547&seq=1)|KIEP 보고서 PDF 직접 확보; 인터뷰·제도 검토|참여 애로의 증거; 모든 프로젝트에 FS가 없다는 근거는 아님|200 / 5,328자|
+|23|EU Facility500억유로|확인|[원문1](https://enlargement.ec.europa.eu/funding-technical-assistance/ukraine-facility_en)|2024~27 공식 지원 구조; 보조금·대출·보증·기술지원 혼합|총액 전부를 건설 보조금으로 쓰지 않음|200 / 15,373자|
+|24|EU900억유로 대출 결정|확인|[원문1](https://www.eeas.europa.eu/delegations/ukraine/european-council-18-december-2025-ukraine_en)|2025.12.18 정상회의, 시장차입·EU예산 여력·러시아 배상 연계|ERA와 분리해 사용|200 / 13,055자|
+|25|우크라이나의 EU대출 환영|당사자 주장|[원문1](https://www.kmu.gov.ua/en/news/minfin-vitaie-rishennia-rady-ies-shchodo-namiru-nadaty-ukraini-90-mlrd-ievro-finansovoi-dopomohy-na-2026-2027-roky)|2025.12.19 내각 설명|지급 구조는 EU[24][26]와 교차검증|200 / 9,751자|
+|26|2026.10.8 12.4억유로 집행|확인|[원문1](https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en)|EU DG DEFIS 공식 공지; 드론·미사일 용도|최신 실제 집행 포함; 주택·도로 예산으로 둔갑 금지|200 / 5,945자|
+|27|IMF 신규81억달러 EFF|일부 확인|[원문1](https://www.imf.org/en/news/articles/2026/02/26/pr-26066-ukraine-imf-executive-board-approves-usd-8point1-billion-under-an-eff-arrangement)|IMF 직접403; 정부 발표[28]로 내용 교차확인|IMF 원문을 직접 모두 읽었다고 주장 안 함|실패 / 0자|
+|28|IMF 48개월·1365억달러 금융수요|당사자 주장|[원문1](https://www.kmu.gov.ua/en/news/minfin-rada-vykonavchykh-dyrektoriv-mvf-skhvalyla-novu-prohramu-rozshyrenoho-finansuvannia-dlia-ukrainy-u-rozmiri-81-mlrd)|2026.2.27 재무부 발표|거시·재정 지원, 재건 총액을 채우는 별도 공사기금 아님|200 / 11,538자|
+|29|미·우크라이나 기금 첫 투자|반증 또는 수정 필요|[원문1](https://home.treasury.gov/news/press-releases/sb0424)|미 재무부 발표의 Swarmer는 방산·드론 기술 투자|미국 건설기업 재건매출의 증거에서 제외|200 / 12,377자|
+|30|Donor Platform 지원 정보|일부 확인|[원문1](https://ukrainedonorplatform.com/?p=20326)|2026.7 뉴스레터의 프로그램 설명|국가별 전체 순집행 통계가 아니므로 총 지원액으로 계산 안 함|200 / 6,400자|
+|31|2024 유로본드 재조정|확인|[원문1](https://www.kmu.gov.ua/en/news/ukraina-zavershyla-restrukturyzatsiiu-derzhavnykh-oblihatsii-ta-harantovanykh-derzhavoiu-ievrooblihatsii-na-sumu-205-mlrd-dolariv-ssha)|정부 공식 발표:원금20.5bn, 이자 포함 기준의37% 감액|원금 단독 기준37%로 오표기 금지; 채무 소멸 아님|200 / 10,602자|
+|32|S&P CCC+|일부 확인|[원문1](https://finance.liga.net/en/ekonomika/novosti/sp-upgrades-ukraines-credit-rating-to-ccc-after-debt-restructuring)|언론 기사; MoF2025보고서 2026.3말 평정과 교차확인|상환 가능의 보증으로 사용 안 함|200 / 5,797자|
+|33|2025 예산·정부채무|반증 또는 수정 필요|[원문1](https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf)|MoF PDF 웹 본문 직접 검토; 다운로드403과 별개. pp2~3,26~27|98.2%는 정부채무만; 보증 포함101.3%, ERA제외91.1%로 정정|실패 / 0자|
+|34|부차 비용·에너지·회수기간|확인|[원문1](https://en.ecoaction.org.ua/wp-content/uploads/2024/03/Executive_Summary_The_Green_Reconstruction_of_the_Residential_Sector.pdf)|3쪽 연구 요약 PDF:기본106m+추가108/212m유로|총214/318m, 현행27/33.6년 vs 원가요금15.3/19.4년; 단순 회수 모형|200 / 8,004자|
+|35|분산형 전력 필요·운영 조건|일부 확인|[원문1](https://www.iea.org/reports/empowering-ukraine-through-a-decentralised-electricity-system)|IEA 페이지 자동 접근403; 이번 판 상세 계산 재확인 미완|개별 IFC·EBRD 공개 사업으로 교체|실패 / 0자|
+|36|난민귀환49%·조건별65/32%|확인|[원문1](https://data.unhcr.org/en/documents/download/123284)|UNHCR PDF 직접 검토, 본문·방법론|보고2026.7/조사2025.12~2026.1 구별; 표본 수 요약·부록 차이로 N단정 제외|200 / 70,483자|
+|37|EU 임시보호443만|일부 확인|[원문1](https://www.eunews.it/en/2026/09/10/eurostat-4-43-million-ukrainians-under-temporary-protection-in-the-eu-in-july-2026/)|Eurostat 인용 매체 기사이지 Eurostat 원자료 직접 확보 아님|중복 숫자 삭제; UNHCR 난민·실향민 수치 사용|200 / 6,423자|
+|38|임시보호2028.3 연장|확인|[원문1](https://www.eeas.europa.eu/delegations/ukraine/eu-countries-agree-extend-temporary-protection-those-fleeing-ukraine-until-march-2028_en)|EEAS 공식 발표의 해당 기간|본문 축소 과정에서 제외; 인구의 영구 이탈로 간주 안 함|200 / 6,039자|
+|39|통제지역 인구2900만|당사자 주장|[원문1](https://en.interfax.com.ua/news/general/1186657.html)|2026.7.20 연구소장 인터뷰; 추정오차 약30만|2022 전역 추계와 범위 차이 명시|200 / 7,090자|
+|40|2025 출생·사망등록|미확인|[원문1](https://opendatabot.ua/en/analytics/birth-death-2025-12)|Opendatabot 원문403; 이번 판 원자료 직접 재검증 미완|정확한 원자료 없이 사용하지 않음|실패 / 0자|
+|41|취업1070만·연금1020만|반증 또는 수정 필요|[원문1](https://kse.ua/about-the-school/news/human-capital-trends-in-ukraine-make-reforms-of-the-labour-market-social-benefits-system-and-education-funding-key-priorities-for-2026-human-capital-chartbook-kse-institute/)|KSE 본문에 취업연금자280만 중첩|두 집단 독립 합계/개인 부양비율 계산 금지|200 / 6,492자|
+|42|2026.1 점령비율|일부 확인|[원문1](https://news.online.ua/en/deepstate-calculated-the-area-of-ukraine-occupied-by-the-russian-federation-in-2025-900209/)|DeepState 인용 기사; 지도 원데이터 재현 미완|10월 현재 점령비율로 사용 안 함; 현재 수주가능액 계산 제외|200 / 4,352자|
+|43|도시 재건·공간배분|확인|[원문1](https://www.nber.org/papers/w34598)|NBER WP34598의 연구 요지|시나리오 분석이며 정책의 실측 성과·귀환 예측 아님|200 / 7,065자|
+|44|미다스 전직 장관 혐의|수사기관 혐의|[원문1](https://euromaidanpress.com/2026/02/16/ukraine-ex-energy-minister-halushchenko-charged-midas/)|언론 기사; NABU[92][93]로 직접 출처 보강|확정 유죄·RDNA전체 도난 비율로 바꾸지 않음|200 / 12,477자|
+|45|NABU 독립성 복원|일부 확인|[원문1](https://ukranews.com/en/news/1097057-zelenskyy-signs-law-on-restoring-independence-of-nabu-and-sapo)|원링크403; TI2025 공식평가에서 후퇴·복원 맥락 확인|부패 단락의 반복 서사 줄이고 실제 거래위험 사용|실패 / 0자|
+|46|CPI2025 36점·104위|확인|[원문1](https://ti-ukraine.org/en/research/corruption-perceptions-index-2025/)|TI 공식 검색·웹 본문 확인. 평가기간2023.1~2025.9|미다스2025.11 반영하지 않는 시차 명시|실패 / 0자|
+|47|EU 분할금 축소|일부 확인|[원문1](https://kyivindependent.com/eu-cuts-next-ukraine-facility-aid-tranche-over-delayed-reforms/)|기사의 개혁 미이행·지급 삭감 설명|감액·유보·최종 지원 철회 구별 불충분해 본문 숫자 제외|200 / 8,379자|
+|48|800bn 계획의 구성|일부 확인|[원문1](https://kyivindependent.com/what-we-know-about-ukraines-800-billion-economic-peace-plan/)|Kyiv Independent의 정부 계획 보도|원문 정부[3]를 주출처로 사용; 확정 지원액이라고 쓰지 않음|200 / 9,875자|
+|49|Prosperity초안·136.5bn|일부 확인|[원문1](https://www.pravda.com.ua/eng/news/2026/01/23/8017583/)|보도된 초안이며 협정 체결 원문이 아님|공식발표[3][28]와 구별; 초안 전부 확정 조건으로 쓰지 않음|200 / 5,553자|
+|50|지역후원 모델 폐기|일부 확인|[원문1](https://www.kyivpost.com/post/29917)|Kyiv Post 기사, 당시 방안의 조정|모든 지방사업 전면 취소의 근거로 확대 안 함; 본문 제외|200 / 10,093자|
+|51|CES 난민5차 조사|확인|[원문1](https://ces.org.ua/en/ukrainian-refugees-fifth-wave/)|조사 발표 원문; UNHCR과 모집·문항·시점 다름|일관된 본문 비교는 UNHCR[36] 사용; 수치 혼합 안 함|200 / 10,433자|
+|52|2022.1 공식 인구4117만|확인|[원문1](https://lv.ukrstat.gov.ua/ukr/help/pb_fig2021/en/chapter_2_1.html)|국가통계청 표, 크림 제외|2026 통제지역 추정과 차액 계산 금지|200 / 5,567자|
+|53|G7 ERA50bn 구조|확인|[원문1](https://economy-finance.ec.europa.eu/international-economic-relations/candidate-and-neighbouring-countries/ukraine_en)|EU 공식 개요:특별수익 기반 대출|원금 몰수·러시아 배상합의·EU90bn과 분리|200 / 26,108자|
+|54|2026상반기 사망/출생 약4배|일부 확인|[원문1](https://zmina.info/en/news-en/ukraines-mortality-rate-exceeds-birth-rate-fourfold/)|2026 상반기 등록 통계 인용 기사; 2025연간과 다른 기간|2025 비율에4배를 붙이지 않음; 본문에서는 제외|200 / 6,704자|
+|55|출산율0.9|당사자 주장|[원문1](https://english.nv.ua/nation/ukraine-s-birth-rate-hits-record-low-50494770.html)|차관 발언을 인용한 기사; 전시 분모 추정 불확실|등록 출생수와 출산율 혼동을 피하려 본문 제외|200 / 3,523자|
+|56|IFC73bn/18% vs130bn/약1/3|확인|[원문1](https://www.ifc.org/en/insights-reports/2023/private-sector-opportunities-for-a-green-and-resilient-reconstruction-in-ukraine)|IFC 본문, RDNA2 411bn 기준; 추가282bn개발 별도|조건부 시나리오; 현재 약정·RDNA5 확정조달로 사용 금지|200 / 5,964자|
+|57|FIRST30m유로|확인|[원문1](https://www.eib.org/en/press/all/2025-285-ukraine-to-rebuild-infrastructure-with-support-from-ukraine-first-initiative)|EIB2025.7.11:사업 준비·타당성 지원 초기자금|건설공사계약·모든 조사 완료와 구별|200 / 11,657자|
+|58|한국 간접155mm 포탄 공급|일부 확인|[원문1](https://m-en.yna.co.kr/view/AEN20231205000300315)|연합뉴스의 WP 취재 인용; 공식 확정 총량·경로 미공개|큰 기여를 인정; 직접 무상제공 수량이나 현금원조로 합산 금지|200 / 4,336자|
+|59|2022.7.6 마리우폴 제안|일부 확인|[원문1](https://www.etnews.com/20220706000197)|국토부 발표 인용 전자신문 원문; 의원2명·대사 이름 확인|면담 확인; 유상 공사계약의 증거 아님|200 / 3,315자|
+|60|러시아의 마리우폴 복구|당사자 주장|[원문1](https://rks-nr.ru/news/273/) · [원문2](https://rks-nr.ru/news/)|시공사 개별 공동주택 준공·학교 진행 공지|개별 복구는 인정; 도시 전체 완료 주장 수정|200 / 1,871자; 200 / 23,876자|
+|61|한국의 지원 분야|확인|[원문1](https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=375100)|외교부2024.6.13 원문; 인도지원·IFI·KOICA|기간·단계가 다른 항목을 전액 집행 총액으로 합산 안 함|200 / 3,576자|
 
----
+## 새로 추가한 핵심 자료와 판정
 
-## 1. 서론
+|번호|자료·주장|판정|원문·위치|확인 범위|본문 처리|한계·시점|
+|---:|---|---|---|---|---|
+|62|URC22 회복계획 원문, p8·10·12|확인|[원문1](https://cdn.prod.website-files.com/621f88db25fbf24758792dd8/62c166751fcf41105380a733_NRC%20Ukraine%27s%20Recovery%20Plan%20blueprint_ENG.pdf)|원문자료의 공개된 범위 확인|계획·손상·자금 구분|기준일은 자료 제목 참조|
+|63|UkraineInvest, 루가노 850개 사업과 단계(2022.7.15)|확인|[원문1](https://ukraineinvest.gov.ua/en/news/15-07-22-2/)|원문자료의 공개된 범위 확인|계획·손상·자금 구분|기준일은 자료 제목 참조|
+|64|KSE, 2022.6.13 피해 추정과 국가 계획의 범위|확인|[원문1](https://kse.ua/russia-will-pay/)|원문자료의 공개된 범위 확인|계획·손상·자금 구분|기준일은 자료 제목 참조|
+|65|삼부토건 반기보고서(2026.8.14), II.4 매출·수주|확인|[원문1](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004299&dcmNo=11540645&eleId=13&offset=164355&length=24051&dtd=dart4.xsd)|해외사업0%, 국내37,677,137천원+기타50,580천원|반기 매출 약377억원, 우크라이나 주요계약 미확인|2026.6말 / 8.14 공시|
+|66|일요신문, 삼부토건 2023년 당시 주가·매매 보도(2024.10.11)|일부 확인|[원문1](https://www.ilyo.co.kr/?ac=article_view&entry_id=479842)|역사적 가격·매매 보도|네이버 재지수화 비율과 교차확인|KRX 원본 인증 아님|
+|67|뉴시스, 삼부토건 기소 내용·369억원 혐의(2025.9.26)|수사기관 혐의|[원문1](https://mobile.newsis.com/view_amp.html?ar_id=NISX20250926_0003345388)|기소 내용을 인용한 뉴스,369억원|영업이익과 구별|공소장 원본·확정판결 미확보|
+|68|머니투데이, 삼부토건 회생·감자(2026.6.29)|일부 확인|[원문1](https://www.mt.co.kr/amp/stock/2026/06/29/2026062916314035715)|회생계획·감자 보도|과거와 현재 주가 직접 비교 제외|전체 수정계수 미확보|
+|69|조선비즈, 웰바이오텍 공소장 변경 신청(2026.3.11)|수사기관 혐의|[원문1](https://v.daum.net/v/VxCmJt4qcf)|302→215억원 공소장 변경 신청 보도|최초 수치 교체; 유죄 확정액 아님|2026.3.10 신청 / 3.11 보도|
+|70|네이버금융 일별 가격 API(2026.10.9 조회; KRX 수정계수 독립 검증 미완료)|일부 확인|[원문1](https://api.finance.naver.com/siseJson.naver?symbol=001470&requestType=1&startTime=20230515&endTime=20230731&timeframe=day) · [원문2](https://api.finance.naver.com/siseJson.naver?symbol=317850&requestType=1&startTime=20230515&endTime=20261008&timeframe=day) · [원문3](https://api.finance.naver.com/siseJson.naver?symbol=041440&requestType=1&startTime=20230515&endTime=20261008&timeframe=day) · [원문4](https://api.finance.naver.com/siseJson.naver?symbol=039560&requestType=1&startTime=20230515&endTime=20261008&timeframe=day)|네이버 일별 CSV6종·공통기간 계산|원본·수정계수 제한 명시, 국보 제외|KRX 접근400; 인증 미완|
+|71|다산네트웍스 2023년 회사 발표·사업보고서|당사자 주장|[원문1](https://www.dasannetworks.com/sub/sub03_04.php?category=2023) · [원문2](https://www.dasannetworks.com/) · [원문3](https://kind.krx.co.kr/external/2024/03/21/001479/20240321005920/11011.htm)|회사 발표·2023 사업보고서|시범·협력과 유상 대형 발주 구별|재건별 매출·회수액 미확인|
+|72|Ferrexpo 2026년 중간 실적(2026.9.25)|확인|[원문1](https://www.ferrexpo.com/media/nl5nlb2l/ferrexpo-2026-interim-results_website_final.pdf)|중간보고서 생산·손익·현금·증자|2026H1 production1.556m/CF-24mUSD|회사세금분쟁 설명은 당사자 입장|
+|73|HANetf UKRN 공식 상품 페이지·보유종목 파일|확인|[원문1](https://hanetf.com/fund/ukrn-defiance-ukraine-reconstruction-etf/) · [원문2](https://etf.hanetf.com/Holdings-UKRN-IE000R8PO127-all-all) · [원문3](https://etf.hanetf.com/Factsheet-UKRN-IE000R8PO127-en)|공식10.8 보유파일 CSV,10.7 사이트,8.31 factsheet|43.88/0.18%와.65% 비용률|순유입·기업별UA매출 비공개|
+|74|폴란드 국유자산부, 3사 재건 협력 MOU(2026.5.15)|확인|[원문1](https://www.gov.pl/web/aktywa-panstwowe/synergia-dla-odbudowy-ukrainy--podpisanie-porozumienia-o-wspolpracy-na-rzecz-odbudowy-ukrainy-w-ministerstwie-aktywow-panstwowych)|폴란드 정부 MOU발표|협력≠수주|2026.5.15|
+|75|Naftogaz, Siemens Energy MOU(2026.10.5)|당사자 주장|[원문1](https://www.naftogaz.com/en/news/naftogaz-and-siemens-energy-sign-memorandum-on-energy-security-and-underground-gas-storage-modernisation)|Naftogaz 최신 MOU|실제 터빈발주 금액·금융종결 미확인|2026.10.5|
+|76|Buzzi, 우크라이나 사업 매각 완료(2024.10.14)|확인|[원문1](https://www.buzzi.com/w/completata-la-cessione-delle-attivita-in-ucraina)|Buzzi의 2024년 인수 완료 발표·2023년 실적|과거 매각대금과 CRH의 현재 재건 이익·회수를 분리|2026년 해당 자산 순현금·투자 회수 미확인; 현재 시장성 근거로 사용 안 함|
+|77|AECOM, 재건 인프라 자문 MOU(2023.6.20)|당사자 주장|[원문1](https://aecom.com/press-releases/aecom-to-serve-as-infrastructure-delivery-advisor-for-ukraine-reconstruction/)|AECOM 자문MOU|확정 거액 건설매출의 증거로 사용 안 함|2023.6|
+|78|AECOM 2025 Form 10-K|확인|[원문1](https://www.sec.gov/Archives/edgar/data/868857/000086885725000013/acm-20250930.htm)|2025 SEC10-K 웹 본문 직접 읽음|해당 보고서에서UA재건매출 별도 미확인|2026분기까지 전체전수조회 아님|
+|79|Euroclear 2026년 상반기 실적·법률 대응|당사자 주장|[원문1](https://www.euroclear.com/newsandinsights/en/press/2026/mr-20-euroclear-h1-2026-results.html)|회사H1 발표; 러시아 항소기각·Fitch평가|202bn제재자산 범위, 가까운위험평가 구별|기관 설명이지 EU최종판결 아님|
+|80|러시아 중앙은행, 모스크바 소송 발표(2025.12.12)|당사자 주장|[원문1](https://www.cbr.ru/eng/press/PR/?file=639011472901412429OBAUT_E.htm)|CBR 모스크바소송 발표|청구·권리주장과 재판결론 구별|2025.12|
+|81|러시아 중앙은행, EU 법원 제소 발표(2026.3.3)|당사자 주장|[원문1](https://www.cbr.ru/eng/press/pr/?file=639080409737537862OBAUT_E.htm)|CBR EU제소 발표|제소일2.27/발표3.3 구별|원고주장|
+|82|EU 관보, 사건 T-150/26, 2026.4.13 공고|확인|[원문1](https://eur-lex.europa.eu/legal-content/EN/CASE/?uri=oj%3AC_202602053)|공식EU관보 사건색인·공고검색 본문|T-150/26제소 공고; PDF직접봇차단|본안 최종판결 미확보|
+|83|Brussels Times/Belga, 브뤼셀 대응소송(2026.6.30)|일부 확인|[원문1](https://www.brusselstimes.com/world/2209129/euroclear-sues-russian-central-bank-in-brussels-court)|Belga/LEcho인용 BrusselsTimes|브뤼셀 소송 보도 수준|사건기록·최종판결 미확보|
+|84|IFC, Elementum SII 49272; 2026.8.6 갱신|확인|[원문1](https://disclosures.ifc.org/project-detail/SII/49272/elementum-debt)|IFC SII49272|400mEUR,79m혼합금융,9%보조금상당액|승인7.21,갱신8.6서명대기|
+|85|EBRD, Ukrenergo PSD 55539(2025.12 승인)|확인|[원문1](https://www.ebrd.com/home/work-with-us/projects/psd/55539.html)|EBRD PSD55539|90m대출+최대60m조건부보조금|2025.12 승인; 수입모형 공개범위 제한|
+|86|EBRD, 기관차 계약·국제 금융지원(2025)|확인|[원문1](https://www.ebrd.com/home/news-and-events/news/2025/international-support-for-ukraine-demonstrated-through-major-rai.html)|EBRD 실제 공급계약 행사·금융발표|300mEUR대출+최대190mUSD보조금|서로다른통화 합산 안 함|
+|87|우크라이나 PPP Agency, M15 예비타당성 조사(2026.6.17)|확인|[원문1](https://pppagency.gov.ua/one-more-pilot-public-investment-project-has-begun-preparations-under-the-ukraine-government-ppf/)|PPP Agency 예비FS 용역 선정|검토가 존재; 공사발주 완료 아님|2026.6.17|
+|88|EBRD, 헤르손 항만 양허(2020)|확인|[원문1](https://www.ebrd.com/home/news-and-events/news/2020/ebrd-supports-first-concession-project-in-ukraine.html)|2020년 EBRD 양허 체결 발표|과거 운영권·계획을 현재 수익성의 반례로 사용하지 않음|2026년 가동·변경 비용·순현금·회수 미확인; 접근 조건은 [106]으로 보강|
+|89|EIB, 미콜라이우·드니프로 집행(2024.11.19)|확인|[원문1](https://www.eib.org/en/press/all/2024-453-ukraine-eib-provides-eur14-5-million-to-support-municipal-projects-in-war-torn-cities-of-mykolaiv-and-dnipro)|EIB의 2024년 지급액 Mykolaiv7.8/Dnipro6.7mEUR|과거 집행과 2026년 요금·대출 회수를 구분|전체 사업의 현재 운영·상환 현금 미확인|
+|90|EBRD, M10 리비우 산업단지 투자(2023)|확인|[원문1](https://www.ebrd.com/home/news-and-events/news/2023/ebrd-invests-in-developing-lviv-industrial-park-in-western-ukraine.html)|EBRD의 2023년 투자 계획과 지분 구조|당시 계약·투자는 현재 수익성 증거에서 제외|현재 개발 발표 [107]도 순현금·배당·투자 회수 검증을 대신하지 못함|
+|91|UkraineInvest, M10 1단계 개장(2024.2.27)|당사자 주장|[원문1](https://ukraineinvest.gov.ua/en/news/27-02-2024-1/)|UkraineInvest의 2024년 개장·5.5mUSD 투자 발표|과거 개장·자금 투입을 현재 이익으로 전용하지 않음|2026년 임대 순현금·배당·자본 회수 미공개|
+|92|NABU, 미다스 최초 혐의 발표(2025.11.11)|수사기관 혐의|[원문1](https://nabu.gov.ua/en/news/operatciia-midas-vykryto-vysokorivnevu-zlochynnu-organizatciiu-shcho-diiala-u-sferi-energetyky/)|NABU 최초발표|10~15%요구·100m세탁혐의|전체원조 도난비율 아님|
+|93|NABU, 미다스 추가 혐의(2026.7.10)|수사기관 혐의|[원문1](https://nabu.gov.ua/en/news/operatciia-midas-nova-pidozra/)|NABU 추가혐의|수사 계속 확인|2026.7.10; 확정판결 미확보|
+|94|UBS, 유럽 투자 주제·재건(2025.3.11)|일부 확인|[원문1](https://www.ubs.com/us/en/wealth-management/insights/article.1997555.html)|UBS공식검색에재건/독일등투자주제|재건바스켓2025수익률 미검증|다른바스켓 수익률 전용 금지|
+|95|한국일보, 삼부토건 사건 재판 진행(2026.7.24)|일부 확인|[원문1](https://v.daum.net/v/20260724163709596)|2026.7.24 재판보도|그 시점 심리 진행|10.9현시점 최종결론 단정 안 함|
+|96|KRX 기타시장안내, 삼부토건(2026.8.31)|확인|[원문1](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260831800966&dcmNo=11561863&eleId=0&offset=0&length=0&dtd=HTML)|KRX시장안내 DART재게재; EUC-KR원문 확인|8.31 심사 검토·거래정지 계속|그후 심사 전부 조회 아님|
+|97|KRX 웰바이오텍 상장폐지 공고 재게재, 2026.1.26 폐지|일부 확인|[원문1](https://stock.mk.co.kr/news/disclosure/template/855739)|KRX공고 재게재|2026.1.26 상장폐지|KRX 원공고식별번호 미확보|
+|98|국보 상장폐지 보도(2026.1.23)|일부 확인|[원문1](https://v.daum.net/v/20260123105034883)|2026.1.23 기사|국보1월상장폐지|KRX 원공고 미확보|
+|99|Ferrexpo 주가의 종전 기대 반응 보도(2024.11.6)|일부 확인|[원문1](https://www.proactiveinvestors.co.uk/companies/news/1059984/ferrexpo-shares-spike-as-trump-win-lifts-hopes-for-end-to-ukraine-war-1059984.html)|주가반응 보도|기대와 실적의 차이|거래소 이벤트 인과분석 미완|
+|100|SEC Form 4, Troy Rudd/AECOM 매수(2026.5.14)|확인|[원문1](https://www.sec.gov/Archives/edgar/data/1653811/000165381126000002/xslF345X03/wk-form4_1778788962.xml)|SEC Form4 코드P/A|4225주$71.02 매수|매도·재건차익으로 오독 금지|
+|101|AP, 러시아 법원 Euroclear 사건 판단(2026.5.15)|일부 확인|[원문1](https://apnews.com/article/85750e45d2da06168a72aeb8f41ec53b)|AP 러시아판결 보도|18.2trRUB 동일청구|러시아→EU자동집행 아님|
+|102|삼부토건 2026년 1분기보고서|확인|[원문1](https://kind.krx.co.kr/external/2026/05/15/002323/20260515005207/11013.htm)|KIND분기보고서|해외매출0/진행중해외사업없음|2026Q1 공시; 반기[65]로 보강|
+|103|Ferrexpo 이벤트 시점 주가 보도: 2024.11·2025.2·2025.5 (거래소 수정시세 인증 아님)|일부 확인|[원문1](https://www.itiger.com/news/2481271136) · [원문2](https://good-time-invest.com/blog/ukrainian-companies-shares-on-the-rise-amid-prospects-of-wars-end/) · [원문3](https://www.lse.co.uk/news/ftse-100-movers-ferrexpo-gains-on-ukraine-minerals-deal-clarkson-tanks-tjh707hpuvbdjxg.html)|Reuters재게재·Sharecast시점 가격;2월 투자홍보 글|5.1 14:58의70.40p/+19.52%만 본문 수치 사용|장중값≠종가; LSE계열 미확보;2월18.06%는 제외|
+|104|우크라이나 복구청 Bechtel MOU(2023.6.23)·Bechtel 체르노빌 실제 사업|확인|[원문1](https://restoration.gov.ua/blog/agentstvo-vidnovlennya-spivpraczyuvatyme-z-liderom-u-sferi-inzhyniryngu-ta-budivnycztva-korporacziyeyu-bechtel/) · [원문2](https://www.bechtel.com/projects/chornobyl-new-safe-confinement/)|복구청MOU 웹원문·Bechtel 실제과거사업 설명|2023구상과 EBRD공적재원 사업 구별|당사자 발표; 재건별 계약이익 미공개|
+|105|KRX, 삼부토건 기업심사위원회 심의대상 결정(2026.9.21)|확인|[원문1](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921800376&dcmNo=11587021&eleId=0&offset=0&length=0&dtd=HTML)|KRX9.21 공시 DART재게재 EUC-KR본문 확인|심의대상 결정, 이후 절차와 거래정지 구별|최종 상장결론을 앞당겨 쓰지 않음|
+|106|우크라이나 개발부, 올비야 국영기업 2026년 계획(2025.7.25 승인), pp2~3: 헤르손 자산 접근 조건|확인|[원문1](https://mindev.gov.ua/storage/app/sites/1/uploaded-files/list-ocikuvan-vlasnika-dp-sk-olviia-2026.pdf)|정부의 2026년 국영기업 계획 p3에 헤르손 자산·원본 문서 안전 접근 조건|2020년 양허와 현재 접근 가능성을 분리|2025.7.25 승인 계획; 민간 양허 운영자의 손익·현재 접근 실측 자료는 아님|
+|107|Dragon Capital, M10 2단계 건설·1단계 가동·공적 지분과 보증 발표(2026.3.30)|당사자 주장|[원문1](https://dragon-capital.com/media/press-releases/dragon-capital-launches-construction-of-phase-ii-of-m10-lviv-industrial-park/)|2026.3.30 M10 1단계 가동·2단계22,000㎡·공적 지분·MIGA 보증 발표|최근 가동 발표를 기록하되 현재 수익성 성공 사례에서 제외|실제 임대료·순현금·비용·배당·회수 미공개; fully operational은 전면 입주율을 뜻하지 않음|
+|108|Dragon Capital, 전쟁 격화와 추가 조달 필요에 관한 2026~27년 전망 갱신(2026.10.8)|당사자 주장|[원문1](https://dragon-capital.com/media/press-releases/onovleniy-makroprognoz-na-2026-2027-roki-ekonomichni-naslidki-posilennya-atak/)|2026.10.8 투자기관 전망 갱신의 영문 공개 본문|2022~2023년 가정을 현재 시장성으로 재사용할 수 없다는 분석의 참고|기관 전망·평가; 모든 사업 실측 손실이나 전국 항만 상태의 독립 조사로 확대 안 함|
 
-| 주장 | 수치 | 출처 | 등급 | 비고 |
-|---|---|---|---|---|
-| RDNA5 발표일 | 2026.2.23 | [1] | A | |
-| 10년 재건·회복 필요액 | 5,877억 달러 (2026~2035) | [1][2] | A | 보도자료 유로 표기는 "5,000억 유로 이상" |
-| 필요액이 2025년 GDP의 몇 배인가 | "거의 3배" | [2] | A | 보고서 표현. 필자 환산으로는 약 2.8배 (아래 C 항목) |
-| Prosperity Plan 발표 | 2026.1.3, 10년간 약 8,000억 달러 | [3] | A | 경제부 Sobolev 장관 발표. 일정을 "2040년까지"로 언급한 보도도 있어 기간 표현이 엇갈림 [48] |
-| 루가노 국가회복계획 | 7,500억 달러 (2022.7) | [12] | A | 국토부 보도자료에 "7,500억불 규모의 전후 우크라이나 재건사업"으로 명기 |
-| 직접 물적 피해 | 1,951억 달러 | [2] | A | |
+## 재현·검산
 
-## 2. 전쟁 전 우크라이나
+- GDP: `data/prewar_wdi.csv` → `gdp_index_1990_100.csv`. 국가별 1990 자체 GDP를 분모로 사용. 9개국·32개연도·3개지표 864행.
+- 한국 주가: 원본 제공 CSV6개와 `korean_stocks_comparison.json`. 동일기간 최고종가/기말, 거래없는 국보 기준일 제외. KRX원본 인증 미완을 도표와 본문에 적음.
+- ETF: 원본 XLSX의 표를 CSV로 보존. 10월8일 파일의 비중 합계99.98%는 개별 반올림 영향. 10월7일 사이트 자산과 다른 날 보유비중을 구별.
+- RDNA: 18부문 반올림값과 공식 총계는 별도. 차액은 저자 계산이고 노후화 비용 전액이 아님. 보고서 p5 손실기간 문구와 표1주석이 불일치하여 표 주석을 적용.
+- 부차: 총214/318mEUR는106+108/212m. 단순회수기간을 할인 NPV·IRR로 바꾸지 않음.
+- 이미지11개: `charts/make_charts.py`; 모든 도표에 통화·기간·출처·제한을 명시. 연락처나 비공개 계정정보를 사용하지 않음.
 
-| 주장 | 수치 | 출처 | 등급 | 비고 |
-|---|---|---|---|---|
-| 2021년 실질 GDP (1990=100) | 62.9 | [5] | A+C | WB API 원데이터(2015년 불변 달러)로 필자가 지수화 |
-| 1999년 바닥 | 1990년의 40.8% | [5] | A+C | |
-| 1990년대 누적 감소 | 약 59% | [5] | C | 100 - 40.8 |
-| 2009 / 2014 / 2015 성장률 | -15.1% / -10.1% / -9.8% | [5][11] | A | 흔히 인용되는 "2014년 -6.6%"는 현행 WB·IMF 시계열과 다르다 |
-| 폴란드 실질 GDP (1990→2021) | 3.1배 | [5] | A+C | 지수 310.8 |
-| 2021년 1인당 GDP (명목) | 우크라이나 4,776 / 폴란드 18,636 / 몰도바 5,275 달러 | [5] | A | 과거 보도의 "4,8xx달러"는 WB 구판 값 |
-| SCD: 독립 당시 폴란드보다 높았던 1인당 실질소득이 2020년 3분의 1 미만 | — | [4] | A | SCD p.2 |
-| SCD: 투자가 사하라 이남 아프리카보다 낮다 | — | [4] | A | SCD p.9 |
-| 총고정자본형성 / GDP (2021) | 13.2% (유럽·중앙아시아 평균 24.7%) | [5] | A | |
-| 상수도망 35%, 하수도망 38% 비상 상태, 누수율 36% | — | [6] | A | 2021.4.28 내각 명령 |
-| 화력발전 설비 90% 수명 소진 | — | [7] | B | 장관 발언 보도 |
-| 기관차 약 95% 사용연한 초과 (2020) | — | [8] | B | 철도공사 사장의 텔레그램 발언 인용 보도 |
-| 송전망 신뢰도·송배전 손실 OECD의 2.5배 | 최대 12% | [4] | A | SCD p.28 |
-| 국유기업 3,682개, 자산이 GDP의 40% 초과, "대다수가 휴면 또는 적자" | 2019년 | [4] | A | SCD p.10. OECD(2021)는 약 3,300개로 집계(B) |
-| SCD: 국가 포획·부패·사법 불신 | — | [4] | A | SCD p.1 |
-| 부패인식지수 2021 | 32점, 180개국 중 122위 | [9] | B | TI Ukraine |
-| 부실은행 정리 | 약 90개 | — | B | 출처마다 80~93개로 달라 "약 90개"로 표기 |
-| 물가상승률 | 48.7% (2015) → 2.7% (2020) | [11] | A | IMF 연평균 |
-| Naftogaz 준재정적자 해소 | GDP의 5.5% (2015) → 흑자 (2019) | [4] | A | SCD p.9 |
-| 취약국가지수 2021 | 69.8점, 179개국 중 공동 91위 (러시아 74위) | [10] | A | 'Warning' 구간 |
-| 공공부채 / GDP (2021) | 48.9% | [11] | A | IMF 일반정부 기준. 재무부의 국가·보증채무 기준도 48.9%(B) |
-| 신용등급 (2021) | Moody's B3, Fitch B, S&P B | — | B | Moody's B3 상향일은 2020.6.12 |
+## 편집적 평가와 검증의 경계
 
-## 3. 재건비 해부
-
-| 주장 | 수치 | 출처 | 등급 | 비고 |
-|---|---|---|---|---|
-| 피해 집계 기간 | 2022.2.24~2025.12.31 (46개월) | [2] | A | |
-| 손실 | 6,667억 달러, 64개월 (18개월은 전망) | [2] | A | |
-| 2026년 우선사업 | 152.5억 달러 | [2] | A | 흔히 "약 152억"으로 보도됨 |
-| 필요액 정의 (BBB 할증, 인플레이션, 물량 할증, 보험료 포함; 피해와 손실의 합이 아님) | — | [2] | A | RDNA5 Key Definitions |
-| 피해액은 전쟁 전 교체가격 기준 | — | [2] | A | 같은 정의 절 |
-| 주택 필요액에 EU 법률·유로코드에 맞춘 현대화 포함 | — | [2] | A | 주택 부문 장 |
-| 최소 복구·노후 교체·추가 현대화로 전체 필요액을 다시 나눈 표 | 확인하지 못함 | [2] | C | RDNA5에서 해당 통합표를 찾지 못함. 단어 검색으로 모든 세부 산출자료의 부재를 입증할 수는 없음 |
-| 분야별 피해·필요액 | 표 참조 | [2] | A | RDNA5 Table 1. 배수는 필자 계산(C) |
-| '기타 8개 분야' 합계 | 피해 138억, 필요액 474억 달러 | [2] | C | 관개 12.5, 문화관광 11.5, 도시서비스 7.4, 통신 7.1, 환경 3.1, 민방위 2.7, 금융 2.1, 행정 1.0의 합. 피해 합계는 반올림 때문에 총계와 2억 달러 정도 차이 날 수 있음 |
-| 전력 시스템 필요액 | 708억 달러 | [2] | A | |
-| 부차 주택: 전쟁 전 수준 복구 1.06억 유로, 최소 효율기준 +1.08억, 준제로에너지 +2.12억, 회수기간 27~33.6년 | — | [34] | A | "두세 배"는 필자 계산(C) |
-| RDNA1~5 필요액 추이 | 3,490 → 4,110 → 4,860 → 5,240 → 5,877억 달러 | [2] | A | RDNA5의 요약. WB는 시점 간 단순 비교가 어렵다고 명시 |
-| 필요액 증가 요인 (피해 누적, BBB 채택, 인플레이션, 상세 계획 반영) | — | [2] | A | |
-
-## 4. 재원과 상환능력
-
-| 주장 | 수치 | 출처 | 등급 | 비고 |
-|---|---|---|---|---|
-| EU 우크라이나 기금 | 최대 500억 유로. 1축 385억 = 대출 330억 + 무상 55억. 2축 96억 = 보증 78억 + 혼합 18억 | [23] | A | 흔히 보도되는 "무상 170억 유로"는 EC 페이지에 명시되지 않은 추정치 |
-| G7 ERA | 약 500억 달러, 러시아 동결자산 초과수익으로 상환 | [53] | A | |
-| EU 900억 유로 대출 (2026~27) | EU의 시장 차입이 재원. 러시아가 배상해야 우크라이나가 상환 시작 | [24][25] | A | 배상대출은 채택되지 못함. EC는 "철회되지 않았다"는 입장 |
-| 2026년 배정분 | 450억 유로 (국방 283억, 재정 167억) | [26] | A | 2026.4.23 이사회 결정 |
-| IMF 확대금융 | 81억 달러, 48개월 | [27] | A | IMF 원문은 접속 제한으로 헤드라인만 확인. 재무부 발표로 교차확인 [28] |
-| 2026~2029 대외 재정조달 공백 | 1,365억 달러 | [28] | A | RDNA5에도 기재 |
-| 재건투자기금 종잣돈과 첫 투자 | 1.5억 달러 / 드론 무선조종 장비 업체 지분 | [29] | A | 투자금액 비공개 |
-| 복구 약정 640억 달러·11% | 수정판 본문에서 제외 | [30] | — | 재열람에 실패했고, 전체 지원·예산지원·민간투자의 범위와 직접 비교되지 않으므로 총 재원 확보율로 쓰지 않음 |
-| 비군사 지원이 갈수록 양허성 대출로 주어짐 | — | [30] | A | |
-| 2025년 명목 GDP | 약 2,100억 달러 | — | C | 통계청 잠정치 8조 9,312억 흐리우냐 ÷ RDNA5 환율 42.39 |
-| 부채 / GDP (2025 말) | 98.2%; 조건부 ERA 차입 제외 88% | [33] | A | 재무부 2025 연차보고서 p.4. 기존 잠정치 98.4%에서 수정. 채무 범위가 다른 2021 일반정부 비율과 단순 연결하지 않음 |
-| 재정적자 | GDP의 약 25%, "세계 최대" | [2] | A | RDNA5 표현 |
-| 유로본드 구조조정 | 205억 달러, 명목 37% 감액 | [31] | A | 현재가치 기준 약 60% 감액은 B |
-| 신용등급 | S&P CCC+ (2026.1) | [32] | B | |
-
-## 5. 마리우폴과 한국
-
-| 주장 | 수치 | 출처 | 등급 | 비고 |
-|---|---|---|---|---|
-| 보도자료 제목·부제 | 「한-우크라, 전후 재건사업 협력 구체화」 | [12] | A | 첨부 PDF 원문 확인 |
-| 참석자 | 타루타·니콜라이옌코 의원, 포노마렌코 대사, 원희룡 장관 | [12] | A | |
-| 타루타 발언 (주택 1만 2천 채 전소, 기반시설 95% 파괴) | — | [12] | A | 보도자료 내 직접 인용 |
-| 제안 내용 ("새로운 표준으로 마리우폴市 재건을 담당해 줄 것") | — | [12] | A | |
-| 원 장관 발언 ("적극 노력하겠다"), 7월 중 재건협의체 구성 | — | [12] | A | |
-| 보도자료에 러시아 점령 사실 언급 없음 | — | [12] | A | |
-| 러시아의 마리우폴 '완전 장악' 발표 | 2022.5.20 | [13] | B | AP. 우크라이나 측은 당시 "전투 임무 완수"라고 표현 |
-| 점령 47일째 | — | — | C | 5.20부터 7.6까지 날짜 계산 |
-| 유엔총회 병합 무효 결의 | 찬성 143 / 반대 5 / 기권 35 | [14] | B | |
-| 루가노 후원 지도에 한국-마리우폴 배정 없음, 구상 사실상 폐기 | — | [50] | B | |
-| 러시아의 마리우폴 재개발 투자 | "수십억 달러" | [15] | B | NYT 보도. 점령당국 자체 수치는 미검증 |
-| 아파트 약 900채 압류 목록 | 2026.5 | [16] | B | 우크라이나 측(마리우폴 시의회) 발표. 당사자 주장 |
-| 23억 달러 지원 발표 | 2023.9.10 G20 | [17] | B | 2024년 3억 + 2025년부터 EDCF 20억 |
-| EDCF 기본약정 | 21억 달러 한도, 2024~2029, 2024.4.19 서명 | [18] | A | |
-| 개별 차관계약 | 1억 달러, 20년 만기, 거치 5년, 금리 1%, 2024.10.2 서명, 11월 수령 | [19] | A | 재정지원용 |
-| 철도차량 차관 | 2025.9 요청서 승인 단계, 공개입찰 고수 | [20] | A | 사업비 4~4.5억 달러는 보도 추정치(B) |
-| 보리스필 공항 | 1.3조 원(약 9.8억 달러) MOU | [21] | B | |
-| 우만·키이우 마스터플랜 | 완료된 용역 | — | B | 한국 정부 사업으로 수행. 금액 비공개 |
-| 인용한 약정·MOU로 한국 기업의 지급 완료 수주가 증명되는가 | 증명되지 않음 | [18]~[21] | C | 각 자료의 발표 시점·법적 단계만 평가. 모든 기업 거래·하도급·최근 계약이 없다는 전수조사 결론은 아님 |
-| MIGA 전쟁위험 보증 | 2.15억 달러 이상 | — | A | https://www.miga.org/ukraine |
-| 한국무역보험공사의 우크라이나 전쟁위험 보증 참여 | 확인되지 않음 | — | C | |
-| KIEP 보고서 결론 ("섣불리 참여하기 어려움", 신중 참여, 위험 분산) | 2024.11.13 | [22] | A | |
-
-## 6. 인구·지리·부패
-
-| 주장 | 수치 | 출처 | 등급 | 비고 |
-|---|---|---|---|---|
-| 정부 통제지역 인구 | 약 2,900만 (2026.7) | [39] | B | 리바노바 소장 발언. 이동통신 자료로 추정 |
-| 2022.1.1 현재인구 | 4,116.7만 (크림 제외) | [52] | A | 범위가 달라 단순 비교 불가하다는 점을 본문에 명시 |
-| 2025년 출생·사망 | 168,778 / 485,296 | [40] | B | 법무부 등록 기준 |
-| 2026년 상반기 사망이 출생의 약 4배 | — | [54] | B | |
-| 합계출산율 | 약 0.9 | [55] | B | 2025.3 차관 발언. 2025년 공식치는 없음 |
-| 아동 인구 33% 감소 | — | [2] | A | |
-| 취업자 1,070만 / 연금 수급자 1,020만 | 2025 | [41] | A | |
-| 난민 | 전 세계 약 580만 명 | [36] | A | |
-| EU 임시보호 | 443만 명 (2026.7.31) | [37] | B | Eurostat 수치를 인용한 보도 |
-| 임시보호 연장 | 2028.3.4까지 | [38] | A | 이전 연장 시점은 2027년 3월 |
-| 귀국 계획·희망 비율 | 83% → 49% | [36] | A | |
-| 1년 안에 귀국 계획 | 3% | [36] | A | |
-| 귀국 가능성 (영토 회복 / 점령지 미회복) | 65% / 32% | [36] | A | |
-| 피해의 75%가 최전선 주에 집중 | — | [2] | A | |
-| 필요액 비중 (도네츠크 19%, 루한스크 6%) | — | [2] | A | |
-| 점령 비율 (도네츠크 78.1%, 루한스크 99.6%, 전체 19.25%) | 2026.1.1 | [42] | B | DeepState |
-| RDNA5: "현재와 예상 인구 패턴"에 따른 투자 | — | [2] | A | Box 3 |
-| 글레이저 등: 생산적 지역 집중 투자 | — | [43] | B | 요약은 2차 자료 기반 |
-| 전체 필요액을 인구 시나리오·장기 유지관리 부담으로 나눈 통합표 | 확인하지 못함 | [2] | C | RDNA5에서 찾지 못한 범위로 한정. 개별 사업 조사나 다른 문서까지 없다고 단정하지 않음 |
-| 미다스 사건 (리베이트 10~15%, 약 1억 달러 세탁 혐의, 9명 혐의 통지, 유죄 판결 없음) | — | [44] | B | 모두 혐의 단계. 피의자들은 부인 |
-| NABU 독립성 약화법 통과와 9일 만의 원상복구 | 2025.7.22 / 7.31 | [45] | B | |
-| 부패인식지수 2025 | 36점, 104위 | [46] | B | 미다스 사건 이전 자료 |
-| EU 기금 분할금 삭감 | 45억 → 30.5억 유로 | [47] | B | |
-
----
-
-## 흔히 인용되지만 수정이 필요한 수치
-
-1. **2026년 우선사업**: "약 152억 달러"는 RDNA5 원문으로는 152.5억 달러다. 본문에는 152.5억으로 적었다.
-2. **EU 임시보호 연장**: 2027년 3월이 아니라 2028년 3월 4일까지로 다시 연장됐다(2026.7).
-3. **EU 배상대출 1,400억 유로**: 초안 단계의 수치다(2025.9). 이후 2,100억 유로로 제안됐다가 채택되지 못했고, 900억 유로 공동차입 대출로 대체됐다.
-4. **"2014년 성장률 -6.6%"**: 현행 WB·IMF 시계열은 -10.0~-10.1%다.
-5. **"NBU가 약 100개 은행 폐쇄"**: 출처마다 80~93개로 달라 "약 90개"로 적었다.
-
-## 7. 수정판에서 재확인한 쟁점
-
-| 쟁점 | 확인 결과 | 근거·등급 | 반영 방법 |
-|---|---|---|---|
-| 직접 피해보다 필요액이 크므로 과다청구인가 | 그 차이만으로 입증되지 않음 | [1][2], A; 해석 C | 피해·회복·현대화의 범위를 구분. 3,926억 달러 전체를 전쟁 무관 개발비로 계산하지 않음 |
-| 8,000억 달러 전부 외국의 무상지원 요구인가 | 원문은 공공·민간·혼합 자금 구상을 명시 | [3], A | 계획 규모와 지급 의무·확정 재원을 구분 |
-| 사업성 분석이 전혀 없는가 | IFC 민간투자 시나리오와 FIRST 사업준비 지원이 존재 | [56][57], A | 분석 부재를 단정하지 않고 한국에 제안한 개별 사업의 실행 조건을 평가 |
-| 민간투자 시나리오 | IFC 2023: 현상 유지 약 730억 달러·18%, 개혁 시 약 1,300억 달러·약 1/3 | [56], A | RDNA2 기준의 조건부 추정. 확정 투자나 최신 RDNA5 총액의 자동 충당 비율이 아님 |
-| 최신 평가의 민간 잠재력 | RDNA5: 개혁 등을 전제로 최대 40% | [2], A | 보고서 Section 4, 약정·투자 확정액과 구별 |
-| 타당성조사 지원 | FIRST 2025.7: 3,000만 유로 프로그램, 타당성·환경·비용·조달 조사 포함 | [57], A | 사업준비 체계의 존재. 모든 사업의 타당성조사 완료로 확대하지 않음 |
-| 한국의 포탄 기여 | WP 취재를 인용한 연합뉴스 보도상 2023년 간접 공급이 유럽 전체보다 많았음 | [58], B | 보도와 연도를 명시. 정확한 총량·최종 경로·직접 무상지원 여부는 확정하지 않음 |
-| 한국의 별도 인도·개발 지원 | 외교부 2024.6 자료: 인도 2억 달러, 다자금융 1억 달러, KOICA 사업 약 1억 달러 등 | [61], A | 발표·사업 규모를 전액 집행액으로 합산하지 않음. EDCF 계약 하나는 지원 총액이 아님 |
-| 2022.7.6 마리우폴 요청 | 의원 2명·대사와 장관의 전후 재건 협력 면담 | [12] 기존 기록; [59] 교차확인 B | 한국의 무상 재건 확정계약이나 금전 편취 증거로 바꾸지 않음 |
-| 마리우폴 재건 완료 | 도시 전체 완료를 확인할 자료를 확보하지 못함 | [60], A(당사자 공지); 해석 C | 러시아 시공사 2026.8 학교 진행 공지·9월 공동주택 완료 공지가 함께 존재. 복구 진행과 도시 전체 완료를 구별 |
-| 지원과 수주의 관계 | 지원 기여가 자동 수주권을 만들지는 않음 | C | 포탄 누락을 바로잡되 지원-계약 교환조건을 만들어내지 않음 |
-| 사기극이라는 평가 | 실행 전제보다 참여 기대를 앞세운 재건 담론에 대한 논평 | C | 기망 계약·금전 편취가 입증된 사실이라는 주장은 하지 않음 |
-
-수정 도표 06은 서로 단위·성격이 다른 포탄, 인도지원, 차관, MOU를 금액 막대로 합산하지 않고 별도 행으로 설명한다. 도표 03의 총액 격차도 '전부 현대화 할증'으로 해석하지 않도록 표시했다.
+“사기극”, “도둑놈 심보”는 정책·조달·기대 장사에 대한 필자의 평가다. 법적 범죄는 수사기관 혐의와 재판자료 범위를 구분했다. 제공 가격에서 계산한 상승률은 평가손익이지 매도자의 실현수익이 아니다. 국가지표는 필요·총생산·인구 범위에 대한 통계이며 미공개 개별사업 현금흐름을 대체하지 않는다.

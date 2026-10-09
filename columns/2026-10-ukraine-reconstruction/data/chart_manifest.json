@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-09",
+  "charts": [
+    "01_prewar_gdp.png",
+    "02_old_infrastructure.png",
+    "03_rdna_sectors.png",
+    "04_plans_and_definitions.png",
+    "05_funding_stages.png",
+    "06_mariupol_timeline.png",
+    "07_sambu_daily.png",
+    "08_korean_stocks_comparison.png",
+    "09_global_market_cases.png",
+    "10_russian_assets_flow.png",
+    "11_population_and_return.png"
+  ],
+  "price_limitation": "Naver series; original KRX adjustment factors not independently verified",
+  "population_scope_warning": true
+}

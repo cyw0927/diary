@@ -1,0 +1,32 @@
+[
+  {
+    "code": "317850",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=317850&requestType=1&startTime=20230515&endTime=20261008&timeframe=day",
+    "base_date": "20230515",
+    "base_close": 12420,
+    "last_trading_date": "20261008",
+    "last_close": 6050,
+    "provider_return_percent": -51.28824476650564,
+    "limitation": "Naver-provided series, corporate-action coefficients not KRX-certified; price return excludes dividends"
+  },
+  {
+    "code": "041440",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=041440&requestType=1&startTime=20230515&endTime=20261008&timeframe=day",
+    "base_date": "20230515",
+    "base_close": 7170,
+    "last_trading_date": "20261008",
+    "last_close": 6230,
+    "provider_return_percent": -13.110181311018131,
+    "limitation": "Naver-provided series, corporate-action coefficients not KRX-certified; price return excludes dividends"
+  },
+  {
+    "code": "039560",
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=039560&requestType=1&startTime=20230515&endTime=20261008&timeframe=day",
+    "base_date": "20230515",
+    "base_close": 3480,
+    "last_trading_date": "20261008",
+    "last_close": 2765,
+    "provider_return_percent": -20.545977011494255,
+    "limitation": "Naver-provided series, corporate-action coefficients not KRX-certified; price return excludes dividends"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "bechtel_mou",
+    "url": "https://restoration.gov.ua/blog/agentstvo-vidnovlennya-spivpraczyuvatyme-z-liderom-u-sferi-inzhyniryngu-ta-budivnycztva-korporacziyeyu-bechtel/",
+    "access_result": "<urlopen error [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다>"
+  },
+  {
+    "id": "bechtel_nsc",
+    "url": "https://www.bechtel.com/projects/chornobyl-new-safe-confinement/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.bechtel.com/projects/chornobyl-new-safe-confinement/",
+    "extracted_chars": 17772,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ferrexpo_may_price",
+    "url": "https://www.lse.co.uk/news/ftse-100-movers-ferrexpo-gains-on-ukraine-minerals-deal-clarkson-tanks-tjh707hpuvbdjxg.html",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ferrexpo_feb_price",
+    "url": "https://good-time-invest.com/blog/ukrainian-companies-shares-on-the-rise-amid-prospects-of-wars-end/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://good-time-invest.com/blog/ukrainian-companies-shares-on-the-rise-amid-prospects-of-wars-end/",
+    "extracted_chars": 5453,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ferrexpo_stooq",
+    "url": "https://stooq.com/q/d/l/?s=fxpo.uk&i=d&d1=20241101&d2=20250502",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://stooq.com/q/d/l/?s=fxpo.uk&i=d&d1=20241101&d2=20250502",
+    "extracted_chars": 91,
+    "access_result": "retrieved; substantive review separate"
+  }
+]

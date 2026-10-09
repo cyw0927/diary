@@ -1,0 +1,33 @@
+[
+  {
+    "source_id": 106,
+    "url": "https://mindev.gov.ua/storage/app/sites/1/uploaded-files/list-ocikuvan-vlasnika-dp-sk-olviia-2026.pdf",
+    "access_date": "2026-10-09",
+    "access_method": "web PDF extraction",
+    "document_date": "2025-07-25",
+    "reference_period": "2026 plan",
+    "location": "PDF page 3, operational goal 4",
+    "checked": "헤르손 국영항만 합병 절차의 자산·원본 문서 안전 접근 조건",
+    "limit": "국영기업의 계획이며 민간 양허 운영자 현재 손익·회수나 현장 접근의 실측 증거는 아님"
+  },
+  {
+    "source_id": 107,
+    "url": "https://dragon-capital.com/media/press-releases/dragon-capital-launches-construction-of-phase-ii-of-m10-lviv-industrial-park/",
+    "access_date": "2026-10-09",
+    "access_method": "web HTML extraction",
+    "document_date": "2026-03-30",
+    "checked": "1단계 가동, 2단계22,000㎡ 건설, EBRD35%·Norfund기금30%, 2023년 MIGA10년 전쟁위험 보증에 관한 회사 발표",
+    "status": "당사자 주장",
+    "limit": "fully operational을 완전 입주로 번역하지 않음; 순임대현금·투자자 배당·원금 회수 미공개"
+  },
+  {
+    "source_id": 108,
+    "url": "https://dragon-capital.com/media/press-releases/onovleniy-makroprognoz-na-2026-2027-roki-ekonomichni-naslidki-posilennya-atak/",
+    "access_date": "2026-10-09",
+    "access_method": "web English HTML extraction",
+    "document_date": "2026-10-08",
+    "checked": "투자기관이 7월 이후 공격 격화·산업생산 일부 중단·항만과 에너지·민간시설 악화로 전망을 갱신했다고 설명",
+    "status": "당사자 주장",
+    "limit": "영문 공개 요지 확인; 모든 사업의 실측 손실·현재 항만 상태 전수 조사로 확대하지 않음"
+  }
+]

@@ -1,268 +1,120 @@
-import sys, os
+"""Reproduce 11 figures from reviewed numeric inputs (no network access).
+
+Python: pandas, matplotlib, Pillow. Use Malgun Gothic on Windows.
+Values are financial/statistical facts, not extracted copyrighted page images.
+"""
+import json,csv,textwrap
+from pathlib import Path
+import pandas as pd
 import matplotlib
-matplotlib.use("Agg")
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib import font_manager as fm
+from matplotlib import font_manager
+from matplotlib.patches import FancyBboxPatch
+from PIL import Image,ImageOps,ImageDraw
+ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'data';OUT=ROOT/'images';OUT.mkdir(exist_ok=True)
+font=Path('C:/Windows/Fonts/malgun.ttf')
+if font.exists():font_manager.fontManager.addfont(str(font));plt.rcParams['font.family']='Malgun Gothic'
+plt.rcParams.update({'axes.unicode_minus':False,'font.size':12,'axes.spines.top':False,'axes.spines.right':False,'figure.facecolor':'#faf8f3','axes.facecolor':'#faf8f3','savefig.facecolor':'#faf8f3','text.color':'#202b36','axes.labelcolor':'#202b36'})
+BLUE='#25688d';RED='#bc4b3e';GRAY='#747d88';GOLD='#c58c2d';GREEN='#3f7e68';made=[]
+def fig(title,sub='',size=(14,8)):
+ f=plt.figure(figsize=size);f.suptitle(title,x=.07,y=.965,ha='left',fontsize=23,fontweight='bold');f.text(.07,.91,sub,fontsize=12,color=GRAY);return f
+def save(f,name,note):
+ f.text(.07,.035,note,fontsize=10,color=GRAY,va='bottom');f.savefig(OUT/name,dpi=160);plt.close(f);made.append(name)
+def write_csv(name,rows):
+ with (DATA/name).open('w',newline='',encoding='utf-8-sig') as f:
+  w=csv.writer(f);w.writerows(rows)
+def table(f,headers,rows,widths=None,position=(.07,.16,.86,.66),fs=11):
+ ax=f.add_axes(position);ax.axis('off');t=ax.table(cellText=rows,colLabels=headers,colWidths=widths,cellLoc='left',loc='center',bbox=[0,0,1,1]);t.auto_set_font_size(False);t.set_fontsize(fs)
+ for (r,c),cell in t.get_celld().items():
+  cell.set_edgecolor('#ffffff');cell.PAD=.055;cell.set_facecolor('#e7ebed' if r%2 else '#f2f1ed')
+  if r==0:cell.set_facecolor(BLUE);cell.get_text().set_color('white');cell.get_text().set_fontweight('bold')
+ return t
 
-OUT = sys.argv[1]
-os.makedirs(OUT, exist_ok=True)
+# 1. Real GDP, same 1990=100 base; not household income.
+wdi=pd.read_csv(DATA/'prewar_wdi.csv');g=wdi[wdi.indicator=='NY.GDP.MKTP.KD'].pivot(index='year',columns='country',values='value');idx=g.div(g.loc[1990]).mul(100)
+idx.to_csv(DATA/'gdp_index_1990_100.csv',encoding='utf-8-sig')
+names={'UKR':'우크라이나','POL':'폴란드','CZE':'체코','SVK':'슬로바키아','ROU':'루마니아','MDA':'몰도바','EST':'에스토니아','LVA':'라트비아','LTU':'리투아니아'}
+f=fig('전면 침공 이전에도 회복하지 못한 총생산','실질 GDP 지수 · 1990=100 · 1990~2021 · 세계은행 WDI',size=(14,9));a=f.add_axes([.09,.24,.8,.60])
+colors=['#25688d','#3f7e68','#c58c2d','#8e659d','#be805d','#4f8e9a','#788238','#b76a86']
+for i,k in enumerate(sorted(names,key=lambda k:idx.loc[2021,k],reverse=True)):
+ col=RED if k=='UKR' else colors[i%len(colors)];a.plot(idx.index,idx[k],label=f'{names[k]} {idx.loc[2021,k]:.1f}',color=col,lw=3.6 if k=='UKR' else 1.9)
+a.axhline(100,color=GRAY,lw=.9,ls='--');a.set_xlim(1990,2021);a.set_ylabel('실질 GDP 지수');a.grid(axis='y',alpha=.2);a.legend(loc='upper center',bbox_to_anchor=(.5,-.13),ncol=5,frameon=False,fontsize=11)
+save(f,'01_prewar_gdp.png','출처 [5] WDI NY.GDP.MKTP.KD, 2026.10.9 조회. GDP는 개인소득이 아님.\n1990년 전환경제 통계와 2014년 이후 영토·집계 범위 변화에 유의. 국가별 1990년 자체 기준으로 재계산.')
 
-fm.fontManager.addfont("C:/Windows/Fonts/malgun.ttf")
-fm.fontManager.addfont("C:/Windows/Fonts/malgunbd.ttf")
-plt.rcParams.update({
-    "font.family": "Malgun Gothic",
-    "axes.unicode_minus": False,
-    "figure.dpi": 100,
-    "savefig.dpi": 150,
-    "axes.spines.top": False,
-    "axes.spines.right": False,
-    "axes.edgecolor": "#888",
-    "axes.labelcolor": "#333",
-    "xtick.color": "#444",
-    "ytick.color": "#222",
-})
+# 2. These are separate indicators, not parts of one total.
+rows=[['상수도 관망','비상 상태',35,'2021','[6]'],['하수도 관망','비상 상태',38,'2021','[6]'],['식수','평균 손실률',36,'2021','[6]'],['화력발전 설비','설계 수명 소진',90,'2021','[7] 장관 발언'],['기관차','노후화 지표',95,'2020','[8] 보도']];write_csv('prewar_infrastructure.csv',[['대상','지표','비율_%','자료연도','출처']]+rows)
+f=fig('시설 문제는 2022년에 처음 생긴 것이 아니다','각각 다른 지표 · 단위 % · 침공 이전 자료',size=(14,8));a=f.add_axes([.24,.19,.63,.61]);vals=[r[2] for r in rows];a.barh(range(5),vals,color=[BLUE,BLUE,BLUE,RED,RED],height=.6);a.set_yticks(range(5),[r[0]+'\n'+r[1] for r in rows]);a.invert_yaxis();a.set_xlim(0,105);a.set_xlabel('%');a.grid(axis='x',alpha=.15)
+for i,v in enumerate(vals):a.text(v+1,i,f'{v}%',va='center',fontweight='bold')
+save(f,'02_old_infrastructure.png','출처 [6] 2021년 내각 식수 프로그램, [7] 2021년 장관 발언, [8] 2020년 철도 보도.\n비상 상태·손실률·수명 소진·노후화는 다른 개념이며 합계나 국가 전체 비율로 사용할 수 없음.')
 
-INK = "#1f2328"
-MUTED = "#8a8f98"
-RED = "#c8102e"
-BLUE = "#2b5fab"
-GREY = "#c9ccd1"
-LIGHT = "#e8eaed"
+# 3. All 18 sectors, official rounded values; no summed fake total.
+s=pd.DataFrame(json.loads((DATA/'rdna5_sectors.json').read_text(encoding='utf-8'))).sort_values('needs');s.to_csv(DATA/'rdna5_sectors.csv',index=False,encoding='utf-8-sig')
+f=fig('필요액은 파괴된 자산의 가격과 다르다','RDNA5 18개 부문 · 단위 십억 달러 · 2025년 말 평가',size=(14,11));a=f.add_axes([.22,.15,.68,.68]);y=list(range(18));a.barh([i+.17 for i in y],s.damage,height=.31,color=GRAY,label='직접 피해');a.barh([i-.17 for i in y],s.needs,height=.31,color=BLUE,label='복구·재건 필요액');a.set_yticks(y,s.sector,fontsize=11);a.set_xlim(0,109);a.set_xlabel('십억 달러');a.legend(loc='lower right',frameon=False);a.grid(axis='x',alpha=.15)
+for i,v in enumerate(s.needs):a.text(v+.8,i-.17,f'{v:.1f}',va='center',fontsize=10)
+save(f,'03_rdna_sectors.png','출처 [2] RDNA5 표1. 직접 피해 총계 195.1, 필요액 총계 587.7. 부문 반올림값 합산은 공식 총계와 다를 수 있음.\n금융·폭발물 위험 부문의 피해 0.0은 반올림값. 직접 피해는 침공 전 가격, 필요액은 2025년 말 가격·개선 기준.')
 
+# 4. Plans have incompatible scope; table, not misleading time-series bars.
+rows=[['KSE 직접 피해','2022.6.13','95.5','그때까지의 물적 손상'],['루가노 회복계획','2022.7 / ~2032','750 이상','회복 + 현대화 + 국가개발'],['RDNA5 직접 피해','2025.12.31 평가','195.1','파괴·손상 자산 / 침공 전 대체가격'],['RDNA5 필요액','2026~2035','587.7','복구·서비스·개선 / 2025년 말 가격'],['Prosperity Plan','2026.1 발표 / 10년','800','성장·현대화 / 공공·민간 조달 구상']]
+write_csv('plans_and_definitions.csv',[['지표','기간','십억달러','범위']]+rows);f=fig('7,500억 · 5,877억 · 8,000억은 같은 견적이 아니다','계획·평가의 범위와 시점 비교 · 금액 단위 십억 달러');table(f,['자료','기준·기간','금액','무엇을 계산했나'],rows,[.19,.24,.12,.45]);save(f,'04_plans_and_definitions.png','출처 [62] 루가노 원문, [64] KSE, [2] RDNA5, [3] 우크라이나 경제부.\n서로 다른 범위의 숫자를 더하거나 증가율·허위 청구액으로 계산하지 않음.')
 
-def finish(fig, title, subtitle, source, name):
-    fig.text(0.02, 0.975, title, fontsize=19, fontweight="bold", color=INK, va="top")
-    if subtitle:
-        fig.text(0.02, 0.915, subtitle, fontsize=11.5, color="#555", va="top")
-    fig.text(0.02, 0.02, source, fontsize=8.5, color=MUTED, va="bottom")
-    fig.savefig(os.path.join(OUT, name), facecolor="white")
-    plt.close(fig)
-    print("wrote", name)
+# 5. No addition across currencies or across programme envelopes.
+rows=[['RDNA5 2026 우선사업','152.45억 달러','필요액','2026.2 보고서'],['같은 우선사업 확보·확약','57.65억 달러','예산·확약 / 집행액 아님','2026.2 보고서'],['같은 우선사업 부족분','94.80억 달러','62% 재원 격차','2026.2 보고서'],['한국 EDCF 기본약정','최대 21억 달러','한도 / 사업별 계약 필요','2024.4'],['EDCF 개별 재정지원','1억 달러','차관 서명 / 건설 수주 아님','2024.10'],['EU 2026~2027 지원대출','900억 유로','차입·지원 틀 / 방위·예산','2025.12 결정 이후'],['EU 드론·미사일 지원','12.4억 유로','실제 집행 / 재건 공사 아님','2026.10.8']]
+write_csv('funding_stages.csv',[['항목','금액','단계','기준일']]+rows);f=fig('약정과 계약, 집행은 다른 숫자다','금액은 각 통화 그대로 · 아래 항목은 중첩 가능하며 합산하지 않음',size=(14,9));table(f,['항목','금액','단계·의미','자료시점'],rows,[.29,.18,.34,.19],fs=11);save(f,'05_funding_stages.png','출처 [2] RDNA5, [18][19] EDCF 발표, [24][25][26] EU 결정·집행 공지.\n2026년 재원 격차는 2월 보고서 상태이며 10월 9일의 미집행 잔액이 아님.')
 
+# 6. Dated, limited evidence of access and construction.
+rows=[['2022.5.20','러시아 완전 통제 주장','AP 보도 [13]'],['2022.7.4~5','루가노 국가 회복계획','회복·현대화 구상 [62]'],['2022.7.6','한국에 마리우폴 재건 제안','의원·대사 면담 보도 [59]'],['2024.4 / 10','EDCF 한도 / 개별 차관','마리우폴 공사계약과 다름 [18][19]'],['2026.8.18','마리우폴 학교 공사 진행','러시아 시공사 자체 발표 [60]'],['2026.9','공동주택 복구 완료 사례','개별 시설 / 도시 전체 완료 아님 [60]'],['2026.10.9 확인 기준','한국의 해당 도시 공사대금','공개 계약·지급 근거 미확인']]
+write_csv('mariupol_timeline.csv',[['시점','사건','확인범위']]+rows);f=fig('제안 당시에도 현장 접근과 지급 조건이 먼저였다','마리우폴 · 사실, 당사자 발표, 미확인을 구분',size=(14,9));table(f,['시점','사건','확인된 범위'],rows,[.2,.34,.46]);save(f,'06_mariupol_timeline.png','출처 [13][59][60][18][19]. 러시아 시공사 발표는 독립적인 도시 전체 준공 검증이 아님.\n마리우폴 제안과 한국 주가조작 사건의 정부 간 공모는 확인되지 않음.')
 
-# 1. 숫자 다섯 개, 기준은 다섯 개
-def chart_numbers():
-    rows = [
-        ("2026년 우선사업 (1년)", 152.5, BLUE, "세계은행 RDNA5"),
-        ("직접 물적 피해 (2022.2~2025.12 누적)", 1951, BLUE, "세계은행 RDNA5"),
-        ("[참고] 우크라이나 2025년 명목 GDP", 2100, GREY, "필자 환산·추정치"),
-        ("10년 재건·회복 필요액 (2026~2035)", 5877, RED, "세계은행 RDNA5"),
-        ("경제·사회적 손실 (64개월, 일부 추정)", 6667, BLUE, "세계은행 RDNA5"),
-        ("Ukraine Prosperity Plan (10년 구상)", 8000, "#6b4fa0", "우크라이나 정부"),
-    ]
-    fig, ax = plt.subplots(figsize=(11, 6.4))
-    fig.subplots_adjust(left=0.33, right=0.93, top=0.84, bottom=0.12)
-    y = range(len(rows))
-    ax.barh(y, [r[1] for r in rows], color=[r[2] for r in rows], height=0.62)
-    ax.set_yticks(list(y), [r[0] for r in rows], fontsize=11.5)
-    for i, r in enumerate(rows):
-        label = f"{r[1]:,.1f}억 달러" if r[1] < 1000 else f"{r[1]:,.0f}억 달러"
-        if r[0].startswith("[참고]"):
-            label = "약 " + label
-        if r[0].startswith("Ukraine"):
-            label = "약 " + label
-        ax.text(r[1] + 80, i, f"{label}  ·  {r[3]}", va="center", fontsize=10.5, color=INK)
-    ax.set_xlim(0, 11500)
-    ax.set_xticks([])
-    ax.spines["bottom"].set_visible(False)
-    ax.tick_params(axis="y", length=0)
-    finish(fig, "'재건비'라고 불리는 숫자들은 서로 다른 것을 잰다",
-           "피해액(과거 자산의 전쟁 전 가격) ≠ 손실(놓친 생산·소득) ≠ 필요액(BBB·인플레이션 포함 미래 투자) ≠ 개발 구상",
-           "자료: World Bank RDNA5 (2026.2.23), 우크라이나 경제부 (2026.1.3). GDP는 우크라이나 통계청 잠정치(8조9,312억 흐리우냐)를 RDNA5 환율(42.39)로 필자가 환산.",
-           "02_numbers.png")
+# 7. Provider-normalized index, not falsely certified KRX adjusted-close won.
+d=pd.read_csv(DATA/'stock_001470_20230515_20230731.csv',dtype={'date':str});d['day']=pd.to_datetime(d.date);d['index']=d.close/d.close.iloc[0]*100;d[['date','close','index']].to_csv(DATA/'sambu_daily_index.csv',index=False,encoding='utf-8-sig')
+f=fig('재건 기대가 먼저 움직인 주가','삼부토건 001470 · 일별 종가 재지수화 · 2023.5.15=100',size=(14,9));a=f.add_axes([.09,.22,.81,.61]);a.plot(d.day,d['index'],lw=3,color=RED);a.fill_between(d.day,d['index'],100,color=RED,alpha=.08);a.axhline(100,color=GRAY,lw=.8);a.set_ylim(75,610);a.set_ylabel('지수');a.grid(axis='y',alpha=.2)
+for date,label,yv in [('2023-05-23','5.23 재건 관련 홍보 보도',555),('2023-07-15','7.15 대통령 우크라이나 방문',590)]:
+ dt=pd.Timestamp(date);a.axvline(dt,color=GRAY,ls='--',lw=1);a.text(dt,yv,label,ha='right' if date.endswith('15') else 'left',fontsize=11,color=GRAY)
+peak=d.loc[d.date=='20230717'].iloc[0];a.annotate(f"7.17 종가\n지수 {peak['index']:.1f} (+394.6%)",xy=(peak.day,peak['index']),xytext=(-155,-90),textcoords='offset points',arrowprops={'arrowstyle':'->','color':RED},fontsize=13,fontweight='bold');a.tick_params(axis='x',rotation=15)
+save(f,'07_sambu_daily.png','출처 [70] 네이버 일별 제공 가격 / [66] 당시 종가 1,013→5,010원 보도. [67] 관련 홍보 혐의.\nKRX 원본 수정주가·감자 계수 독립 검증 미완. 사건 표시는 시간 관계이며 상승의 인과·기여분 추정이 아님.')
 
+# 8. One window for all valid bases. Kukbo halted on base day.
+r=json.loads((DATA/'korean_stocks_comparison.json').read_text(encoding='utf-8'));r=[x for x in r if x['code']!='001140'];nm={'001470':'삼부토건','010600':'웰바이오텍','317850':'대모','041440':'현대에버다임','039560':'다산네트웍스'}
+f=fig('같은 기간으로 비교한 한국 재건 테마주','2023.5.15~7.17 · 단위 % · 최고는 장중 고가가 아닌 종가',size=(14,8));a=f.add_axes([.19,.19,.7,.61]);ys=list(range(5));a.barh([y-.17 for y in ys],[x['peak_return'] for x in r],height=.31,color=BLUE,label='구간 최고종가까지');a.barh([y+.17 for y in ys],[x['end_return'] for x in r],height=.31,color=GOLD,label='7.17 종가까지');a.set_yticks(ys,[nm[x['code']] for x in r]);a.invert_yaxis();a.set_xlim(0,450);a.legend(frameon=False,loc='lower right');a.grid(axis='x',alpha=.2);a.set_xlabel('기준일 대비 상승률 (%)')
+for y,x in enumerate(r):
+ for offset,key in [(-.17,'peak_return'),(.17,'end_return')]:a.text(x[key]+3,y+offset,f'{x[key]:.1f}%',va='center',fontsize=10)
+save(f,'08_korean_stocks_comparison.png','출처 [70] 네이버금융. 제공 가격의 수정계수에 대한 KRX 독립 검증 미완. 국보는 5.15 거래량·시가 0으로 비교 제외.\n웰바이오텍 5.2~7.28 +225.1%와 다른 기간. 주가 상승은 회사 매출이나 매도자의 실현이익이 아님.')
 
-# 2. 분야별 피해액 vs 필요액
-def chart_sectors():
-    data = [
-        ("교통", 40.3, 96.3),
-        ("에너지·자원", 24.8, 90.6),
-        ("주택", 61.1, 89.8),
-        ("상업·산업", 19.2, 63.3),
-        ("농업", 12.1, 55.3),
-        ("사회보장·생계", 0.5, 42.7),
-        ("교육·과학", 13.9, 33.5),
-        ("지뢰·폭발물 제거", 0.0, 27.6),
-        ("보건", 1.8, 23.6),
-        ("상하수도", 7.8, 17.5),
-        ("관개·수자원", 0.9, 12.5),
-        ("문화·관광", 4.5, 11.5),
-        ("기타 6개 분야", 8.4, 23.4),
-    ]
-    data = data[::-1]
-    fig, ax = plt.subplots(figsize=(11, 8))
-    fig.subplots_adjust(left=0.17, right=0.95, top=0.86, bottom=0.11)
-    y = list(range(len(data)))
-    h = 0.38
-    ax.barh([i + h / 2 for i in y], [d[2] for d in data], height=h, color=RED, label="10년 필요액 (BBB·인플레이션 포함)")
-    ax.barh([i - h / 2 for i in y], [d[1] for d in data], height=h, color=GREY, label="직접 피해액 (전쟁 전 교체가격)")
-    for i, d in enumerate(data):
-        ax.text(d[2] + 1, i + h / 2, f"{d[2]:.1f}", va="center", fontsize=9.5, color=INK)
-        ax.text(d[1] + 1, i - h / 2, f"{d[1]:.1f}", va="center", fontsize=9.5, color=MUTED)
-    ax.set_yticks(y, [d[0] for d in data], fontsize=11.5)
-    ax.tick_params(axis="y", length=0)
-    ax.set_xlabel("10억 달러", fontsize=10)
-    ax.set_xlim(0, 110)
-    ax.legend(loc="lower right", frameon=False, fontsize=10.5)
-    ax.grid(axis="x", color=LIGHT)
-    ax.set_axisbelow(True)
-    finish(fig, "부서진 것 1,951억 달러, 고치겠다는 것 5,877억 달러",
-           "분야별 직접 피해액과 10년 재건 필요액. 격차에는 복구·회복·현대화가 함께 반영된다. 막대의 차이 전체를 전쟁과 무관한 개발비로 읽을 수는 없다.",
-           "자료: World Bank RDNA5 (2026.2.23) Table 1. '기타'는 도시서비스·통신·환경·민방위·금융·행정. 피해 0.0 = 1억 달러 미만.",
-           "03_sectors.png")
+# 9. Company proof and actual official ETF snapshot.
+hold=pd.read_csv(DATA/'ukrn_holdings_20261008.csv');countries=(hold.groupby('country').weight.sum()*100).sort_values(ascending=False);countries.to_csv(DATA/'ukrn_countries_20261008.csv',header=['weight_percent'],encoding='utf-8-sig')
+f=fig('과거 계약 · 현재 실적 · 금융상품은 다르다','공식 보유종목 2026.10.8 · 과거 계약·인수는 현재 수익성 증거가 아님',size=(14,11));rows=[['Ferrexpo','실제 광산·생산','2026 상반기 영업현금 -2,400만 달러'],['CRH / Buzzi','2024년 과거 자산 인수','매각대금 1억 유로 / 2026 회수 미확인'],['폴란드 3사','협력 MOU','2026.5 / 특정 공사 발주 확인 아님'],['Siemens / Naftogaz','협력·금융 검토 MOU','2026.10.5 / 수량·공급대금 미공개'],['AECOM','2023년 과거 자문 MOU','2025 10-K 재건매출 별도 미확인']];table(f,['대상','자료의 시점·단계','확인 범위와 빈칸'],rows,[.2,.25,.55],position=(.07,.50,.86,.31),fs=11)
+other=countries.sum()-countries['United States']-countries['Ukraine']
+a=f.add_axes([.14,.18,.74,.23]);a.barh(['기타 국가·현금','미국','우크라이나'],[other,countries['United States'],countries['Ukraine']],color=[GRAY,BLUE,RED]);a.set_xlim(0,65);a.set_xlabel('UKRN 국가 노출 (%)');a.grid(axis='x',alpha=.15)
+for i,v in enumerate([other,countries['United States'],countries['Ukraine']]):a.text(v+.7,i,f'{v:.2f}%',va='center')
+save(f,'09_global_market_cases.png','출처 [72][73][74][75][76][77][78]. 보유비중 합계 99.98%: 개별 반올림 영향. 과거 인수·MOU ≠ 현재 투자 회수.\nETF 국가 노출은 기업별 재건매출 비율이 아님. 낮은 비중만으로 사기 판정 불가.')
 
+# 10. Monetary flow, with currencies and contingent sources kept separate.
+f=fig('동결 원금 · 특별 수익 · 대출 · 배상은 다르다','2026.10.9 확인 기준 · 서로 더할 수 없는 재원·채무 구조',size=(14,9));a=f.add_axes([.06,.16,.88,.68]);a.set_xlim(0,10);a.set_ylim(0,7);a.axis('off')
+def box(x,y,w,h,label,c=BLUE):
+ a.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=.12',facecolor=c,edgecolor='none'));a.text(x+w/2,y+h/2,label,ha='center',va='center',color='white',fontsize=13)
+def arrow(x1,y1,x2,y2,label=''):
+ a.annotate('',xy=(x2,y2),xytext=(x1,y1),arrowprops={'arrowstyle':'->','color':GRAY,'lw':2});a.text((x1+x2)/2,(y1+y2)/2+.16,label,ha='center',fontsize=10,color=GRAY)
+box(.2,5.4,3,1.0,'EU 내 CBR 자산 약 €210bn\n동결 ≠ 소유권 이전');box(6.6,5.4,3,1,'러시아의 배상 지급\n합의·일정 미확인',GRAY);a.text(5,5.85,'원금 몰수·장래 배상\n자동 연결 불가',ha='center',color=RED,fontsize=12)
+box(.2,3,2.6,1.2,'동결 자산의\n특별 수익');box(3.7,3,2.7,1.2,'G7 ERA\n약 $50bn 대출');box(7.3,3,2.3,1.2,'우크라이나 지원');arrow(2.8,3.6,3.7,3.6,'상환 재원');arrow(6.4,3.6,7.3,3.6,'현재 대출')
+box(.2,.5,2.6,1.4,'EU 시장 차입\nEU 예산 여력');box(3.7,.5,2.7,1.4,'2026~27 지원대출\n€90bn');box(7.3,.5,2.3,1.4,'방위 €60bn\n예산 €30bn');arrow(2.8,1.2,3.7,1.2,'보증·차입');arrow(6.4,1.2,7.3,1.2,'용도 구분');a.text(5,.07,'우크라이나 상환은 장래 러시아 배상에 연결 / EU의 시장 차입 의무는 별개',ha='center',fontsize=11,color=RED)
+save(f,'10_russian_assets_flow.png','출처 [53] ERA, [24][25][26] EU 지원대출, [79][80][81][82] 자산·소송. bn=십억.\n10.8 실제 집행 €1.24bn은 드론·미사일용. 러시아 판결의 EU 자동 집행이나 EU의 유력한 패소를 가정하지 않음.')
 
-# 3. RDNA 1~5 추이
-def chart_trend():
-    eds = ["RDNA1\n2022.6", "RDNA2\n2023.2", "RDNA3\n2023.12", "RDNA4\n2024.12", "RDNA5\n2025.12"]
-    damage = [97, 135, 152, 176, 195.1]
-    needs = [348.5, 410.6, 486.2, 523.6, 587.7]
-    fig, ax = plt.subplots(figsize=(11, 6.2))
-    fig.subplots_adjust(left=0.08, right=0.95, top=0.84, bottom=0.15)
-    x = range(len(eds))
-    ax.plot(x, needs, marker="o", color=RED, lw=3, label="10년 재건 필요액")
-    ax.plot(x, damage, marker="o", color=MUTED, lw=3, label="직접 피해액")
-    for i in x:
-        ax.text(i, needs[i] + 18, ["349","411","486","524","588"][i], ha="center", fontsize=11, color=RED, fontweight="bold")
-        ax.text(i, damage[i] - 38, f"{damage[i]:.0f}", ha="center", fontsize=11, color="#555")
-    ax.set_xticks(list(x), eds, fontsize=10.5)
-    ax.set_ylim(0, 680)
-    ax.set_ylabel("10억 달러")
-    ax.grid(axis="y", color=LIGHT)
-    ax.set_axisbelow(True)
-    ax.legend(loc="upper left", frameon=False, fontsize=11)
-    finish(fig, "보고서가 나올 때마다 늘어나는 청구서",
-           "기준일별 누적 피해액과 10년 필요액. 세계은행 스스로 '시점 간 단순 비교는 어렵다'고 밝힌다(방법론·환율·인플레이션 변경).",
-           "자료: World Bank RDNA1~5 (RDNA5 부록 요약 기준). x축은 각 평가의 집계 기준일.",
-           "04_trend.png")
+# 11. Intentions vs conditional response vs populations with incompatible scope.
+f=fig('귀환 수요와 운영할 인구는 별도로 계산해야 한다','UNHCR 2026.7 보고서 · 조사 2025.12~2026.1 · 의향은 귀환 실적이 아님',size=(14,9));a=f.add_axes([.10,.30,.34,.48]);b=f.add_axes([.58,.30,.34,.48]);a.bar(['2024 조사','2025말~2026초'],[61,49],color=[GRAY,BLUE],width=.55);b.bar(['영토 전체 회복','점령지 미회복'],[65,32],color=[GREEN,RED],width=.55)
+for ax,vs in [(a,[61,49]),(b,[65,32])]:
+ ax.set_ylim(0,85);ax.set_ylabel('%');ax.grid(axis='y',alpha=.2)
+ for x,v in enumerate(vs):ax.text(x,v+2,f'{v}%',ha='center',fontsize=19,fontweight='bold')
+a.set_title('귀환을 계획하거나 희망');b.set_title('조건별 귀환 가능성 높음');f.text(.08,.17,'2022.1 공식 인구 4,117만 (크림 제외)    |    2026.7 추정 2,900만 (정부 통제 지역)',fontsize=13);f.text(.08,.12,'영토·추정 방법이 달라 차액을 인구 소멸로 계산할 수 없음. 보고서 난민 약 580만 · 국내 실향민 약 380만.',fontsize=11,color=GRAY)
+write_csv('population_and_return.csv',[['지표','값','단위','시점','범위'],['귀환계획·희망',61,'%',2024,'해외 난민 조사'],['귀환계획·희망',49,'%', '2025.12~2026.1','해외 난민 조사'],['전체영토회복 조건',65,'%', '2025.12~2026.1','조건별 가능성 응답'],['점령지미회복 조건',32,'%', '2025.12~2026.1','조건별 가능성 응답'],['공식인구',41.167,'백만명','2022.1','크림제외'],['전시추정인구',29,'백만명','2026.7','정부통제지역']])
+save(f,'11_population_and_return.png','출처 [36] UNHCR Lives on Hold #7, [39] 인구연구소장 추정 보도, [52] 국가통계청.\n동일 응답자의 조건별 응답은 별개 실제 귀환집단이 아니며, 인구 추계의 범위 차이를 반드시 유지.')
 
-
-# 4. 난민 귀국 의향 추이
-def chart_return():
-    rounds = ["2022.8~9", "2023\n(1차)", "2023\n(2차)", "2024.1~2", "2024.7~8", "2025.12~\n2026.1"]
-    vals = [83, 77, 76, 65, 61, 49]
-    fig, ax = plt.subplots(figsize=(11, 6.2))
-    fig.subplots_adjust(left=0.08, right=0.95, top=0.84, bottom=0.15)
-    x = list(range(len(rounds)))
-    cols = [GREY] * (len(vals) - 1) + [RED]
-    ax.bar(x, vals, color=cols, width=0.6)
-    for i, v in enumerate(vals):
-        ax.text(i, v + (4 if i == len(vals) - 1 else 1.5), f"{v}%", ha="center", fontsize=13, fontweight="bold", color=RED if i == len(vals) - 1 else INK)
-    ax.axhline(50, color=MUTED, lw=1, ls="--")
-    ax.text(len(vals) - 0.55, 51.5, "50%", color=MUTED, fontsize=9.5)
-    ax.set_xticks(x, rounds, fontsize=10.5)
-    ax.set_ylim(0, 100)
-    ax.set_yticks([])
-    ax.spines["left"].set_visible(False)
-    ax.text(4.45, 99, "최근 조사(2025.12~2026.1) 내역\n· 1년 안에 귀국 계획: 3%\n· 언젠가 귀국 희망: 46%\n· 미정: 28%\n· 귀국 희망 없음: 23%",
-            ha="left", va="top", fontsize=10.5, color=INK, linespacing=1.5,
-            bbox=dict(boxstyle="round,pad=0.6", fc="#f6f7f8", ec=LIGHT))
-    finish(fig, "돌아오겠다는 난민, 처음으로 절반 아래",
-           "유럽 내 우크라이나 난민 중 '귀국을 계획하거나 언젠가 희망한다'는 응답 비율 (UNHCR 정기 의향조사)",
-           "자료: UNHCR, Lives on Hold #7 (2026.7; 2025.12~2026.1 조사, 4,375가구). 영토가 회복된 종전이라면 귀국 '가능성 높음' 65%, 점령지 미회복 종전이면 32%.",
-           "07_return.png")
-
-
-# 5. 마리우폴 타임라인
-def chart_mariupol():
-    import datetime as dt
-    ev = [
-        (dt.date(2022, 2, 24), "러시아 전면 침공", INK),
-        (dt.date(2022, 5, 20), "아조우스탈 함락, 러시아 '완전 장악' 발표", RED),
-        (dt.date(2022, 7, 5), "루가노 재건회의: 우크라 정부 7,500억 달러 재건계획 제시", INK),
-        (dt.date(2022, 7, 6), "서울: 타루타 의원 등, 원희룡 장관에 마리우폴 재건 참여 요청", RED),
-        (dt.date(2022, 9, 30), "러시아, 도네츠크 등 4개주 '병합' 선포", INK),
-        (dt.date(2022, 10, 12), "유엔총회, 병합 무효 결의 (찬성 143)", INK),
-        (dt.date(2023, 10, 6), "타루타 의원단 재방한, 포스코 회장 면담", INK),
-        (dt.date(2025, 11, 23), "NYT: 크렘린, 마리우폴 재개발에 수십억 달러 투입", INK),
-        (dt.date(2026, 5, 13), "점령당국, '버려진' 아파트 약 900채 압류 목록 (우크라 측 발표)", INK),
-    ]
-    fig, ax = plt.subplots(figsize=(11, 7.6))
-    fig.subplots_adjust(left=0.04, right=0.98, top=0.86, bottom=0.08)
-    n = len(ev)
-    ys = list(range(n))[::-1]
-    ax.axvspan(0.12, 0.16, ymin=0, ymax=1, color=LIGHT)
-    for (d, label, c), y in zip(ev, ys):
-        ax.plot([0.14], [y], marker="o", ms=11, color=c, zorder=3)
-        ax.text(0.0, y, d.strftime("%Y.%m.%d"), va="center", fontsize=11, color=MUTED)
-        ax.text(0.18, y, label, va="center", fontsize=12.5, color=c, fontweight="bold" if c == RED else "normal")
-    # 러시아 통제 구간 표시
-    y_fall = ys[1]
-    ax.annotate("", xy=(0.105, ys[-1] - 0.3), xytext=(0.105, y_fall + 0.3),
-                arrowprops=dict(arrowstyle="-", color=RED, lw=4))
-    ax.text(0.105, y_fall + 0.5, "러시아 통제 ▼", va="center", ha="center", fontsize=10, color=RED, fontweight="bold")
-    ax.text(0.18, ys[3] - 0.45, "→ 점령 47일째. 보도자료에는 '전후 재건'이라는 표현만 있고 점령 사실은 언급되지 않음",
-            fontsize=10.5, color="#555")
-    ax.set_xlim(-0.01, 1)
-    ax.set_ylim(-0.8, n - 0.3)
-    ax.axis("off")
-    finish(fig, "마리우폴 재건 제안은 언제 나왔나",
-           "한국에 재건 참여를 요청한 시점, 도시는 이미 러시아 통제 아래 있었다",
-           "자료: 국토교통부 보도참고자료(2022.7.6), AP·Reuters(2022.5), 유엔총회 ES-11/4(2022.10.12), POSCO 뉴스룸(2023.10), NYT(2025.11), 마리우폴 시의회 via Euromaidan Press(2026.5.13).",
-           "05_mariupol.png")
-
-
-# 6. 한국: 전쟁 지원과 재건 사업 단계를 구분한다
-def chart_korea():
-    rows = [
-        ("포탄의 간접 기여", "2023년 WP 취재를 인용한 연합뉴스 보도\n155mm 간접 공급: 유럽 전체보다 많았다고 보도", "정확한 수량·경로는 미확정\n재건 차관·수주와 별도", BLUE),
-        ("인도·개발협력", "외교부 2024.6: 인도지원 2억 달러 등\n다자금융·KOICA 사업도 별도 설명", "발표·사업 규모와 집행은 구별\nEDCF 하나가 지원 총액은 아님", BLUE),
-        ("EDCF 기본약정", "2024.4: 최대 21억 달러 한도\n개별 사업에는 별도 차관계약 필요", "한도 ≠ 집행액\n지원 기여 ≠ 건설 수주", MUTED),
-        ("EDCF 계약 사례", "2024.10: 1억 달러 재정지원용 차관\n인용 자료의 특정 계약 사례", "건설공사 계약이 아님\n이후 전체 집행액으로 대체 불가", MUTED),
-        ("공항·철도 협력", "공항: 2023.11 MOU\n철도: 2025.9 차관 요청서 승인 자료", "당시 자료만으로\n확정 수주·대금 지급 입증 불가", RED),
-    ]
-    fig, ax = plt.subplots(figsize=(12, 7.4))
-    fig.subplots_adjust(left=0.02, right=0.98, top=0.83, bottom=0.13)
-    ax.axis("off")
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
-    ax.text(0.01, 0.98, "구분", fontsize=12, fontweight="bold", color=INK, va="top")
-    ax.text(0.24, 0.98, "자료에서 확인한 내용", fontsize=12, fontweight="bold", color=INK, va="top")
-    ax.text(0.71, 0.98, "구분해야 할 것", fontsize=12, fontweight="bold", color=INK, va="top")
-    ax.axhline(0.90, color=GREY, lw=1)
-    for i, (label, detail, meaning, color) in enumerate(rows):
-        y = 0.83 - i * 0.17
-        ax.text(0.01, y, label, fontsize=12.5, fontweight="bold", color=color, va="top")
-        ax.text(0.24, y, detail, fontsize=11, color=INK, va="top", linespacing=1.55)
-        ax.text(0.71, y, meaning, fontsize=11, color=color, va="top", linespacing=1.55)
-        ax.axhline(y - 0.13, color=LIGHT, lw=0.8)
-    finish(fig, "한국의 전쟁 지원과 재건 계약은 별개의 평가 대상이다",
-           "포탄·인도지원의 기여를 차관 한 줄로 재지 않는다. 약정·MOU를 확정 수주로 계산하지 않는다.",
-           "자료: 연합뉴스(2023.12.5, WP 인용), 외교부(2024.6.13), 우크라이나 내각(2024.4.19·10.2), 공항 MOU·철도 협력 자료.\n시점과 성격이 다른 항목을 합산하지 않음. 포탄 총량·최종 경로 및 이후 모든 기업의 계약·집행을 전수 확인한 표가 아님.",
-           "06_korea.png")
-
-
-# 0. 전쟁 전 30년: 실질 GDP 지수
-def chart_prewar():
-    years = list(range(1990, 2022))
-    ukr = [100.0, 91.3, 82.3, 70.6, 54.4, 47.8, 43.0, 41.7, 40.9, 40.8, 43.2, 47.1, 49.6, 54.3, 60.7, 62.5,
-           67.3, 72.8, 74.4, 63.2, 65.8, 69.3, 69.4, 69.5, 62.5, 56.4, 57.7, 59.1, 61.2, 63.1, 60.8, 62.9]
-    pol = [100.0, 93.0, 95.3, 98.9, 104.1, 112.4, 119.2, 126.8, 132.7, 138.9, 145.4, 147.2, 150.0, 155.2, 163.1,
-           168.5, 178.9, 191.0, 199.4, 204.6, 211.1, 222.2, 225.5, 227.1, 236.0, 246.4, 253.9, 267.0, 283.7,
-           296.7, 290.6, 310.8]
-    fig, ax = plt.subplots(figsize=(11, 6.4))
-    fig.subplots_adjust(left=0.07, right=0.88, top=0.84, bottom=0.12)
-    ax.plot(years, pol, color=MUTED, lw=3)
-    ax.plot(years, ukr, color=RED, lw=3.5)
-    ax.axhline(100, color=INK, lw=0.8, ls=":")
-    ax.text(2021.4, pol[-1], f"폴란드\n{pol[-1]:.0f}", va="center", fontsize=12, color="#555", fontweight="bold")
-    ax.text(2021.4, ukr[-1], f"우크라이나\n{ukr[-1]:.0f}", va="center", fontsize=12, color=RED, fontweight="bold")
-    for yr, label in [(1999, "1999년 바닥\n40.8"), (2009, "2009\n-15.1%"), (2015, "2014~15\n-10.1%, -9.8%")]:
-        v = ukr[yr - 1990]
-        ax.annotate(label, xy=(yr, v), xytext=(yr, v - 26), ha="center", fontsize=9.5, color=INK,
-                    arrowprops=dict(arrowstyle="-", color=MUTED, lw=0.8))
-    ax.text(1990.3, 103, "1990년 = 100", fontsize=9.5, color=INK)
-    ax.set_ylim(0, 340)
-    ax.set_xlim(1989.5, 2021.5)
-    ax.grid(axis="y", color=LIGHT)
-    ax.set_axisbelow(True)
-    finish(fig, "전쟁 전 31년, 우크라이나는 1990년을 회복하지 못했다",
-           "실질 GDP 지수 (1990년 = 100). 같은 출발선에서 폴란드는 3.1배가 됐고 우크라이나는 63%에 머물렀다.",
-           "자료: World Bank WDI, NY.GDP.MKTP.KD (2015년 불변 달러, 2026.10.8 갱신). 성장률은 WB·IMF 시계열 기준.",
-           "01_prewar_gdp.png")
-
-
-if __name__ == "__main__":
-    which = sys.argv[2:] or ["prewar", "numbers", "sectors", "trend", "mariupol", "korea", "return"]
-    for w in which:
-        globals()["chart_" + w]()
+# Contact sheet outside tracked images; inspect individual images if needed.
+thumbs=[]
+for name in made:
+ im=Image.open(OUT/name).convert('RGB');im.thumbnail((720,600));tile=Image.new('RGB',(740,630),'white');tile.paste(im,((740-im.width)//2,18));ImageDraw.Draw(tile).text((12,604),name,fill='black');thumbs.append(tile)
+sheet=Image.new('RGB',(2220,630*4),'#dddddd')
+for i,im in enumerate(thumbs):sheet.paste(im,((i%3)*740,(i//3)*630))
+sheet.save(ROOT/'.research-cache/chart_contact_sheet.jpg',quality=90)
+(DATA/'chart_manifest.json').write_text(json.dumps({'as_of':'2026-10-09','charts':made,'price_limitation':'Naver series; original KRX adjustment factors not independently verified','population_scope_warning':True},ensure_ascii=False,indent=2),encoding='utf-8')
+print('Generated',len(made),'figures; contact sheet in ignored cache')
