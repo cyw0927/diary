@@ -107,7 +107,7 @@ def chart_sectors():
     ax.grid(axis="x", color=LIGHT)
     ax.set_axisbelow(True)
     finish(fig, "부서진 것 1,951억 달러, 고치겠다는 것 5,877억 달러",
-           "분야별 직접 피해액과 10년 재건 필요액. 둘의 차이가 전부 '현대화 할증'은 아니다 — 그런데 얼마가 할증인지는 공식 수치가 없다.",
+           "분야별 직접 피해액과 10년 재건 필요액. 격차에는 복구·회복·현대화가 함께 반영된다. 막대의 차이 전체를 전쟁과 무관한 개발비로 읽을 수는 없다.",
            "자료: World Bank RDNA5 (2026.2.23) Table 1. '기타'는 도시서비스·통신·환경·민방위·금융·행정. 피해 0.0 = 1억 달러 미만.",
            "03_sectors.png")
 
@@ -202,32 +202,33 @@ def chart_mariupol():
            "05_mariupol.png")
 
 
-# 6. 한국: 약속과 실제 돈
+# 6. 한국: 전쟁 지원과 재건 사업 단계를 구분한다
 def chart_korea():
     rows = [
-        ("윤석열 대통령 지원 발표 (2023.9, G20)", 2300, GREY, "정치적 약속 · 23억 달러"),
-        ("EDCF 기본약정 한도 (2024.4, 2024~2029)", 2100, GREY, "한도일 뿐 · 21억 달러"),
-        ("보리스필 공항 MOU (2023.11, 공사·현대건설)", 983, GREY, "양해각서 · 약 9.8억 달러"),
-        ("철도차량 20편성 EDCF 차관 '요청서' (2025.9)", 450, GREY, "요청 단계 · 약 4~4.5억 달러 (보도 추정)"),
-        ("실제 서명·집행된 EDCF 차관 (2024.10)", 100, RED, "1억 달러 · 재정지원용 (건설 아님)"),
-        ("확인된 한국 기업 건설·공급 계약 대금", 0, RED, "확인된 건 없음"),
+        ("포탄의 간접 기여", "2023년 WP 취재를 인용한 연합뉴스 보도\n155mm 간접 공급: 유럽 전체보다 많았다고 보도", "정확한 수량·경로는 미확정\n재건 차관·수주와 별도", BLUE),
+        ("인도·개발협력", "외교부 2024.6: 인도지원 2억 달러 등\n다자금융·KOICA 사업도 별도 설명", "발표·사업 규모와 집행은 구별\nEDCF 하나가 지원 총액은 아님", BLUE),
+        ("EDCF 기본약정", "2024.4: 최대 21억 달러 한도\n개별 사업에는 별도 차관계약 필요", "한도 ≠ 집행액\n지원 기여 ≠ 건설 수주", MUTED),
+        ("EDCF 계약 사례", "2024.10: 1억 달러 재정지원용 차관\n인용 자료의 특정 계약 사례", "건설공사 계약이 아님\n이후 전체 집행액으로 대체 불가", MUTED),
+        ("공항·철도 협력", "공항: 2023.11 MOU\n철도: 2025.9 차관 요청서 승인 자료", "당시 자료만으로\n확정 수주·대금 지급 입증 불가", RED),
     ]
-    rows = rows[::-1]
-    fig, ax = plt.subplots(figsize=(11, 6.2))
-    fig.subplots_adjust(left=0.36, right=0.97, top=0.84, bottom=0.12)
-    y = list(range(len(rows)))
-    ax.barh(y, [max(r[1], 8) if r[1] else 0 for r in rows], color=[r[2] for r in rows], height=0.6)
-    for i, r in enumerate(rows):
-        ax.text(r[1] + 30, i, r[3], va="center", fontsize=11, color=RED if r[2] == RED else INK,
-                fontweight="bold" if r[2] == RED else "normal")
-    ax.set_yticks(y, [r[0] for r in rows], fontsize=11)
-    ax.tick_params(axis="y", length=0)
-    ax.set_xlim(0, 3400)
-    ax.set_xticks([])
-    ax.spines["bottom"].set_visible(False)
-    finish(fig, "MOU는 많았고, 돈은 적었다",
-           "한국-우크라이나 재건 협력: 발표·약정·양해각서 vs 실제 서명·집행 (단위: 백만 달러, 2026년 10월 확인 기준)",
-           "자료: Korea Times(2023.9.10), 우크라이나 내각(2024.4.19·10.2), Korea JoongAng Daily(2023.11), 우크라이나 지역개발부(2025.9.17).\n2026.7 이재명 대통령의 1억 달러 지원 발표는 세부 내용 미확정으로 제외. 막대 길이는 금액 비례.",
+    fig, ax = plt.subplots(figsize=(12, 7.4))
+    fig.subplots_adjust(left=0.02, right=0.98, top=0.83, bottom=0.13)
+    ax.axis("off")
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.text(0.01, 0.98, "구분", fontsize=12, fontweight="bold", color=INK, va="top")
+    ax.text(0.24, 0.98, "자료에서 확인한 내용", fontsize=12, fontweight="bold", color=INK, va="top")
+    ax.text(0.71, 0.98, "구분해야 할 것", fontsize=12, fontweight="bold", color=INK, va="top")
+    ax.axhline(0.90, color=GREY, lw=1)
+    for i, (label, detail, meaning, color) in enumerate(rows):
+        y = 0.83 - i * 0.17
+        ax.text(0.01, y, label, fontsize=12.5, fontweight="bold", color=color, va="top")
+        ax.text(0.24, y, detail, fontsize=11, color=INK, va="top", linespacing=1.55)
+        ax.text(0.71, y, meaning, fontsize=11, color=color, va="top", linespacing=1.55)
+        ax.axhline(y - 0.13, color=LIGHT, lw=0.8)
+    finish(fig, "한국의 전쟁 지원과 재건 계약은 별개의 평가 대상이다",
+           "포탄·인도지원의 기여를 차관 한 줄로 재지 않는다. 약정·MOU를 확정 수주로 계산하지 않는다.",
+           "자료: 연합뉴스(2023.12.5, WP 인용), 외교부(2024.6.13), 우크라이나 내각(2024.4.19·10.2), 공항 MOU·철도 협력 자료.\n시점과 성격이 다른 항목을 합산하지 않음. 포탄 총량·최종 경로 및 이후 모든 기업의 계약·집행을 전수 확인한 표가 아님.",
            "06_korea.png")
 
 
