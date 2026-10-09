@@ -8,17 +8,17 @@
 
 **우크라이나는 재건을 먼저 '시장'으로 팔았다. 그것도 아주 큰 소리로.**
 
-2022년 7월 4일, 스위스 루가노. 개전 넉 달 만에 우크라이나 정부는 국가 회복계획을 들고 나왔다. 2032년까지 7,500억 달러 이상을 쓰고, 사업은 850여 개, 목표는 연평균 7% 이상의 성장이었다.[62][63]
+2022년 7월 4일, 스위스 루가노. 개전 넉 달 만에 우크라이나 정부는 국가 회복계획을 들고 나왔다. 2032년까지 7,500억 달러 이상을 쓰고, 사업은 850여 개, 목표는 연평균 7% 이상의 성장이었다.[[62]](https://cdn.prod.website-files.com/621f88db25fbf24758792dd8/62c166751fcf41105380a733_NRC%20Ukraine%27s%20Recovery%20Plan%20blueprint_ENG.pdf)[[63]](https://ukraineinvest.gov.ua/en/news/15-07-22-2/)
 
-우크라이나는 같은 무렵 각국에 피해 지역을 하나씩 맡기는 '후원 지도'까지 내밀었다. 어느 나라가 어느 지역을 책임질지를 돈 받을 쪽이 정해 준 셈이다. 이 구상은 덴마크-미콜라이우 한 쌍만 남기고 흐지부지됐다.[50]
+우크라이나는 같은 무렵 각국에 피해 지역을 하나씩 맡기는 '후원 지도'까지 내밀었다. 어느 나라가 어느 지역을 책임질지를 돈 받을 쪽이 정해 준 셈이다. 이 구상은 덴마크-미콜라이우 한 쌍만 남기고 흐지부지됐다.[[50]](https://www.kyivpost.com/post/29917)
 
-루가노 회의가 끝난 다음 날인 7월 6일, 서울에서는 우크라이나 의원들이 국토교통부 장관을 찾아와 마리우폴 재건을 맡아 달라고 했다. 국토부는 보도자료에 "7,500억불 규모의 전후 우크라이나 재건사업"에 우리 기업의 참여가 늘 것이라고 적었다. 그때 마리우폴은 이미 러시아 손에 있었다.[12][59][13]
+루가노 회의가 끝난 다음 날인 7월 6일, 서울에서는 우크라이나 의원들이 국토교통부 장관을 찾아와 마리우폴 재건을 맡아 달라고 했다. 국토부는 보도자료에 "7,500억불 규모의 전후 우크라이나 재건사업"에 우리 기업의 참여가 늘 것이라고 적었다. 그때 마리우폴은 이미 러시아 손에 있었다.[[12]](https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?id=95086933)[[59]](https://www.etnews.com/20220706000197)[[13]](https://triblive.com/news/world/russia-claims-to-have-taken-full-control-of-mariupol)
 
-2023년 5월에는 우크라이나 경제장관 스비리덴코가 서울에서 한국으로부터 "최대 80억 달러"의 초저리 차관을 끌어오게 됐다고 발표했다. 40년 만기에 연 0.15%라는 조건이었다.[109] 그런데 한국이 실제로 맺은 기본약정 한도는 21억 달러이고, 실제로 서명된 개별 차관은 1억 달러다.[18][19]
+2023년 5월에는 우크라이나 경제장관 스비리덴코가 서울에서 한국으로부터 "최대 80억 달러"의 초저리 차관을 끌어오게 됐다고 발표했다. 40년 만기에 연 0.15%라는 조건이었다.[[109]](https://ukrinform.net/rubric-economy/3710300-ukraine-to-attract-up-to-8b-from-korea-on-preferential-terms.html) 그런데 한국이 실제로 맺은 기본약정 한도는 21억 달러이고, 실제로 서명된 개별 차관은 1억 달러다.[[18]](https://www.kmu.gov.ua/en/news/ukraina-otrymaie-mozhlyvist-zaluchaty-kredytni-resursy-zahalnym-obsiahom-do-21-mlrd-vid-pivdennoi-korei-uriady-krain-pidpysaly-vidpovidnu-uhodu)[[19]](https://www.kmu.gov.ua/en/news/ukraina-vpershe-otrymaie-pilhove-finansuvannia-vid-respubliky-koreia-serhii-marchenko-pidpysav-kredytnyi-dohovir-na-100-mln-dolariv-ssha)
 
-청구서는 해마다 커졌다. 세계은행 평가의 10년 재건 필요액은 2022년 3,490억 달러에서 2026년 5,877억 달러로 늘었다.[2] 2026년 1월에는 '번영계획(Prosperity Plan)'이라는 이름으로 8,000억 달러가 등장했다. 전쟁 전 우크라이나 GDP의 약 네 배다.[3][48]
+청구서는 해마다 커졌다. 세계은행 평가의 10년 재건 필요액은 2022년 3,490억 달러에서 2026년 5,877억 달러로 늘었다.[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf) 2026년 1월에는 '번영계획(Prosperity Plan)'이라는 이름으로 8,000억 달러가 등장했다. 전쟁 전 우크라이나 GDP의 약 네 배다.[[3]](https://me.gov.ua/News/Detail/a39127c6-0df8-4880-b795-74150fd0c278?isSpecial=true&lang=uk-UA&title=UkraineProsperityPlan)[[48]](https://kyivindependent.com/what-we-know-about-ukraines-800-billion-economic-peace-plan/)
 
-재건회의도 매번 숫자 잔치였다. 2026년 6월 그단스크 재건회의에서 스비리덴코 총리는 "160건, 100억 유로 이상의 합의"를 성과로 내세웠다. 그 안에는 EU가 이미 다른 자리에서 결정한 대출의 첫 회차 32억 유로와 세계은행과의 34억 달러 협정이 들어 있었다.[110]
+재건회의도 매번 숫자 잔치였다. 2026년 6월 그단스크 재건회의에서 스비리덴코 총리는 "160건, 100억 유로 이상의 합의"를 성과로 내세웠다. 그 안에는 EU가 이미 다른 자리에서 결정한 대출의 첫 회차 32억 유로와 세계은행과의 34억 달러 협정이 들어 있었다.[[110]](https://euperspectives.eu/2026/06/gdansk-conference-brings-e10bn-to-impoverished-kyiv/)
 
 메시지는 처음부터 일관됐다. 역사상 최대의 재건 시장이 열리니 끼고 싶으면 줄을 서라. **돈을 받을 쪽이 오히려 참여 기회를 나눠 주는 쪽처럼 굴었다.**
 
@@ -28,7 +28,7 @@
 
 2023년 여름, 삼부토건 주가는 두 달 만에 다섯 배 가까이 뛰었다. 이유는 우크라이나 재건 기대였다.
 
-그로부터 3년 뒤 이 회사의 2026년 반기보고서를 보면 해외사업 매출은 0원이다. 2024년에도, 2025년에도 0원이었다. 그사이 수사기관은 관련자들이 재건 테마로 주가를 띄운 뒤 주식을 팔아 369억원의 부당이득을 챙겼다며 기소했다.[65][67]
+그로부터 3년 뒤 이 회사의 2026년 반기보고서를 보면 해외사업 매출은 0원이다. 2024년에도, 2025년에도 0원이었다. 그사이 수사기관은 관련자들이 재건 테마로 주가를 띄운 뒤 주식을 팔아 369억원의 부당이득을 챙겼다며 기소했다.[[65]](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004299&dcmNo=11540645&eleId=13&offset=164355&length=24051&dtd=dart4.xsd)[[67]](https://mobile.newsis.com/view_amp.html?ar_id=NISX20250926_0003345388)
 
 우크라이나에서 공사를 한 건도 하지 않고도 돈을 번 사람이 있을 수 있다는 뜻이다. 재건은 아직 오지 않았는데 재건에 대한 기대는 이미 팔렸다.
 
@@ -40,7 +40,7 @@
 4. 실제로 **지급된** 돈
 5. 투자자가 **회수한** 돈
 
-다섯 가지 돈은 크기도, 시점도, 주인도 다르다. 떠벌린 숫자는 대부분 1번과 2번이다. 실제로 오간 돈은 4번과 5번인데, 세계은행 집계로 2022~2025년 실제로 채워진 재건 필요액은 203억 달러, 10년 필요액의 3.5%에 불과하다.[2] **그런데 재건 담론은 이 다섯을 이어 붙여 하나의 거대한 시장처럼 판다. 내가 이것을 사기극이라고 부르는 이유다.**
+다섯 가지 돈은 크기도, 시점도, 주인도 다르다. 떠벌린 숫자는 대부분 1번과 2번이다. 실제로 오간 돈은 4번과 5번인데, 세계은행 집계로 2022~2025년 실제로 채워진 재건 필요액은 203억 달러, 10년 필요액의 3.5%에 불과하다.[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf) **그런데 재건 담론은 이 다섯을 이어 붙여 하나의 거대한 시장처럼 판다. 내가 이것을 사기극이라고 부르는 이유다.**
 
 이 글이 따지려는 것은 전쟁 피해를 도울지 말지가 아니다. 비판의 대상은 셋이다.
 
@@ -56,7 +56,7 @@
 
 **침공이 엄청난 피해를 준 것은 맞다. 그러나 침공 전의 우크라이나가 멀쩡했던 것은 아니다.**
 
-1990년의 실질 GDP를 100으로 놓으면 2021년 우크라이나는 62.9다. 전면 침공 직전까지 31년 동안 독립 당시의 경제 규모를 끝내 회복하지 못했다. 같은 기간 이웃 나라들의 성적은 이렇다.[5]
+1990년의 실질 GDP를 100으로 놓으면 2021년 우크라이나는 62.9다. 전면 침공 직전까지 31년 동안 독립 당시의 경제 규모를 끝내 회복하지 못했다. 같은 기간 이웃 나라들의 성적은 이렇다.[[5]](https://api.worldbank.org/v2/country/UKR;POL;CZE;SVK;ROU;MDA;EST;LVA;LTU/indicator/NY.GDP.MKTP.KD?format=json&date=1990:2021&per_page=20000)
 
 | 국가 | 2021년 실질 GDP (1990=100) |
 |---|---:|
@@ -70,17 +70,17 @@
 | 몰도바 | 86.0 |
 | **우크라이나** | **62.9** |
 
-유럽의 가난한 나라로 꼽히는 몰도바보다도 뒤처졌다. 2021년 우크라이나의 1인당 GDP는 4,776달러였다. 건물·기계·기반시설에 쓴 투자(총고정자본형성)는 GDP의 13.2%에 그쳤다.[5] 투자하지 않는 나라의 시설은 낡을 수밖에 없다.
+유럽의 가난한 나라로 꼽히는 몰도바보다도 뒤처졌다. 2021년 우크라이나의 1인당 GDP는 4,776달러였다. 건물·기계·기반시설에 쓴 투자(총고정자본형성)는 GDP의 13.2%에 그쳤다.[[5]](https://api.worldbank.org/v2/country/UKR;POL;CZE;SVK;ROU;MDA;EST;LVA;LTU/indicator/NY.GDP.MKTP.KD?format=json&date=1990:2021&per_page=20000) 투자하지 않는 나라의 시설은 낡을 수밖에 없다.
 
 ![침공 이전부터 누적된 시설 문제](images/02_old_infrastructure.png)
 
 다음은 전쟁 전에 우크라이나 정부가 스스로 남긴 기록이다.
 
-- 상수도관의 35%, 하수도관의 38%가 '비상 상태'였다. 수돗물은 36%가 공급 도중에 샜고, 펌프의 30%가 교체 대상이었다. 2021년 내각 문서에 적힌 내용이다.[6]
-- 화력발전 설비의 90%가 설계 수명을 다했다. 2021년 에너지부 장관의 말이다.[7]
-- 기관차의 노후화 수준은 95%였다. 2020년 자료다.[8]
+- 상수도관의 35%, 하수도관의 38%가 '비상 상태'였다. 수돗물은 36%가 공급 도중에 샜고, 펌프의 30%가 교체 대상이었다. 2021년 내각 문서에 적힌 내용이다.[[6]](https://zakon.rada.gov.ua/laws/show/388-2021-р)
+- 화력발전 설비의 90%가 설계 수명을 다했다. 2021년 에너지부 장관의 말이다.[[7]](https://zn.ua/ECONOMICS/v-ukraine-90-enerhoblokov-tes-otrabotali-svoj-resurs-halushchenko.html)
+- 기관차의 노후화 수준은 95%였다. 2020년 자료다.[[8]](https://gmk.center/?p=32065)
 
-세계은행도 2021년에 이미 진단을 내놨다. 전쟁 탓을 할 수 없던 시점이다. 낮은 투자와 낮은 생산성, 그리고 소수의 기득권이 국가를 장악한 '국가 포획'이 문제로 꼽혔다.[4]
+세계은행도 2021년에 이미 진단을 내놨다. 전쟁 탓을 할 수 없던 시점이다. 낮은 투자와 낮은 생산성, 그리고 소수의 기득권이 국가를 장악한 '국가 포획'이 문제로 꼽혔다.[[4]](https://www.worldbank.org/en/brief/2021/09/06/scd-consultations)
 
 **침공 전의 문제는 미뤄 둔 투자와 유지보수였다. 침공 후에는 그 비용이 통째로 '재건 필요액'이라는 이름에 들어갔다.** 전쟁이 부순 것을 고치는 일과, 30년 동안 하지 못한 국가개발을 남의 돈으로 하는 일이 하나의 명분을 함께 쓰게 된 것이다.
 
@@ -94,7 +94,7 @@
 
 **맨 앞에서 본 루가노의 7,500억 달러, 그 원문을 열어 보면 성격이 분명하다.**
 
-계획에는 다음 항목이 들어 있다.[62]
+계획에는 다음 항목이 들어 있다.[[62]](https://cdn.prod.website-files.com/621f88db25fbf24758792dd8/62c166751fcf41105380a733_NRC%20Ukraine%27s%20Recovery%20Plan%20blueprint_ENG.pdf)
 
 - 주택과 지역의 현대화
 - 유럽과 연결되는 물류망
@@ -106,17 +106,17 @@
 
 **소련 시절로 돌아가자는 복구 계획이 아니다. 유럽 수준으로 올라가자는 국가개발 계획이다.**
 
-돈은 누가 내는가. 계획은 전체 자금의 약 3분의 2를 '파트너'가 대야 한다고 적었다. 그 구성은 다음과 같다.[62]
+돈은 누가 내는가. 계획은 전체 자금의 약 3분의 2를 '파트너'가 대야 한다고 적었다. 그 구성은 다음과 같다.[[62]](https://cdn.prod.website-files.com/621f88db25fbf24758792dd8/62c166751fcf41105380a733_NRC%20Ukraine%27s%20Recovery%20Plan%20blueprint_ENG.pdf)
 
 - 파트너의 대출·지분 투자: 2,000억~3,000억 달러
 - 파트너의 보조금: 2,500억~3,000억 달러
 - 민간 자금: 2,500억 달러 이상
 
-같은 시기 KSE가 집계한 직접 물적 피해는 955억 달러였다.[64] 7,500억 달러와의 차이가 전부 허위 청구라는 말은 아니다. 핵심은 따로 있다. **이 구상은 처음부터 부서진 것을 고치는 범위를 훌쩍 넘어섰고, 그 돈의 대부분을 외부에 요구했다.**
+같은 시기 KSE가 집계한 직접 물적 피해는 955억 달러였다.[[64]](https://kse.ua/russia-will-pay/) 7,500억 달러와의 차이가 전부 허위 청구라는 말은 아니다. 핵심은 따로 있다. **이 구상은 처음부터 부서진 것을 고치는 범위를 훌쩍 넘어섰고, 그 돈의 대부분을 외부에 요구했다.**
 
 나는 이런 조달 방식을 도둑놈 심보라고 본다. 우크라이나 국민을 두고 하는 말이 아니다. 자국의 오랜 개발 과제를 전쟁 피해의 명분에 얹어 외국 재정과 민간 자금으로 해결하려는 정부의 방식을 두고 하는 말이다. **돈을 요청할 권리가 있다고 해서 상대방에게 낼 의무가 생기지는 않는다.**
 
-2026년의 8,000억 달러짜리 계획은 이름부터 '재건'이 아니라 '번영'이다.[3]
+2026년의 8,000억 달러짜리 계획은 이름부터 '재건'이 아니라 '번영'이다.[[3]](https://me.gov.ua/News/Detail/a39127c6-0df8-4880-b795-74150fd0c278?isSpecial=true&lang=uk-UA&title=UkraineProsperityPlan)
 
 7,500억, 5,877억, 8,000억. 세 숫자는 범위도 기간도 다르다. 그래도 공통점이 하나 있다. **어느 것도 기업에 지급될 수주 잔고가 아니다.**
 
@@ -124,7 +124,7 @@
 
 ## 4. 5,877억 달러 안에는 건설 시장이 아닌 것이 너무 많다
 
-**세계은행이 2026년 2월 발표한 우크라이나 피해·수요 평가 보고서(RDNA5)의 숫자는 세 개다.**[1][2]
+**세계은행이 2026년 2월 발표한 우크라이나 피해·수요 평가 보고서(RDNA5)의 숫자는 세 개다.**[[1]](https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released)[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf)
 
 - 직접 피해: 1,951억 달러 (2025년 말까지 부서진 자산)
 - 경제·서비스 손실: 6,667억 달러
@@ -149,7 +149,7 @@
 | 기타 8개 부문 | 13.9 | 47.4 | |
 | **합계** | **195.1** | **587.7** | |
 
-*단위는 10억 달러, 자료는 RDNA5[2]. 18개 부문 전체는 부록 `sector_business_analysis.md`에 있다.*
+*단위는 10억 달러, 자료는 RDNA5[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf). 18개 부문 전체는 부록 `sector_business_analysis.md`에 있다.*
 
 이 표에서 보이는 것은 이렇다.
 
@@ -159,7 +159,7 @@
 
 **필요액은 시장 규모가 아니다. 그런데 재건 담론은 이 숫자를 통째로 '먹거리'라고 부른다.**
 
-10년 뒤 이야기는 접어 두고 올해를 보자. RDNA5 발표 당시 2026년 우선사업은 152억4,500만 달러였다. 그중 확보되거나 약속된 재원은 57억6,500만 달러, 부족분은 94억8,000만 달러였다. 62%가 비어 있다.[2]
+10년 뒤 이야기는 접어 두고 올해를 보자. RDNA5 발표 당시 2026년 우선사업은 152억4,500만 달러였다. 그중 확보되거나 약속된 재원은 57억6,500만 달러, 부족분은 94억8,000만 달러였다. 62%가 비어 있다.[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf)
 
 **올해 사업의 돈도 다 채우지 못하면서 10년 총액을 우리 기업의 확정된 먹거리처럼 말하는 것은 순서가 거꾸로다.**
 
@@ -173,7 +173,7 @@
 
 **우크라이나 정부는 지금 자기 수입으로 전쟁 비용조차 감당하지 못한다.**
 
-2025년 재무부 보고서를 보면 숫자는 이렇다.[33]
+2025년 재무부 보고서를 보면 숫자는 이렇다.[[33]](https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf)
 
 - 일반기금 세입(외국 보조금 제외): 2조1,323억 흐리우냐
 - 일반기금 지출: 4조1,889억 흐리우냐
@@ -183,11 +183,11 @@
 
 빚의 규모와 조건도 보자.
 
-- 정부채무는 GDP의 98.2%, 정부가 보증한 채무까지 더하면 101.3%다.[33]
-- 2025년 채무의 약 66%가 양허성 자금(시장보다 유리한 조건의 공적 자금)이고, 새로 빌린 외부 차입의 평균 금리는 약 0.7%다.[33]
-- 같은 시기 국내 1년물 국채 금리는 약 16.4%였다.[33]
-- 2024년에는 유로본드 205억 달러를 재조정하면서 명목 채무를 37% 깎았다.[31]
-- 2026~2029년에 필요한 자금은 약 1,365억 달러다. IMF의 새 프로그램은 81억 달러다.[28]
+- 정부채무는 GDP의 98.2%, 정부가 보증한 채무까지 더하면 101.3%다.[[33]](https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf)
+- 2025년 채무의 약 66%가 양허성 자금(시장보다 유리한 조건의 공적 자금)이고, 새로 빌린 외부 차입의 평균 금리는 약 0.7%다.[[33]](https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf)
+- 같은 시기 국내 1년물 국채 금리는 약 16.4%였다.[[33]](https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf)
+- 2024년에는 유로본드 205억 달러를 재조정하면서 명목 채무를 37% 깎았다.[[31]](https://www.kmu.gov.ua/en/news/ukraina-zavershyla-restrukturyzatsiiu-derzhavnykh-oblihatsii-ta-harantovanykh-derzhavoiu-ievrooblihatsii-na-sumu-205-mlrd-dolariv-ssha)
+- 2026~2029년에 필요한 자금은 약 1,365억 달러다. IMF의 새 프로그램은 81억 달러다.[[28]](https://www.kmu.gov.ua/en/news/minfin-rada-vykonavchykh-dyrektoriv-mvf-skhvalyla-novu-prohramu-rozshyrenoho-finansuvannia-dlia-ukrainy-u-rozmiri-81-mlrd)
 
 평균 0.7%라는 금리는 우크라이나 사업이 안전하다는 증거가 아니다. 외국 정부가 시장보다 훨씬 싸게 빌려준다는 증거일 뿐이다.
 
@@ -207,7 +207,7 @@
 
 **민간 돈이 들어왔다고 공공 부담이 사라지지는 않는다.** 정부 보증과 첫 손실 부담, 보조금이 붙어야 성립하는 거래라면 그 돈도 결국 납세자의 돈이다.
 
-'민간 자금이 들어온다'는 전망에도 조건이 붙어 있다. 국제금융공사(IFC)는 2023년, 개혁이 제한적이면 민간이 필요액의 18%를, 개혁이 성공하면 3분의 1을 조달할 수 있다고 봤다.[56] RDNA5가 제시한 '최대 40%'도 제도 개선과 위험 완화를 전제로 한다.[2] **조건을 지우고 40%만 곱하면 그것은 전망이 아니라 홍보다.**
+'민간 자금이 들어온다'는 전망에도 조건이 붙어 있다. 국제금융공사(IFC)는 2023년, 개혁이 제한적이면 민간이 필요액의 18%를, 개혁이 성공하면 3분의 1을 조달할 수 있다고 봤다.[[56]](https://www.ifc.org/en/insights-reports/2023/private-sector-opportunities-for-a-green-and-resilient-reconstruction-in-ukraine) RDNA5가 제시한 '최대 40%'도 제도 개선과 위험 완화를 전제로 한다.[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf) **조건을 지우고 40%만 곱하면 그것은 전망이 아니라 홍보다.**
 
 ### 사업을 하나하나 열어 보면
 
@@ -224,9 +224,9 @@
 | 부차 주택 (연구 모형) | 기본 복구비 1.06억 유로에 효율 개선비 1.08억~2.12억 유로 추가. 현행 요금으로는 회수에 27~33.6년 | 실제 준공비와 에너지 절감액 |
 | 리비우 M10 산업단지 | EBRD 지분 35%, MIGA 10년 전쟁보증. 1단계 가동, 2026년 3월 2단계 착공 | 임대 수입과 투자 회수 |
 
-*출처: [84][85][86][87][88][106][89][34][90][91][107]*
+*출처: [[84]](https://disclosures.ifc.org/project-detail/SII/49272/elementum-debt)[[85]](https://www.ebrd.com/home/work-with-us/projects/psd/55539.html)[[86]](https://www.ebrd.com/home/news-and-events/news/2025/international-support-for-ukraine-demonstrated-through-major-rai.html)[[87]](https://pppagency.gov.ua/one-more-pilot-public-investment-project-has-begun-preparations-under-the-ukraine-government-ppf/)[[88]](https://www.ebrd.com/home/news-and-events/news/2020/ebrd-supports-first-concession-project-in-ukraine.html)[[106]](https://mindev.gov.ua/storage/app/sites/1/uploaded-files/list-ocikuvan-vlasnika-dp-sk-olviia-2026.pdf)[[89]](https://www.eib.org/en/press/all/2024-453-ukraine-eib-provides-eur14-5-million-to-support-municipal-projects-in-war-torn-cities-of-mykolaiv-and-dnipro)[[34]](https://en.ecoaction.org.ua/wp-content/uploads/2024/03/Executive_Summary_The_Green_Reconstruction_of_the_Residential_Sector.pdf)[[90]](https://www.ebrd.com/home/news-and-events/news/2023/ebrd-invests-in-developing-lviv-industrial-park-in-western-ukraine.html)[[91]](https://ukraineinvest.gov.ua/en/news/27-02-2024-1/)[[107]](https://dragon-capital.com/media/press-releases/dragon-capital-launches-construction-of-phase-ii-of-m10-lviv-industrial-park/)*
 
-공통점이 보인다. **정부 보증, 공여국 보조금, 국제기구 보증을 빼고 나면 제 발로 서 있는 사업이 거의 없다.** 그나마 사업이 굴러갈 조건도 나빠지고 있다. 투자사 Dragon Capital은 2026년 10월 8일 전망에서, 7월 이후 공격이 격화되면서 산업생산 일부가 멈추고 항만과 에너지 사정이 악화됐다고 평가했다.[108]
+공통점이 보인다. **정부 보증, 공여국 보조금, 국제기구 보증을 빼고 나면 제 발로 서 있는 사업이 거의 없다.** 그나마 사업이 굴러갈 조건도 나빠지고 있다. 투자사 Dragon Capital은 2026년 10월 8일 전망에서, 7월 이후 공격이 격화되면서 산업생산 일부가 멈추고 항만과 에너지 사정이 악화됐다고 평가했다.[[108]](https://dragon-capital.com/media/press-releases/onovleniy-makroprognoz-na-2026-2027-roki-ekonomichni-naslidki-posilennya-atak/)
 
 공공사업은 수익이 낮아도 할 수 있다. 다만 그럴 때는 "이건 원조이고, 납세자 돈이 든다"고 솔직하게 말해야 한다. **사업성이 약한 사업을 원조로 하는 것과, 사업성이 좋은 것처럼 민간에 파는 것은 전혀 다른 이야기다.**
 
@@ -238,9 +238,9 @@
 
 **맨 앞에서 본 2022년 7월 6일 서울의 면담으로 돌아가 보자. 우크라이나 의원들은 한국 장관에게 러시아가 점령한 도시의 재건을 맡아 달라고 했다.**
 
-이날 원희룡 당시 국토교통부 장관은 세르기 타루타·안드리 니콜라이옌코 의원, 드미트로 포노마렌코 주한 우크라이나 대사를 만났다. 타루타 의원은 한국의 복구·신도시 경험을 살려 마리우폴을 새로운 기준으로 재건해 달라고 제안했다.[59]
+이날 원희룡 당시 국토교통부 장관은 세르기 타루타·안드리 니콜라이옌코 의원, 드미트로 포노마렌코 주한 우크라이나 대사를 만났다. 타루타 의원은 한국의 복구·신도시 경험을 살려 마리우폴을 새로운 기준으로 재건해 달라고 제안했다.[[59]](https://www.etnews.com/20220706000197)
 
-그보다 47일 앞선 5월 20일, 러시아는 아조우스탈 제철소 함락 이후 마리우폴을 완전히 장악했다고 발표했다.[13] 한국 기업이 들어가 우크라이나 정부의 발주로 공사할 수 있는 도시가 아니었다.
+그보다 47일 앞선 5월 20일, 러시아는 아조우스탈 제철소 함락 이후 마리우폴을 완전히 장악했다고 발표했다.[[13]](https://triblive.com/news/world/russia-claims-to-have-taken-full-control-of-mariupol) 한국 기업이 들어가 우크라이나 정부의 발주로 공사할 수 있는 도시가 아니었다.
 
 수주 기회라고 부르려면 최소한 네 가지가 있어야 한다.
 
@@ -253,7 +253,7 @@
 
 **나는 이것을 마리우폴 재건 사기극이라고 부른다.** 우크라이나 측은 자신들이 제공할 수 없는 현장과 아직 존재하지 않는 공사대금을 '한국의 참여 기회'로 내밀었다. 한국 정부는 그것을 받아 협력 확대를 이야기했다. **책임은 요청한 쪽에만 있지 않다. 그것을 기회처럼 국민에게 전달한 쪽에도 있다.**
 
-그 뒤 마리우폴에서 공사를 하고 있는 쪽은 러시아다. 러시아 시공사는 2026년에도 아파트와 학교의 복구 공사를 발표하고 있다.[60] 망명 중인 마리우폴 시의회는 점령당국이 아파트 900채를 압류했다고 주장한다.[16] 언젠가 이 도시를 되찾더라도, 누구의 건물을 누구의 권리로 고칠지부터 다시 따져야 한다.
+그 뒤 마리우폴에서 공사를 하고 있는 쪽은 러시아다. 러시아 시공사는 2026년에도 아파트와 학교의 복구 공사를 발표하고 있다.[[60]](https://rks-nr.ru/news/273/) 망명 중인 마리우폴 시의회는 점령당국이 아파트 900채를 압류했다고 주장한다.[[16]](https://euromaidanpress.com/2026/05/13/russia-seizes-900-mariupol-apartments-from-owners-it-forced-to-flee/) 언젠가 이 도시를 되찾더라도, 누구의 건물을 누구의 권리로 고칠지부터 다시 따져야 한다.
 
 2022년의 이 제안이 한국 기업의 마리우폴 공사계약이나 대금으로 이어졌다는 기록은 공개 자료 어디에도 없다. 우크라이나 측이 한국의 테마주 세력과 짰다는 증거도 없다. 그럴 필요도 없다. **현장도 돈도 없는 제안이 '수주 기회'라는 말로 돌아다녔다는 사실만으로 충분하다.**
 
@@ -261,9 +261,9 @@
 
 **한국이 우크라이나를 적게 도왔다는 말은 틀렸다.**
 
-2023년 12월 연합뉴스가 인용한 워싱턴포스트 보도에 따르면, 그해 한국이 간접적으로 공급한 155mm 포탄이 유럽 전체의 공급량보다 많았다.[58] 외교부는 2024년에 인도적 지원 2억 달러, 다자기구를 통한 지원 1억 달러, KOICA 사업 약 1억 달러를 설명했다.[61]
+2023년 12월 연합뉴스가 인용한 워싱턴포스트 보도에 따르면, 그해 한국이 간접적으로 공급한 155mm 포탄이 유럽 전체의 공급량보다 많았다.[[58]](https://m-en.yna.co.kr/view/AEN20231205000300315) 외교부는 2024년에 인도적 지원 2억 달러, 다자기구를 통한 지원 1억 달러, KOICA 사업 약 1억 달러를 설명했다.[[61]](https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=375100)
 
-그렇다면 우크라이나가 한국에 내민 '재건 기회'는 어떻게 됐나.[18][19][20][21]
+그렇다면 우크라이나가 한국에 내민 '재건 기회'는 어떻게 됐나.[[18]](https://www.kmu.gov.ua/en/news/ukraina-otrymaie-mozhlyvist-zaluchaty-kredytni-resursy-zahalnym-obsiahom-do-21-mlrd-vid-pivdennoi-korei-uriady-krain-pidpysaly-vidpovidnu-uhodu)[[19]](https://www.kmu.gov.ua/en/news/ukraina-vpershe-otrymaie-pilhove-finansuvannia-vid-respubliky-koreia-serhii-marchenko-pidpysav-kredytnyi-dohovir-na-100-mln-dolariv-ssha)[[20]](https://mindev.gov.ua/en/news/spivpratsia-z-koreiskymy-kompaniiamy-posylyt-stiikist-ukrainskoi-zaliznytsi-oleksii-kuleba)[[21]](https://www.koreajoongangdaily.com/business/kac-hyundai-ec-ink-983m-deal-to-revamp-kyiv-intl-airport/11017714)
 
 - **EDCF 기본약정 21억 달러:** 우크라이나가 발표한 '최대 80억 달러'의 4분의 1 남짓이고, 그마저 쓸 수 있는 한도일 뿐이다.
 - **실제로 서명된 개별 차관 1억 달러:** 건설용이 아니라 재정지원용이다.
@@ -278,9 +278,9 @@
 
 ![삼부토건 일별 가격과 발표 사건](images/07_sambu_daily.png)
 
-**삼부토건 주가는 2023년 5월 15일 1,013원에서 7월 17일 5,010원이 됐다. 두 달 만에 394.6%가 올랐다.** 재건 관련 행사와 정부의 우크라이나 방문을 둘러싼 기대가 이 기간에 몰렸다.[66]
+**삼부토건 주가는 2023년 5월 15일 1,013원에서 7월 17일 5,010원이 됐다. 두 달 만에 394.6%가 올랐다.** 재건 관련 행사와 정부의 우크라이나 방문을 둘러싼 기대가 이 기간에 몰렸다.[[66]](https://www.ilyo.co.kr/?ac=article_view&entry_id=479842)
 
-이제 실적을 보자.[65][102]
+이제 실적을 보자.[[65]](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260814004299&dcmNo=11540645&eleId=13&offset=164355&length=24051&dtd=dart4.xsd)[[102]](https://kind.krx.co.kr/external/2026/05/15/002323/20260515005207/11013.htm)
 
 - 2026년 반기 매출은 약 377억원이고, 그중 해외사업 매출은 0원이다.
 - 2024년과 2025년의 해외사업 매출도 0원이다.
@@ -289,13 +289,13 @@
 
 **주가는 다섯 배가 됐는데 우크라이나 매출은 한 푼도 없었다. 계약대금보다 주식 매각대금이 먼저 들어왔다.**
 
-수사기관은 2025년 관련 경영진 등을 기소했다. 재건 사업을 할 능력도 의사도 없으면서 홍보로 주가를 띄운 뒤 팔았다는 혐의다. 수사기관이 계산한 부당이득은 약 369억원이다. 2026년 7월 기준으로 재판이 진행 중이며 확정판결은 아직 없다.[67][95] 회사는 이후 회생절차와 대규모 감자를 거쳤다. 거래소는 2026년 9월 상장 유지 여부를 기업심사위원회 심의에 부쳤다.[68][96][105]
+수사기관은 2025년 관련 경영진 등을 기소했다. 재건 사업을 할 능력도 의사도 없으면서 홍보로 주가를 띄운 뒤 팔았다는 혐의다. 수사기관이 계산한 부당이득은 약 369억원이다. 2026년 7월 기준으로 재판이 진행 중이며 확정판결은 아직 없다.[[67]](https://mobile.newsis.com/view_amp.html?ar_id=NISX20250926_0003345388)[[95]](https://v.daum.net/v/20260724163709596) 회사는 이후 회생절차와 대규모 감자를 거쳤다. 거래소는 2026년 9월 상장 유지 여부를 기업심사위원회 심의에 부쳤다.[[68]](https://www.mt.co.kr/amp/stock/2026/06/29/2026062916314035715)[[96]](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260831800966&dcmNo=11561863&eleId=0&offset=0&length=0&dtd=HTML)[[105]](https://dart.fss.or.kr/report/viewer.do?rcpNo=20260921800376&dcmNo=11587021&eleId=0&offset=0&length=0&dtd=HTML)
 
-웰바이오텍 주가는 2023년 5월 2일 1,458원에서 7월 28일 4,740원으로 225.1% 올랐다. 재건 기대와 짐바브웨 리튬 사업 기대가 겹쳤다. 특별검사는 부당이득을 처음에 302억원으로 봤다가 2026년 3월 공소장 변경을 신청하며 약 215억원으로 줄였다. 이 사건도 재판 중이다. 회사는 2026년 1월 상장폐지됐고, 같은 달 국보도 상장폐지됐다.[69][97][98]
+웰바이오텍 주가는 2023년 5월 2일 1,458원에서 7월 28일 4,740원으로 225.1% 올랐다. 재건 기대와 짐바브웨 리튬 사업 기대가 겹쳤다. 특별검사는 부당이득을 처음에 302억원으로 봤다가 2026년 3월 공소장 변경을 신청하며 약 215억원으로 줄였다. 이 사건도 재판 중이다. 회사는 2026년 1월 상장폐지됐고, 같은 달 국보도 상장폐지됐다.[[69]](https://v.daum.net/v/VxCmJt4qcf)[[97]](https://stock.mk.co.kr/news/disclosure/template/855739)[[98]](https://v.daum.net/v/20260123105034883)
 
 ![한국 재건 테마주 동일 기간 비교](images/08_korean_stocks_comparison.png)
 
-같은 기간(2023년 5월 15일~7월 17일) 재건 테마로 묶였던 종목들은 다음과 같다.[70][71]
+같은 기간(2023년 5월 15일~7월 17일) 재건 테마로 묶였던 종목들은 다음과 같다.[[70]](https://api.finance.naver.com/siseJson.naver?symbol=001470&requestType=1&startTime=20230515&endTime=20230731&timeframe=day)[[71]](https://www.dasannetworks.com/sub/sub03_04.php?category=2023)
 
 | 종목 | 최고 종가까지 상승률 | 실물 사업 |
 |---|---:|---|
@@ -305,7 +305,7 @@
 | 대모 | +33.4% | 굴착기 부착장비를 실제로 생산 |
 | 현대에버다임 | +21.1% | 건설기계를 실제로 수출 |
 
-실제 장비를 만드는 대모, 현대에버다임, 다산네트웍스를 삼부토건과 같은 범주로 묶을 수는 없다. 그러나 이 회사들에서도 재건 수혜가 주주의 수익으로 이어지지는 않았다. 2023년 5월 15일부터 2026년 10월 8일까지 주가는 대모 -51.3%, 현대에버다임 -13.1%, 다산네트웍스 -20.5%였다.[70]
+실제 장비를 만드는 대모, 현대에버다임, 다산네트웍스를 삼부토건과 같은 범주로 묶을 수는 없다. 그러나 이 회사들에서도 재건 수혜가 주주의 수익으로 이어지지는 않았다. 2023년 5월 15일부터 2026년 10월 8일까지 주가는 대모 -51.3%, 현대에버다임 -13.1%, 다산네트웍스 -20.5%였다.[[70]](https://api.finance.naver.com/siseJson.naver?symbol=001470&requestType=1&startTime=20230515&endTime=20230731&timeframe=day)
 
 **좋은 뉴스가 뜨면 주가가 뛰고, 먼저 산 사람이 판다. 늦게 들어온 사람은 사업 성과를 기다린다. 사업이 나오지 않으면 그 기다림의 비용만 남는다.** 재건이 실제로 되든 안 되든, 손익은 그 전에 이미 갈렸다.
 
@@ -317,7 +317,7 @@
 
 **재건 기대 장사는 한국 테마주만의 일이 아니다.**
 
-**Ferrexpo**는 우크라이나에 실제 광산을 가진 회사다. 2025년 5월 1일 미국·우크라이나 광물협정 소식이 나오자 주가가 장중 19.52% 뛰었다.[103] 그런데 2026년 상반기 실적은 이렇다.[72]
+**Ferrexpo**는 우크라이나에 실제 광산을 가진 회사다. 2025년 5월 1일 미국·우크라이나 광물협정 소식이 나오자 주가가 장중 19.52% 뛰었다.[[103]](https://www.itiger.com/news/2481271136) 그런데 2026년 상반기 실적은 이렇다.[[72]](https://www.ferrexpo.com/media/nl5nlb2l/ferrexpo-2026-interim-results_website_final.pdf)
 
 - 생산 -54%
 - 매출 -57% (약 1억9,600만 달러)
@@ -326,18 +326,18 @@
 
 결국 회사는 9월에 1억 달러를 증자했다. **평화 뉴스에 주가는 뛰었지만 광산은 돈을 벌지 못했다.**
 
-**HANetf의 'UKRN' 우크라이나 재건 ETF**는 2026년 3월에 출시됐다. 10월 8일 공식 보유종목 기준으로 미국 비중은 43.88%, 우크라이나 비중은 0.18%다. 담긴 종목은 Emerson, Siemens Energy, BAE Systems 같은 글로벌 대기업이다.[73]
+**HANetf의 'UKRN' 우크라이나 재건 ETF**는 2026년 3월에 출시됐다. 10월 8일 공식 보유종목 기준으로 미국 비중은 43.88%, 우크라이나 비중은 0.18%다. 담긴 종목은 Emerson, Siemens Energy, BAE Systems 같은 글로벌 대기업이다.[[73]](https://hanetf.com/fund/ukrn-defiance-ukraine-reconstruction-etf/)
 
-이름은 우크라이나 재건인데 돈은 미국 주식으로 간다. 운용사는 재건이 되든 안 되든 연 0.65%의 보수를 받는다. 자산이 1,880만 유로라면 1년에 약 12만 유로다.[73]
+이름은 우크라이나 재건인데 돈은 미국 주식으로 간다. 운용사는 재건이 되든 안 되든 연 0.65%의 보수를 받는다. 자산이 1,880만 유로라면 1년에 약 12만 유로다.[[73]](https://hanetf.com/fund/ukrn-defiance-ukraine-reconstruction-etf/)
 
 나머지는 대부분 양해각서다.
 
-- 폴란드 건설 3사의 재건 협력 MOU (2026년 5월)[74]
-- Siemens Energy와 Naftogaz의 MOU (2026년 10월 5일). 수량·가격·금융 조건은 미정이다.[75]
-- AECOM의 재건 자문 MOU (2023년). 연차보고서(10-K)에 재건 매출이 따로 공시되지 않았다.[77][78]
-- Bechtel의 MOU (2023년)[104]
+- 폴란드 건설 3사의 재건 협력 MOU (2026년 5월)[[74]](https://www.gov.pl/web/aktywa-panstwowe/synergia-dla-odbudowy-ukrainy--podpisanie-porozumienia-o-wspolpracy-na-rzecz-odbudowy-ukrainy-w-ministerstwie-aktywow-panstwowych)
+- Siemens Energy와 Naftogaz의 MOU (2026년 10월 5일). 수량·가격·금융 조건은 미정이다.[[75]](https://www.naftogaz.com/en/news/naftogaz-and-siemens-energy-sign-memorandum-on-energy-security-and-underground-gas-storage-modernisation)
+- AECOM의 재건 자문 MOU (2023년). 연차보고서(10-K)에 재건 매출이 따로 공시되지 않았다.[[77]](https://aecom.com/press-releases/aecom-to-serve-as-infrastructure-delivery-advisor-for-ukraine-reconstruction/)[[78]](https://www.sec.gov/Archives/edgar/data/868857/000086885725000013/acm-20250930.htm)
+- Bechtel의 MOU (2023년)[[104]](https://restoration.gov.ua/blog/agentstvo-vidnovlennya-spivpraczyuvatyme-z-liderom-u-sferi-inzhyniryngu-ta-budivnycztva-korporacziyeyu-bechtel/)
 
-돈이 실제로 오간 사례는 따로 있다. 이탈리아 Buzzi는 2024년 우크라이나 시멘트 사업을 CRH에 1억 유로에 팔았다.[76] **돈을 확실히 손에 쥔 쪽은 재건에 투자한 쪽이 아니라 우크라이나에서 빠져나간 쪽이었다.**
+돈이 실제로 오간 사례는 따로 있다. 이탈리아 Buzzi는 2024년 우크라이나 시멘트 사업을 CRH에 1억 유로에 팔았다.[[76]](https://www.buzzi.com/w/completata-la-cessione-delle-attivita-in-ucraina) **돈을 확실히 손에 쥔 쪽은 재건에 투자한 쪽이 아니라 우크라이나에서 빠져나간 쪽이었다.**
 
 재건으로 먼저 돈을 버는 길은 정해져 있다. 자문료, 금융상품 보수, 자산 매각대금, 기대감에 오른 주식의 매도 차익. 모두 재건이 성공할 때까지 기다리지 않아도 되는 돈이다. 반대로 사업 운영자와 대출 보증자, 늦게 들어온 투자자, 공여국 납세자는 끝까지 기다려야 한다.
 
@@ -349,20 +349,20 @@
 
 **돈 이야기가 막힐 때마다 나오는 답이 있다. "러시아 동결자산을 쓰면 된다." 이것은 답이 아니라 또 하나의 빈칸이다.**
 
-EU 안에 동결된 러시아 중앙은행 자산은 약 2,100억 유로다.[53] 그러나 동결은 묶어 둔 것이지 빼앗은 것이 아니다. 소유권은 여전히 러시아에 있고, 러시아가 이 돈을 배상금으로 내겠다고 합의한 적도 없다.
+EU 안에 동결된 러시아 중앙은행 자산은 약 2,100억 유로다.[[53]](https://economy-finance.ec.europa.eu/international-economic-relations/candidate-and-neighbouring-countries/ukraine_en) 그러나 동결은 묶어 둔 것이지 빼앗은 것이 아니다. 소유권은 여전히 러시아에 있고, 러시아가 이 돈을 배상금으로 내겠다고 합의한 적도 없다.
 
 지금 실제로 쓰이는 것은 원금이 아니다.
 
-- **G7의 ERA 대출(약 500억 달러):** 동결자산에서 나오는 수익으로 갚는 대출이다. 수익이 줄면 부족분은 누군가 메워야 한다.[53]
-- **EU의 900억 유로 대출(2026~2027년):** 러시아 자산이 아니라 EU가 시장에서 빌린 돈이다. 우크라이나는 러시아가 배상해야 갚는다.[24][25] **러시아가 끝내 배상하지 않으면 EU가 진 빚은 그대로 EU 납세자에게 남는다.**
+- **G7의 ERA 대출(약 500억 달러):** 동결자산에서 나오는 수익으로 갚는 대출이다. 수익이 줄면 부족분은 누군가 메워야 한다.[[53]](https://economy-finance.ec.europa.eu/international-economic-relations/candidate-and-neighbouring-countries/ukraine_en)
+- **EU의 900억 유로 대출(2026~2027년):** 러시아 자산이 아니라 EU가 시장에서 빌린 돈이다. 우크라이나는 러시아가 배상해야 갚는다.[[24]](https://www.eeas.europa.eu/delegations/ukraine/european-council-18-december-2025-ukraine_en)[[25]](https://www.kmu.gov.ua/en/news/minfin-vitaie-rishennia-rady-ies-shchodo-namiru-nadaty-ukraini-90-mlrd-ievro-finansovoi-dopomohy-na-2026-2027-roky) **러시아가 끝내 배상하지 않으면 EU가 진 빚은 그대로 EU 납세자에게 남는다.**
 
-게다가 900억 유로 가운데 600억 유로는 방위비, 300억 유로는 예산 지원이다. 2026년 10월 8일 실제로 집행된 12억4,000만 유로도 드론과 미사일 몫이었다.[26] 재건 공사비가 아니다.
+게다가 900억 유로 가운데 600억 유로는 방위비, 300억 유로는 예산 지원이다. 2026년 10월 8일 실제로 집행된 12억4,000만 유로도 드론과 미사일 몫이었다.[[26]](https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en) 재건 공사비가 아니다.
 
 소송도 걸려 있다.
 
-- 러시아 중앙은행은 모스크바 법원에서 Euroclear를 상대로 약 18조2,000억 루블을 청구했다. 2026년 5월 1심에서 이겼고, Euroclear는 7월 항소가 기각됐다고 밝혔다.[79][80][101]
-- EU 법원에는 러시아 중앙은행이 낸 동결 조치 취소소송(T-150/26)이 걸려 있다.[81][82]
-- Euroclear는 브뤼셀 법원에 맞소송을 냈다.[83]
+- 러시아 중앙은행은 모스크바 법원에서 Euroclear를 상대로 약 18조2,000억 루블을 청구했다. 2026년 5월 1심에서 이겼고, Euroclear는 7월 항소가 기각됐다고 밝혔다.[[79]](https://www.euroclear.com/newsandinsights/en/press/2026/mr-20-euroclear-h1-2026-results.html)[[80]](https://www.cbr.ru/eng/press/PR/?file=639011472901412429OBAUT_E.htm)[[101]](https://apnews.com/article/85750e45d2da06168a72aeb8f41ec53b)
+- EU 법원에는 러시아 중앙은행이 낸 동결 조치 취소소송(T-150/26)이 걸려 있다.[[81]](https://www.cbr.ru/eng/press/pr/?file=639080409737537862OBAUT_E.htm)[[82]](https://eur-lex.europa.eu/legal-content/EN/CASE/?uri=oj%3AC_202602053)
+- Euroclear는 브뤼셀 법원에 맞소송을 냈다.[[83]](https://www.brusselstimes.com/world/2209129/euroclear-sues-russian-central-bank-in-brussels-court)
 
 결과를 예단할 수는 없다. 그러나 하나는 분명하다. **러시아 돈을 재건 재원이라고 부르는 순간, 공사장 위험 위에 소송 위험과 금융 위험이 함께 얹힌다.**
 
@@ -374,20 +374,20 @@ EU 안에 동결된 러시아 중앙은행 자산은 약 2,100억 유로다.[53]
 
 **건물은 사람이 써야 돈이 된다. 그런데 우크라이나에서는 그 사람이 줄고 있다.**
 
-- 2022년 1월 공식 인구는 약 4,117만 명(크림 제외)이었다. 2026년 7월 정부 통제 지역의 인구 추정치는 약 2,900만 명이다. 집계 범위가 달라 차이 전부를 인구 감소로 볼 수는 없지만, 지금 시설을 쓸 사람이 전쟁 전과 다르다는 것은 분명하다.[39][52]
-- 해외 난민은 약 580만 명, 국내 실향민은 약 380만 명이다.[36]
-- 귀국을 계획하거나 희망하는 난민은 49%다. 점령지를 되찾지 못한 채 전쟁이 끝나면, 귀국 가능성이 높다는 응답은 32%로 떨어진다.[36]
-- 취업자는 약 1,070만 명, 연금 수급자는 약 1,020만 명이다. 이 가운데 약 280만 명은 일하는 연금 수급자로 양쪽에 겹친다.[41] 일할 사람과 세원이 줄어드는 가운데 국방·연금·재건이 같은 지갑을 놓고 다툰다.
+- 2022년 1월 공식 인구는 약 4,117만 명(크림 제외)이었다. 2026년 7월 정부 통제 지역의 인구 추정치는 약 2,900만 명이다. 집계 범위가 달라 차이 전부를 인구 감소로 볼 수는 없지만, 지금 시설을 쓸 사람이 전쟁 전과 다르다는 것은 분명하다.[[39]](https://en.interfax.com.ua/news/general/1186657.html)[[52]](https://lv.ukrstat.gov.ua/ukr/help/pb_fig2021/en/chapter_2_1.html)
+- 해외 난민은 약 580만 명, 국내 실향민은 약 380만 명이다.[[36]](https://data.unhcr.org/en/documents/download/123284)
+- 귀국을 계획하거나 희망하는 난민은 49%다. 점령지를 되찾지 못한 채 전쟁이 끝나면, 귀국 가능성이 높다는 응답은 32%로 떨어진다.[[36]](https://data.unhcr.org/en/documents/download/123284)
+- 취업자는 약 1,070만 명, 연금 수급자는 약 1,020만 명이다. 이 가운데 약 280만 명은 일하는 연금 수급자로 양쪽에 겹친다.[[41]](https://kse.ua/about-the-school/news/human-capital-trends-in-ukraine-make-reforms-of-the-labour-market-social-benefits-system-and-education-funding-key-priorities-for-2026-human-capital-chartbook-kse-institute/) 일할 사람과 세원이 줄어드는 가운데 국방·연금·재건이 같은 지갑을 놓고 다툰다.
 
-필요액의 약 19%는 도네츠크주, 6%는 루한스크주 몫이다.[2] 그런데 2026년 초 기준으로 도네츠크주의 78%, 루한스크주의 99.6%가 러시아 점령지다.[42] **조사는 할 수 있다. 그러나 들어갈 수 없는 땅의 필요액은 시장이 아니다.**
+필요액의 약 19%는 도네츠크주, 6%는 루한스크주 몫이다.[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf) 그런데 2026년 초 기준으로 도네츠크주의 78%, 루한스크주의 99.6%가 러시아 점령지다.[[42]](https://news.online.ua/en/deepstate-calculated-the-area-of-ukraine-occupied-by-the-russian-federation-in-2025-900209/) **조사는 할 수 있다. 그러나 들어갈 수 없는 땅의 필요액은 시장이 아니다.**
 
-세계은행조차 현재와 앞으로의 인구를 보고 과잉 투자를 피하라고 권했다. 전쟁 전 도시 배치를 그대로 복제하지 말라는 연구도 있다.[2][43] 그런데 5,877억 달러를 귀국 시나리오별로 나눈 현금흐름표도, 새 시설의 연간 운영·유지비 합계도 어디에도 없다.
+세계은행조차 현재와 앞으로의 인구를 보고 과잉 투자를 피하라고 권했다. 전쟁 전 도시 배치를 그대로 복제하지 말라는 연구도 있다.[[2]](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf)[[43]](https://www.nber.org/papers/w34598) 그런데 5,877억 달러를 귀국 시나리오별로 나눈 현금흐름표도, 새 시설의 연간 운영·유지비 합계도 어디에도 없다.
 
 병원에는 의사가, 학교에는 교사가, 도로에는 보수비가, 수도에는 전기와 약품이 든다. 건설비는 원조로 받아도 운영비는 해마다 나간다. **운영비를 설명하지 않는 재건은 전쟁 전의 '낡은 시설' 문제를 새 시설에서 되풀이한다.**
 
-부패는 이 현금흐름을 직접 갉아먹는다. 반부패수사국(NABU)은 2025년 11월 '미다스' 사건을 공개했다. 국영 원전기업 Energoatom의 협력업체들에 10~15%의 리베이트를 요구하고 약 1억 달러를 세탁한 조직이 있었다는 혐의다. 2026년 7월에는 추가 혐의 통지도 나왔다.[92][93]
+부패는 이 현금흐름을 직접 갉아먹는다. 반부패수사국(NABU)은 2025년 11월 '미다스' 사건을 공개했다. 국영 원전기업 Energoatom의 협력업체들에 10~15%의 리베이트를 요구하고 약 1억 달러를 세탁한 조직이 있었다는 혐의다. 2026년 7월에는 추가 혐의 통지도 나왔다.[[92]](https://nabu.gov.ua/en/news/operatciia-midas-vykryto-vysokorivnevu-zlochynnu-organizatciiu-shcho-diiala-u-sferi-energetyky/)[[93]](https://nabu.gov.ua/en/news/operatciia-midas-nova-pidozra/)
 
-아직 혐의 단계다. 그러나 납품하고도 리베이트를 내야 대금을 받는 구조라면 그 비용은 결국 계약가격과 금융비용에 얹힌다. 국제투명성기구가 발표한 2025년 부패인식지수(36점)는 2025년 9월까지의 자료여서 이 사건을 반영하지도 못했다.[46]
+아직 혐의 단계다. 그러나 납품하고도 리베이트를 내야 대금을 받는 구조라면 그 비용은 결국 계약가격과 금융비용에 얹힌다. 국제투명성기구가 발표한 2025년 부패인식지수(36점)는 2025년 9월까지의 자료여서 이 사건을 반영하지도 못했다.[[46]](https://ti-ukraine.org/en/research/corruption-perceptions-index-2025/)
 
 ---
 
