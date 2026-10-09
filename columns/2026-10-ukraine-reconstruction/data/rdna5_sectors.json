@@ -1,0 +1,128 @@
+[
+  {
+    "sector": "주택",
+    "damage": 61.1,
+    "loss": 25,
+    "needs": 89.8,
+    "gap": 28.7
+  },
+  {
+    "sector": "교육",
+    "damage": 13.9,
+    "loss": 11.7,
+    "needs": 33.5,
+    "gap": 19.6
+  },
+  {
+    "sector": "보건",
+    "damage": 1.8,
+    "loss": 23.1,
+    "needs": 23.6,
+    "gap": 21.8
+  },
+  {
+    "sector": "사회보호",
+    "damage": 0.5,
+    "loss": 18.6,
+    "needs": 42.7,
+    "gap": 42.2
+  },
+  {
+    "sector": "문화·관광",
+    "damage": 4.5,
+    "loss": 31.9,
+    "needs": 11.5,
+    "gap": 7.0
+  },
+  {
+    "sector": "에너지",
+    "damage": 24.8,
+    "loss": 88.2,
+    "needs": 90.6,
+    "gap": 65.8
+  },
+  {
+    "sector": "교통",
+    "damage": 40.3,
+    "loss": 58.9,
+    "needs": 96.3,
+    "gap": 56.0
+  },
+  {
+    "sector": "통신·디지털·미디어",
+    "damage": 2.5,
+    "loss": 2.7,
+    "needs": 7.1,
+    "gap": 4.6
+  },
+  {
+    "sector": "상하수도",
+    "damage": 7.8,
+    "loss": 14.4,
+    "needs": 17.5,
+    "gap": 9.7
+  },
+  {
+    "sector": "도시서비스",
+    "damage": 3.1,
+    "loss": 8,
+    "needs": 7.4,
+    "gap": 4.3
+  },
+  {
+    "sector": "농업",
+    "damage": 12.1,
+    "loss": 78,
+    "needs": 55.3,
+    "gap": 43.2
+  },
+  {
+    "sector": "상공업",
+    "damage": 19.2,
+    "loss": 232.9,
+    "needs": 63.3,
+    "gap": 44.1
+  },
+  {
+    "sector": "관개·수자원",
+    "damage": 0.9,
+    "loss": 1.3,
+    "needs": 12.5,
+    "gap": 11.6
+  },
+  {
+    "sector": "금융·은행",
+    "damage": 0,
+    "loss": 5.2,
+    "needs": 2.1,
+    "gap": 2.1
+  },
+  {
+    "sector": "환경·산림",
+    "damage": 2,
+    "loss": 36,
+    "needs": 3.1,
+    "gap": 1.1
+  },
+  {
+    "sector": "긴급대응·민방위",
+    "damage": 0.4,
+    "loss": 0.8,
+    "needs": 2.7,
+    "gap": 2.3
+  },
+  {
+    "sector": "사법·공공행정",
+    "damage": 0.5,
+    "loss": 3.3,
+    "needs": 1,
+    "gap": 0.5
+  },
+  {
+    "sector": "폭발물 위험 관리",
+    "damage": 0,
+    "loss": 26.7,
+    "needs": 27.6,
+    "gap": 27.6
+  }
+]

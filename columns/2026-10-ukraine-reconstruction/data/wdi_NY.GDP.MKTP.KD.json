@@ -1,0 +1,4620 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 20000,
+    "total": 288,
+    "sourceid": "2",
+    "lastupdated": "2026-10-08"
+  },
+  [
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2021",
+      "value": 214043320221.167,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2020",
+      "value": 205753475017.539,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2019",
+      "value": 217279912681.73,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2018",
+      "value": 209798950825.42,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2017",
+      "value": 204024435232.921,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2016",
+      "value": 193988322685.058,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2015",
+      "value": 189107698561.919,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2014",
+      "value": 180173337874.854,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2013",
+      "value": 176216894659.909,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2012",
+      "value": 176290606021.546,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2011",
+      "value": 177659773382.538,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2010",
+      "value": 174565802522.079,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2009",
+      "value": 169952170270.619,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2008",
+      "value": 178518044754.249,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2007",
+      "value": 173973393346.007,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2006",
+      "value": 164921158024.599,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2005",
+      "value": 154676655549.654,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2004",
+      "value": 145406922288.089,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2003",
+      "value": 138831395778.178,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2002",
+      "value": 134395228572.192,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2001",
+      "value": 132391536300.246,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "2000",
+      "value": 128638858401.092,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1999",
+      "value": 123678521512.351,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1998",
+      "value": 121996963423.806,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1997",
+      "value": 122478487836.036,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1996",
+      "value": 123212636052.806,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1995",
+      "value": 118281953160.126,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1994",
+      "value": 111354158852.668,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1993",
+      "value": 108206108282.012,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1992",
+      "value": 108139165550.882,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1991",
+      "value": 108689725030.78,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "CZ",
+        "value": "Czechia"
+      },
+      "countryiso3code": "CZE",
+      "date": "1990",
+      "value": 122972963913.465,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2021",
+      "value": 28709089435.1187,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2020",
+      "value": 26519903136.8312,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2019",
+      "value": 27307395871.0676,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2018",
+      "value": 26326306710.8582,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2017",
+      "value": 25387062190.0468,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2016",
+      "value": 24032887679.5037,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2015",
+      "value": 23311847750.9394,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2014",
+      "value": 22891074856.6938,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2013",
+      "value": 22154913628.3244,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2012",
+      "value": 21772481344.2301,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2011",
+      "value": 21001309333.0129,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2010",
+      "value": 19516680413.329,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2009",
+      "value": 19050002927.2983,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2008",
+      "value": 22314692031.2014,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2007",
+      "value": 23520174236.2883,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2006",
+      "value": 21864807422.0901,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2005",
+      "value": 19920094036.3597,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2004",
+      "value": 18188037434.5502,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2003",
+      "value": 17029885802.1805,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2002",
+      "value": 15827575405.1485,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2001",
+      "value": 14801394595.5546,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2000",
+      "value": 13979307068.9028,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1999",
+      "value": 12698344018.6504,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1998",
+      "value": 12752545572.9222,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1997",
+      "value": 12222126358.4524,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1996",
+      "value": 10811255302.9678,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1995",
+      "value": 10302024946.6889,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1994",
+      "value": 9855880443.77427,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1993",
+      "value": 10020459395.2769,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1992",
+      "value": 10630714503.4869,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1991",
+      "value": 13485390300.9126,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1990",
+      "value": 14658008309.9357,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2021",
+      "value": 52158046400.3588,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2020",
+      "value": 49023107998.6089,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2019",
+      "value": 49002127329.2631,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2018",
+      "value": 46812540124.5928,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2017",
+      "value": 44618059836.1503,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2016",
+      "value": 42650896790.5078,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2015",
+      "value": 41540954817.2039,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2014",
+      "value": 40396597406.9714,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2013",
+      "value": 38928020774.4147,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2012",
+      "value": 37413912227.1865,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2011",
+      "value": 35842949499.0897,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2010",
+      "value": 33711177146.509,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2009",
+      "value": 33567775753.9873,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2008",
+      "value": 39416661070.6359,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2007",
+      "value": 38417999935.5475,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2006",
+      "value": 34586529059.4547,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2005",
+      "value": 32204827116.6036,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2004",
+      "value": 29893617960.0569,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2003",
+      "value": 28068588415.9846,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2002",
+      "value": 25389513378.757,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2001",
+      "value": 23790809196.6404,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2000",
+      "value": 22342117970.7075,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1999",
+      "value": 21603573442.0349,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1998",
+      "value": 21843195078.8693,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1997",
+      "value": 20326259134.8192,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1996",
+      "value": 18768366411.8313,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1995",
+      "value": 17870049092.5502,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1994",
+      "value": 17300837252.2606,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1993",
+      "value": 19173313226.3411,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1992",
+      "value": 22887185266.0768,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1991",
+      "value": 29066402990.0376,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1990",
+      "value": 30815380533.6334,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2021",
+      "value": 30284070900.4111,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2020",
+      "value": 28318076614.1623,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2019",
+      "value": 29335802338.5259,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2018",
+      "value": 29139005429.8548,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2017",
+      "value": 27935083541.205,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2016",
+      "value": 27016796481.3321,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2015",
+      "value": 26344565876.8902,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2014",
+      "value": 25384188823.064,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2013",
+      "value": 24863312429.9055,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2012",
+      "value": 24352854611.1188,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2011",
+      "value": 22694935010.9107,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2010",
+      "value": 22026145287.9415,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2009",
+      "value": 22863227157.4637,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2008",
+      "value": 27231101091.0587,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2007",
+      "value": 28186253353.8682,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2006",
+      "value": 25527665150.2661,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2005",
+      "value": 22625890637.9303,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2004",
+      "value": 20271313178.6916,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2003",
+      "value": 18644549495.6873,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2002",
+      "value": 17195147700.3185,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2001",
+      "value": 15970900289.3453,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2000",
+      "value": 15001703493.7099,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1999",
+      "value": 14173807644.0021,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1998",
+      "value": 13785282610.3782,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1997",
+      "value": 12937852902.7127,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1996",
+      "value": 11850946177.8588,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1995",
+      "value": 11584507029.7279,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1994",
+      "value": 11694997018.6893,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1993",
+      "value": 11444375654.0447,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1992",
+      "value": 12044553173.3201,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1991",
+      "value": 17743517230.6282,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1990",
+      "value": 20300397396.49,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2021",
+      "value": 9573777856.36482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2020",
+      "value": 8403210632.93021,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2019",
+      "value": 9161406662.06896,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2018",
+      "value": 8847128857.51461,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2017",
+      "value": 8500675703.95748,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2016",
+      "value": 8159947934.63828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2015",
+      "value": 7797667196.73087,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2014",
+      "value": 7824131195.57662,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2013",
+      "value": 7451580071.77113,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2012",
+      "value": 6833561915.89765,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2011",
+      "value": 6874100822.53274,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2010",
+      "value": 6496144351.04957,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2009",
+      "value": 6065494252.61994,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2008",
+      "value": 6452653478.32394,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2007",
+      "value": 5985763886.4747,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2006",
+      "value": 5811421236.26146,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2005",
+      "value": 5545249279.88205,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2004",
+      "value": 5158371415.97847,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2003",
+      "value": 4802952913.19777,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2002",
+      "value": 4505584348.12398,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2001",
+      "value": 4179577330.63921,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "2000",
+      "value": 3939281163.91139,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1999",
+      "value": 3857966190.08457,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1998",
+      "value": 3992441789.3799,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1997",
+      "value": 4271918931.24013,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1996",
+      "value": 4202697785.43658,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1995",
+      "value": 4465115303.68557,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1994",
+      "value": 4528514463.37445,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1993",
+      "value": 6553566538.6324,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1992",
+      "value": 6633164508.28943,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1991",
+      "value": 9355662201.10612,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "MD",
+        "value": "Moldova"
+      },
+      "countryiso3code": "MDA",
+      "date": "1990",
+      "value": 11137693132.5555,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2021",
+      "value": 605337233054.782,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2020",
+      "value": 566120997479.772,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2019",
+      "value": 577884228677.544,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2018",
+      "value": 552573816155.989,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2017",
+      "value": 520089746650.75,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2016",
+      "value": 494605411858.337,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2015",
+      "value": 480054118583.367,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2014",
+      "value": 459682079851.439,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2013",
+      "value": 442340098156.254,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2012",
+      "value": 439333996551.267,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2011",
+      "value": 432791139408.41,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2010",
+      "value": 411181642127.603,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2009",
+      "value": 398551823849.317,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2008",
+      "value": 388394800371.402,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2007",
+      "value": 372083512402.176,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2006",
+      "value": 348521872927.444,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2005",
+      "value": 328168510412.522,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2004",
+      "value": 317805438387.054,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2003",
+      "value": 302410346199.761,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2002",
+      "value": 292117946677.278,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2001",
+      "value": 286667833930.23,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "2000",
+      "value": 283174187558.032,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1999",
+      "value": 270575301764.16,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1998",
+      "value": 258431144714.153,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1997",
+      "value": 247015068311.447,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1996",
+      "value": 232246717071.23,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1995",
+      "value": 218906804615.997,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1994",
+      "value": 202823584825.574,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1993",
+      "value": 192628157713.225,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1992",
+      "value": 185686615837.644,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1991",
+      "value": 181131204775.169,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "PL",
+        "value": "Poland"
+      },
+      "countryiso3code": "POL",
+      "date": "1990",
+      "value": 194797367584.792,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2021",
+      "value": 220789460074.341,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2020",
+      "value": 209105975817.662,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2019",
+      "value": 216910469745.256,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2018",
+      "value": 208647427408.285,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2017",
+      "value": 197967999561.02,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2016",
+      "value": 182972525962.275,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2015",
+      "value": 177885131240.315,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2014",
+      "value": 172441103432.375,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2013",
+      "value": 165624017079.639,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2012",
+      "value": 165163587446.019,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2011",
+      "value": 162078238594.701,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2010",
+      "value": 155105339843.99,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2009",
+      "value": 161409698529.133,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2008",
+      "value": 170834114652.888,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2007",
+      "value": 156287689281.09,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2006",
+      "value": 145744791283.304,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2005",
+      "value": 134912890211.095,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2004",
+      "value": 128895841498.556,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2003",
+      "value": 116723756275.208,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2002",
+      "value": 114053593614.452,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2001",
+      "value": 107900062083.039,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "2000",
+      "value": 102548919722.127,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1999",
+      "value": 100085550636.348,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1998",
+      "value": 100463958892.948,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1997",
+      "value": 102545439457.276,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1996",
+      "value": 107771339314.171,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1995",
+      "value": 103718335742.553,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1994",
+      "value": 97632408355.8641,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1993",
+      "value": 93938788972.5597,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1992",
+      "value": 92524246376.2034,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1991",
+      "value": 101415582149.459,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "RO",
+        "value": "Romania"
+      },
+      "countryiso3code": "ROU",
+      "date": "1990",
+      "value": 116460149704.559,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2021",
+      "value": 102454294896.646,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2020",
+      "value": 96969818857.1148,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2019",
+      "value": 99543529164.3085,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2018",
+      "value": 97328432250.4869,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2017",
+      "value": 93529165482.8938,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2016",
+      "value": 90915584911.6973,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2015",
+      "value": 89178548717.3324,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2014",
+      "value": 84789118561.7889,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2013",
+      "value": 82553606913.1151,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2012",
+      "value": 81977043067.5237,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2011",
+      "value": 80710556384.8384,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2010",
+      "value": 78694079820.7688,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2009",
+      "value": 73690093871.6194,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2008",
+      "value": 77983340266.5833,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2007",
+      "value": 74013706023.7143,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2006",
+      "value": 66788144152.8851,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2005",
+      "value": 61315329710.646,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2004",
+      "value": 57581226217.4214,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2003",
+      "value": 54636588083.9574,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2002",
+      "value": 52105958758.2435,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2001",
+      "value": 49901675269.4696,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2000",
+      "value": 48483456226.779,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1999",
+      "value": 48103809189.8384,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1998",
+      "value": 48332548393.0038,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1997",
+      "value": 46551440140.7428,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1996",
+      "value": 44130510842.8744,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1995",
+      "value": 41585644560.5088,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1994",
+      "value": 39289750244.661,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1993",
+      "value": 36994071827.2028,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1992",
+      "value": 36303816917.8241,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1991",
+      "value": 38919807326.2816,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1990",
+      "value": 45559569012.8021,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2021",
+      "value": 101499127457.564,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2020",
+      "value": 98118341608.386,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2019",
+      "value": 101944118786.821,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2018",
+      "value": 98783535744.1445,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2017",
+      "value": 95453762636.0202,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2016",
+      "value": 93253017277.0895,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2015",
+      "value": 91030967789.0717,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2014",
+      "value": 100891035818.548,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2013",
+      "value": 112199506223.487,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2012",
+      "value": 112148546939.271,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2011",
+      "value": 111977987704.028,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2010",
+      "value": 106195352549.996,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2009",
+      "value": 102020662582.215,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2008",
+      "value": 120217318405.036,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2007",
+      "value": 117579433691.217,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2006",
+      "value": 108652697104.575,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2005",
+      "value": 101005170642.605,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2004",
+      "value": 97995502972.09,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2003",
+      "value": 87656150954.4385,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2002",
+      "value": 80039138412.8861,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2001",
+      "value": 75981969310.6229,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "2000",
+      "value": 69836368849.3183,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1999",
+      "value": 65945579649.8151,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1998",
+      "value": 66077735120.1257,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1997",
+      "value": 67357528156.5426,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1996",
+      "value": 69440750675.7195,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1995",
+      "value": 77156389639.6884,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1994",
+      "value": 87877436947.9924,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1993",
+      "value": 113978517441.132,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1992",
+      "value": 132842094918.75,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1991",
+      "value": 147438507127.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD",
+        "value": "GDP (constant 2015 US$)"
+      },
+      "country": {
+        "id": "UA",
+        "value": "Ukraine"
+      },
+      "countryiso3code": "UKR",
+      "date": "1990",
+      "value": 161487959613.275,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+]

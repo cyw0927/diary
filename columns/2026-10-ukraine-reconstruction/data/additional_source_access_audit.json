@@ -1,0 +1,275 @@
+[
+  {
+    "id": "ukrainvest_lugano",
+    "url": "https://ukraineinvest.gov.ua/en/news/15-07-22-2/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://ukraineinvest.gov.ua/en/news/15-07-22-2/",
+    "extracted_chars": 9436,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "kse_2022",
+    "url": "https://kse.ua/russia-will-pay/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://kse.ua/russia-will-pay/",
+    "extracted_chars": 69784,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "sambu_q1",
+    "url": "https://kind.krx.co.kr/external/2026/05/15/002323/20260515005207/11013.htm",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://kind.krx.co.kr/external/2026/05/15/002323/20260515005207/11013.htm",
+    "extracted_chars": 196050,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ukrn",
+    "url": "https://hanetf.com/fund/ukrn-defiance-ukraine-reconstruction-etf/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://hanetf.com/fund/ukrn-defiance-ukraine-reconstruction-etf/",
+    "extracted_chars": 25288,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ukrn_holdings",
+    "url": "https://etf.hanetf.com/Holdings-UKRN-IE000R8PO127-all-all",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "final_url": "https://hanetf.com/wp-content/assets/upload/Holdings-UKRN-IE000R8PO127-all-all.xlsx?utm_source=HANetf&utm_medium=Holdings+file",
+    "extracted_chars": 11609,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ukrn_factsheet",
+    "url": "https://etf.hanetf.com/Factsheet-UKRN-IE000R8PO127-en",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://hanetf.com/wp-content/assets/upload/Factsheet-UKRN-IE000R8PO127-en.pdf?utm_source=Website&utm_medium=Factsheet",
+    "extracted_chars": 14411,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "elementum",
+    "url": "https://disclosures.ifc.org/project-detail/SII/49272/elementum-debt",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://disclosures.ifc.org/project-detail/SII/49272/elementum-debt",
+    "extracted_chars": 13745,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ukrenergo",
+    "url": "https://www.ebrd.com/home/work-with-us/projects/psd/55539.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.ebrd.com/home/work-with-us/projects/psd/55539.html",
+    "extracted_chars": 20140,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "uz_alstom",
+    "url": "https://www.ebrd.com/home/news-and-events/news/2025/international-support-for-ukraine-demonstrated-through-major-rai.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.ebrd.com/home/news-and-events/news/2025/international-support-for-ukraine-demonstrated-through-major-rai.html",
+    "extracted_chars": 8362,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "m15",
+    "url": "https://pppagency.gov.ua/one-more-pilot-public-investment-project-has-begun-preparations-under-the-ukraine-government-ppf/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://pppagency.gov.ua/one-more-pilot-public-investment-project-has-begun-preparations-under-the-ukraine-government-ppf/",
+    "extracted_chars": 7779,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "kherson_port",
+    "url": "https://www.ebrd.com/home/news-and-events/news/2020/ebrd-supports-first-concession-project-in-ukraine.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.ebrd.com/home/news-and-events/news/2020/ebrd-supports-first-concession-project-in-ukraine.html",
+    "extracted_chars": 7123,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "mykolaiv",
+    "url": "https://www.eib.org/en/press/all/2024-453-ukraine-eib-provides-eur14-5-million-to-support-municipal-projects-in-war-torn-cities-of-mykolaiv-and-dnipro",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.eib.org/en/press/all/2024-453-ukraine-eib-provides-eur14-5-million-to-support-municipal-projects-in-war-torn-cities-of-mykolaiv-and-dnipro",
+    "extracted_chars": 12597,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "m10",
+    "url": "https://www.ebrd.com/home/news-and-events/news/2023/ebrd-invests-in-developing-lviv-industrial-park-in-western-ukraine.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.ebrd.com/home/news-and-events/news/2023/ebrd-invests-in-developing-lviv-industrial-park-in-western-ukraine.html",
+    "extracted_chars": 9174,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "m10_open",
+    "url": "https://ukraineinvest.gov.ua/en/news/27-02-2024-1/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://ukraineinvest.gov.ua/en/news/27-02-2024-1/",
+    "extracted_chars": 7122,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "poland_mou",
+    "url": "https://www.gov.pl/web/aktywa-panstwowe/synergia-dla-odbudowy-ukrainy--podpisanie-porozumienia-o-wspolpracy-na-rzecz-odbudowy-ukrainy-w-ministerstwie-aktywow-panstwowych",
+    "access_result": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+  },
+  {
+    "id": "siemens_mou",
+    "url": "https://www.naftogaz.com/en/news/naftogaz-and-siemens-energy-sign-memorandum-on-energy-security-and-underground-gas-storage-modernisation",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "crh_buzzi",
+    "url": "https://www.buzzi.com/w/completata-la-cessione-delle-attivita-in-ucraina",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.buzzi.com/w/completata-la-cessione-delle-attivita-in-ucraina",
+    "extracted_chars": 2798,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "aecom",
+    "url": "https://aecom.com/press-releases/aecom-to-serve-as-infrastructure-delivery-advisor-for-ukraine-reconstruction/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://aecom.com/press-releases/aecom-to-serve-as-infrastructure-delivery-advisor-for-ukraine-reconstruction/",
+    "extracted_chars": 10804,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ferrexpo_2026",
+    "url": "https://www.ferrexpo.com/media/nl5nlb2l/ferrexpo-2026-interim-results_website_final.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.ferrexpo.com/media/nl5nlb2l/ferrexpo-2026-interim-results_website_final.pdf",
+    "extracted_chars": 292892,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "ferrexpo_2024",
+    "url": "https://www.ferrexpo.com/media/4pflducv/2025-3-19-ferrexpo-full-year-financial-results-for-2024-final-for-release.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.ferrexpo.com/media/4pflducv/2025-3-19-ferrexpo-full-year-financial-results-for-2024-final-for-release.pdf",
+    "extracted_chars": 303368,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "euroclear_h1",
+    "url": "https://www.euroclear.com/newsandinsights/en/press/2026/mr-20-euroclear-h1-2026-results.html",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "cbr_moscow",
+    "url": "https://www.cbr.ru/eng/press/PR/?file=639011472901412429OBAUT_E.htm",
+    "access_result": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": "cbr_eu",
+    "url": "https://www.cbr.ru/eng/press/pr/?file=639080409737537862OBAUT_E.htm",
+    "access_result": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": "eu_case",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62026TN0150",
+    "http_status": 202,
+    "content_type": "text/html",
+    "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62026TN0150",
+    "extracted_chars": 0,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "brussels_case",
+    "url": "https://www.brusselstimes.com/world/2209129/euroclear-sues-russian-central-bank-in-brussels-court",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.brusselstimes.com/world/2209129/euroclear-sues-russian-central-bank-in-brussels-court",
+    "extracted_chars": 1849,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "midas_original",
+    "url": "https://nabu.gov.ua/en/news/operatciia-midas-vykryto-vysokorivnevu-zlochynnu-organizatciiu-shcho-diiala-u-sferi-energetyky/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://nabu.gov.ua/en/news/operatciia-midas-vykryto-vysokorivnevu-zlochynnu-organizatciiu-shcho-diiala-u-sferi-energetyky/",
+    "extracted_chars": 5736,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "midas_update",
+    "url": "https://nabu.gov.ua/en/news/operatciia-midas-nova-pidozra/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://nabu.gov.ua/en/news/operatciia-midas-nova-pidozra/",
+    "extracted_chars": 3350,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "well_correction",
+    "url": "https://v.daum.net/v/VxCmJt4qcf",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://v.daum.net/v/VxCmJt4qcf",
+    "extracted_chars": 3838,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "sambu_indictment",
+    "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20250926_0003345388",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20250926_0003345388",
+    "extracted_chars": 2226,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "sambu_rehab",
+    "url": "https://www.mt.co.kr/amp/stock/2026/06/29/2026062916314035715",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.mt.co.kr/amp/stock/2026/06/29/2026062916314035715",
+    "extracted_chars": 2638,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "trial_latest",
+    "url": "https://v.daum.net/v/20260724163709596",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://v.daum.net/v/20260724163709596",
+    "extracted_chars": 3480,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "well_delist",
+    "url": "https://kr.investing.com/news/global-filings/article-93CH-2055634",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "korea_kiep",
+    "url": "https://www.kiep.kr/galleryDownload.es?bid=0001&list_no=11547&seq=1",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://www.kiep.kr/galleryDownload.es?bid=0001&list_no=11547&seq=1",
+    "extracted_chars": 179801,
+    "access_result": "retrieved; substantive review separate"
+  }
+]

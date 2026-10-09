@@ -1,0 +1,218 @@
+[
+  {
+    "code": "001470",
+    "base": {
+      "code": "001470",
+      "date": "20230515",
+      "open": 17107,
+      "high": 17225,
+      "low": 16973,
+      "close": 16990,
+      "volume": 60552,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak": {
+      "code": "001470",
+      "date": "20230717",
+      "open": 91912,
+      "high": 92247,
+      "low": 82939,
+      "close": 84029,
+      "volume": 3730488,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "end": {
+      "code": "001470",
+      "date": "20230717",
+      "open": 91912,
+      "high": 92247,
+      "low": 82939,
+      "close": 84029,
+      "volume": 3730488,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak_return": 394.5791642142437,
+    "end_return": 394.5791642142437,
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=001470&requestType=1&startTime=20230515&endTime=20230731&timeframe=day"
+  },
+  {
+    "code": "010600",
+    "base": {
+      "code": "010600",
+      "date": "20230515",
+      "open": 1720,
+      "high": 1777,
+      "low": 1652,
+      "close": 1661,
+      "volume": 668966,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak": {
+      "code": "010600",
+      "date": "20230717",
+      "open": 3805,
+      "high": 4060,
+      "low": 3535,
+      "close": 3870,
+      "volume": 48481433,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "end": {
+      "code": "010600",
+      "date": "20230717",
+      "open": 3805,
+      "high": 4060,
+      "low": 3535,
+      "close": 3870,
+      "volume": 48481433,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak_return": 132.9921733895244,
+    "end_return": 132.9921733895244,
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=010600&requestType=1&startTime=20230515&endTime=20230731&timeframe=day"
+  },
+  {
+    "code": "001140",
+    "base": {
+      "code": "001140",
+      "date": "20230515",
+      "open": 0,
+      "high": 0,
+      "low": 0,
+      "close": 6514,
+      "volume": 0,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak": {
+      "code": "001140",
+      "date": "20230525",
+      "open": 10422,
+      "high": 10422,
+      "low": 9484,
+      "close": 10422,
+      "volume": 4142269,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "end": {
+      "code": "001140",
+      "date": "20230717",
+      "open": 7840,
+      "high": 8320,
+      "low": 7760,
+      "close": 8000,
+      "volume": 522392,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak_return": 59.99385937979736,
+    "end_return": 22.81240405280933,
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=001140&requestType=1&startTime=20230515&endTime=20230731&timeframe=day"
+  },
+  {
+    "code": "317850",
+    "base": {
+      "code": "317850",
+      "date": "20230515",
+      "open": 12230,
+      "high": 12500,
+      "low": 12230,
+      "close": 12420,
+      "volume": 117871,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak": {
+      "code": "317850",
+      "date": "20230522",
+      "open": 16200,
+      "high": 18260,
+      "low": 15840,
+      "close": 16570,
+      "volume": 17710609,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "end": {
+      "code": "317850",
+      "date": "20230717",
+      "open": 13870,
+      "high": 14400,
+      "low": 13430,
+      "close": 13500,
+      "volume": 1006440,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak_return": 33.41384863123993,
+    "end_return": 8.695652173913038,
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=317850&requestType=1&startTime=20230515&endTime=20230731&timeframe=day"
+  },
+  {
+    "code": "041440",
+    "base": {
+      "code": "041440",
+      "date": "20230515",
+      "open": 7220,
+      "high": 7270,
+      "low": 7080,
+      "close": 7170,
+      "volume": 110469,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak": {
+      "code": "041440",
+      "date": "20230619",
+      "open": 8600,
+      "high": 8850,
+      "low": 8380,
+      "close": 8680,
+      "volume": 4097248,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "end": {
+      "code": "041440",
+      "date": "20230717",
+      "open": 8140,
+      "high": 8370,
+      "low": 8030,
+      "close": 8080,
+      "volume": 1046783,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak_return": 21.059972105997215,
+    "end_return": 12.691771269177131,
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=041440&requestType=1&startTime=20230515&endTime=20230731&timeframe=day"
+  },
+  {
+    "code": "039560",
+    "base": {
+      "code": "039560",
+      "date": "20230515",
+      "open": 3560,
+      "high": 3560,
+      "low": 3475,
+      "close": 3480,
+      "volume": 71111,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak": {
+      "code": "039560",
+      "date": "20230710",
+      "open": 7300,
+      "high": 7450,
+      "low": 6580,
+      "close": 6900,
+      "volume": 20089557,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "end": {
+      "code": "039560",
+      "date": "20230717",
+      "open": 6440,
+      "high": 6760,
+      "low": 5830,
+      "close": 5940,
+      "volume": 3397528,
+      "provider": "Naver Finance; adjustment not independently certified"
+    },
+    "peak_return": 98.27586206896552,
+    "end_return": 70.6896551724138,
+    "url": "https://api.finance.naver.com/siseJson.naver?symbol=039560&requestType=1&startTime=20230515&endTime=20230731&timeframe=day"
+  }
+]

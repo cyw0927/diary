@@ -1,0 +1,529 @@
+[
+  {
+    "id": "old_01_0",
+    "url": "https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released",
+    "extracted_chars": 11761,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_02_0",
+    "url": "https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf",
+    "extracted_chars": 187726,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_03_0",
+    "url": "https://me.gov.ua/News/Detail/a39127c6-0df8-4880-b795-74150fd0c278?isSpecial=true&lang=uk-UA&title=UkraineProsperityPlan",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://me.gov.ua/News/Detail/a39127c6-0df8-4880-b795-74150fd0c278?isSpecial=true&lang=uk-UA&title=UkraineProsperityPlan",
+    "extracted_chars": 3576,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_04_0",
+    "url": "https://www.worldbank.org/en/brief/2021/09/06/scd-consultations",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.worldbank.org/en/brief/2021/09/06/scd-consultations",
+    "extracted_chars": 6977,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_04_1",
+    "url": "https://thedocs.worldbank.org/en/doc/76b8952cdeee76b061cb9ced4baaee80-0080062021/original/Ukraine-SCD-2021-en.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://thedocs.worldbank.org/en/doc/76b8952cdeee76b061cb9ced4baaee80-0080062021/original/Ukraine-SCD-2021-en.pdf",
+    "extracted_chars": 178203,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_05_0",
+    "url": "https://data.worldbank.org/country/ukraine",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://data.worldbank.org/country/ukraine",
+    "extracted_chars": 7899,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_06_0",
+    "url": "https://zakon.rada.gov.ua/laws/show/388-2021-р",
+    "access_result": "'ascii' codec can't encode character '\\u0440' in position 24: ordinal not in range(128)"
+  },
+  {
+    "id": "old_07_0",
+    "url": "https://zn.ua/ECONOMICS/v-ukraine-90-enerhoblokov-tes-otrabotali-svoj-resurs-halushchenko.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://zn.ua/ECONOMICS/v-ukraine-90-enerhoblokov-tes-otrabotali-svoj-resurs-halushchenko.html",
+    "extracted_chars": 8164,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_08_0",
+    "url": "https://gmk.center/?p=32065",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://gmk.center/ua/news/ukrzaliznicya-u-2021-rotsi-vydilyt-na-remont-lokomotyviv-4-7-mlrd-grn/",
+    "extracted_chars": 4679,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_09_0",
+    "url": "https://ti-ukraine.org/en/news/no-progress-ukraine-s-result-in-the-corruption-perceptions-index-2021/",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_10_0",
+    "url": "https://fragilestatesindex.org/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://fragilestatesindex.org/",
+    "extracted_chars": 972,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_11_0",
+    "url": "https://www.imf.org/external/datamapper/",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_12_0",
+    "url": "https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?id=95086933",
+    "access_result": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
+  },
+  {
+    "id": "old_13_0",
+    "url": "https://triblive.com/news/world/russia-claims-to-have-taken-full-control-of-mariupol",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://archive.triblive.com/news/world/russia-claims-to-have-taken-full-control-of-mariupol/",
+    "extracted_chars": 9931,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_14_0",
+    "url": "https://www.aljazeera.com/news/2022/10/12/un-condemns-russias-move-to-annex-parts-of-ukraine",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.aljazeera.com/news/2022/10/12/un-condemns-russias-move-to-annex-parts-of-ukraine",
+    "extracted_chars": 5182,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_15_0",
+    "url": "https://www.sanjuandailystar.com/post/russian-occupied-mariupol-everything-ukrainian-must-go",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.sanjuandailystar.com/post/russian-occupied-mariupol-everything-ukrainian-must-go",
+    "extracted_chars": 8963,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_16_0",
+    "url": "https://euromaidanpress.com/2026/05/13/russia-seizes-900-mariupol-apartments-from-owners-it-forced-to-flee/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://euromaidanpress.com/2026/05/13/russia-seizes-900-mariupol-apartments-from-owners-it-forced-to-flee/",
+    "extracted_chars": 8516,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_17_0",
+    "url": "https://www.koreatimes.co.kr/foreignaffairs/20230910/seoul-pledges-23-bil-aid-package-to-rebuild-ukraine",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.koreatimes.co.kr/foreignaffairs/20230910/seoul-pledges-23-bil-aid-package-to-rebuild-ukraine",
+    "extracted_chars": 6630,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_18_0",
+    "url": "https://www.kmu.gov.ua/en/news/ukraina-otrymaie-mozhlyvist-zaluchaty-kredytni-resursy-zahalnym-obsiahom-do-21-mlrd-vid-pivdennoi-korei-uriady-krain-pidpysaly-vidpovidnu-uhodu",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.kmu.gov.ua/en/news/ukraina-otrymaie-mozhlyvist-zaluchaty-kredytni-resursy-zahalnym-obsiahom-do-21-mlrd-vid-pivdennoi-korei-uriady-krain-pidpysaly-vidpovidnu-uhodu",
+    "extracted_chars": 10180,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_19_0",
+    "url": "https://www.kmu.gov.ua/en/news/ukraina-vpershe-otrymaie-pilhove-finansuvannia-vid-respubliky-koreia-serhii-marchenko-pidpysav-kredytnyi-dohovir-na-100-mln-dolariv-ssha",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.kmu.gov.ua/en/news/ukraina-vpershe-otrymaie-pilhove-finansuvannia-vid-respubliky-koreia-serhii-marchenko-pidpysav-kredytnyi-dohovir-na-100-mln-dolariv-ssha",
+    "extracted_chars": 9505,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_20_0",
+    "url": "https://mindev.gov.ua/en/news/spivpratsia-z-koreiskymy-kompaniiamy-posylyt-stiikist-ukrainskoi-zaliznytsi-oleksii-kuleba",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://mininfra.gov.ua/en/news/spivpratsia-z-koreiskymy-kompaniiamy-posylyt-stiikist-ukrainskoi-zaliznytsi-oleksii-kuleba",
+    "extracted_chars": 7976,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_21_0",
+    "url": "https://www.koreajoongangdaily.com/business/kac-hyundai-ec-ink-983m-deal-to-revamp-kyiv-intl-airport/11017714",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.koreajoongangdaily.com/business/kac-hyundai-ec-ink-983m-deal-to-revamp-kyiv-intl-airport/11017714",
+    "extracted_chars": 5238,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_22_0",
+    "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000189716",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000189716",
+    "extracted_chars": 5328,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_23_0",
+    "url": "https://enlargement.ec.europa.eu/funding-technical-assistance/ukraine-facility_en",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://enlargement.ec.europa.eu/funding-technical-assistance/ukraine-facility_en",
+    "extracted_chars": 15373,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_24_0",
+    "url": "https://www.eeas.europa.eu/delegations/ukraine/european-council-18-december-2025-ukraine_en",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.eeas.europa.eu/delegations/ukraine/european-council-18-december-2025-ukraine_en",
+    "extracted_chars": 13055,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_25_0",
+    "url": "https://www.kmu.gov.ua/en/news/minfin-vitaie-rishennia-rady-ies-shchodo-namiru-nadaty-ukraini-90-mlrd-ievro-finansovoi-dopomohy-na-2026-2027-roky",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.kmu.gov.ua/en/news/minfin-vitaie-rishennia-rady-ies-shchodo-namiru-nadaty-ukraini-90-mlrd-ievro-finansovoi-dopomohy-na-2026-2027-roky",
+    "extracted_chars": 9751,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_26_0",
+    "url": "https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en",
+    "extracted_chars": 5945,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_27_0",
+    "url": "https://www.imf.org/en/news/articles/2026/02/26/pr-26066-ukraine-imf-executive-board-approves-usd-8point1-billion-under-an-eff-arrangement",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_28_0",
+    "url": "https://www.kmu.gov.ua/en/news/minfin-rada-vykonavchykh-dyrektoriv-mvf-skhvalyla-novu-prohramu-rozshyrenoho-finansuvannia-dlia-ukrainy-u-rozmiri-81-mlrd",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.kmu.gov.ua/en/news/minfin-rada-vykonavchykh-dyrektoriv-mvf-skhvalyla-novu-prohramu-rozshyrenoho-finansuvannia-dlia-ukrainy-u-rozmiri-81-mlrd",
+    "extracted_chars": 11538,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_29_0",
+    "url": "https://home.treasury.gov/news/press-releases/sb0424",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://home.treasury.gov/news/press-releases/sb0424",
+    "extracted_chars": 12377,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_30_0",
+    "url": "https://ukrainedonorplatform.com/?p=20326",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://ukrainedonorplatform.com/newsletter/newsletter_2026_07_02/",
+    "extracted_chars": 6400,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_31_0",
+    "url": "https://www.kmu.gov.ua/en/news/ukraina-zavershyla-restrukturyzatsiiu-derzhavnykh-oblihatsii-ta-harantovanykh-derzhavoiu-ievrooblihatsii-na-sumu-205-mlrd-dolariv-ssha",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.kmu.gov.ua/en/news/ukraina-zavershyla-restrukturyzatsiiu-derzhavnykh-oblihatsii-ta-harantovanykh-derzhavoiu-ievrooblihatsii-na-sumu-205-mlrd-dolariv-ssha",
+    "extracted_chars": 10602,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_32_0",
+    "url": "https://finance.liga.net/en/ekonomika/novosti/sp-upgrades-ukraines-credit-rating-to-ccc-after-debt-restructuring",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://finance.liga.net/en/ekonomika/news/sp-upgrades-ukraines-credit-rating-to-ccc-after-debt-restructuring",
+    "extracted_chars": 5797,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_33_0",
+    "url": "https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_34_0",
+    "url": "https://en.ecoaction.org.ua/wp-content/uploads/2024/03/Executive_Summary_The_Green_Reconstruction_of_the_Residential_Sector.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://en.ecoaction.org.ua/wp-content/uploads/2024/03/Executive_Summary_The_Green_Reconstruction_of_the_Residential_Sector.pdf",
+    "extracted_chars": 8004,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_35_0",
+    "url": "https://www.iea.org/reports/empowering-ukraine-through-a-decentralised-electricity-system",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_36_0",
+    "url": "https://data.unhcr.org/en/documents/download/123284",
+    "http_status": 200,
+    "content_type": "text/plain",
+    "final_url": "https://data.unhcr.org/en/documents/download/123284",
+    "extracted_chars": 70483,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_37_0",
+    "url": "https://www.eunews.it/en/2026/09/10/eurostat-4-43-million-ukrainians-under-temporary-protection-in-the-eu-in-july-2026/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.eunews.it/en/2026/09/10/eurostat-4-43-million-ukrainians-under-temporary-protection-in-the-eu-in-july-2026/",
+    "extracted_chars": 6423,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_38_0",
+    "url": "https://www.eeas.europa.eu/delegations/ukraine/eu-countries-agree-extend-temporary-protection-those-fleeing-ukraine-until-march-2028_en",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.eeas.europa.eu/delegations/ukraine/eu-countries-agree-extend-temporary-protection-those-fleeing-ukraine-until-march-2028_en",
+    "extracted_chars": 6039,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_39_0",
+    "url": "https://en.interfax.com.ua/news/general/1186657.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://en.interfax.com.ua/news/general/1186657.html",
+    "extracted_chars": 7090,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_40_0",
+    "url": "https://opendatabot.ua/en/analytics/birth-death-2025-12",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_41_0",
+    "url": "https://kse.ua/about-the-school/news/human-capital-trends-in-ukraine-make-reforms-of-the-labour-market-social-benefits-system-and-education-funding-key-priorities-for-2026-human-capital-chartbook-kse-institute/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://kse.ua/about-the-school/news/human-capital-trends-in-ukraine-make-reforms-of-the-labour-market-social-benefits-system-and-education-funding-key-priorities-for-2026-human-capital-chartbook-kse-institute/",
+    "extracted_chars": 6492,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_42_0",
+    "url": "https://news.online.ua/en/deepstate-calculated-the-area-of-ukraine-occupied-by-the-russian-federation-in-2025-900209/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://news.online.ua/en/deepstate-calculated-the-area-of-ukraine-occupied-by-the-russian-federation-in-2025-900209/",
+    "extracted_chars": 4352,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_43_0",
+    "url": "https://www.nber.org/papers/w34598",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.nber.org/papers/w34598",
+    "extracted_chars": 7065,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_44_0",
+    "url": "https://euromaidanpress.com/2026/02/16/ukraine-ex-energy-minister-halushchenko-charged-midas/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://euromaidanpress.com/2026/02/16/ukraine-ex-energy-minister-halushchenko-charged-midas/",
+    "extracted_chars": 12477,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_45_0",
+    "url": "https://ukranews.com/en/news/1097057-zelenskyy-signs-law-on-restoring-independence-of-nabu-and-sapo",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_46_0",
+    "url": "https://ti-ukraine.org/en/research/corruption-perceptions-index-2025/",
+    "access_result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "old_47_0",
+    "url": "https://kyivindependent.com/eu-cuts-next-ukraine-facility-aid-tranche-over-delayed-reforms/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://kyivindependent.com/eu-cuts-next-ukraine-facility-aid-tranche-over-delayed-reforms/",
+    "extracted_chars": 8379,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_48_0",
+    "url": "https://kyivindependent.com/what-we-know-about-ukraines-800-billion-economic-peace-plan/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://kyivindependent.com/what-we-know-about-ukraines-800-billion-economic-peace-plan/",
+    "extracted_chars": 9875,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_49_0",
+    "url": "https://www.pravda.com.ua/eng/news/2026/01/23/8017583/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.pravda.com.ua/eng/news/2026/01/23/8017583/",
+    "extracted_chars": 5553,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_50_0",
+    "url": "https://www.kyivpost.com/post/29917",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.kyivpost.com/post/29917",
+    "extracted_chars": 10093,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_51_0",
+    "url": "https://ces.org.ua/en/ukrainian-refugees-fifth-wave/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://ces.org.ua/en/ukrainian-refugees-fifth-wave/",
+    "extracted_chars": 10433,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_52_0",
+    "url": "https://lv.ukrstat.gov.ua/ukr/help/pb_fig2021/en/chapter_2_1.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://lv.ukrstat.gov.ua/ukr/help/pb_fig2021/en/chapter_2_1.html",
+    "extracted_chars": 5567,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_53_0",
+    "url": "https://economy-finance.ec.europa.eu/international-economic-relations/candidate-and-neighbouring-countries/ukraine_en",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://economy-finance.ec.europa.eu/international-economic-relations/candidate-and-neighbouring-countries/ukraine_en",
+    "extracted_chars": 26108,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_54_0",
+    "url": "https://zmina.info/en/news-en/ukraines-mortality-rate-exceeds-birth-rate-fourfold/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://zmina.info/en/news-en/ukraines-mortality-rate-exceeds-birth-rate-fourfold/",
+    "extracted_chars": 6704,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_55_0",
+    "url": "https://english.nv.ua/nation/ukraine-s-birth-rate-hits-record-low-50494770.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://english.nv.ua/nation/ukraine-s-birth-rate-hits-record-low-50494770.html",
+    "extracted_chars": 3523,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_56_0",
+    "url": "https://www.ifc.org/en/insights-reports/2023/private-sector-opportunities-for-a-green-and-resilient-reconstruction-in-ukraine",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.ifc.org/en/insights-reports/2023/private-sector-opportunities-for-a-green-and-resilient-reconstruction-in-ukraine",
+    "extracted_chars": 5964,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_57_0",
+    "url": "https://www.eib.org/en/press/all/2025-285-ukraine-to-rebuild-infrastructure-with-support-from-ukraine-first-initiative",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.eib.org/en/press/all/2025-285-ukraine-to-rebuild-infrastructure-with-support-from-ukraine-first-initiative",
+    "extracted_chars": 11657,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_58_0",
+    "url": "https://m-en.yna.co.kr/view/AEN20231205000300315",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://m-en.yna.co.kr/view/AEN20231205000300315",
+    "extracted_chars": 4336,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_59_0",
+    "url": "https://www.etnews.com/20220706000197",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.etnews.com/20220706000197",
+    "extracted_chars": 3315,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_60_0",
+    "url": "https://rks-nr.ru/news/273/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://rks-nr.ru/news/273/",
+    "extracted_chars": 1871,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_60_1",
+    "url": "https://rks-nr.ru/news/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://rks-nr.ru/news/",
+    "extracted_chars": 23876,
+    "access_result": "retrieved; substantive review separate"
+  },
+  {
+    "id": "old_61_0",
+    "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=375100",
+    "http_status": 200,
+    "content_type": "text/html",
+    "final_url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=375100",
+    "extracted_chars": 3576,
+    "access_result": "retrieved; substantive review separate"
+  }
+]
