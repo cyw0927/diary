@@ -355,6 +355,18 @@
 
 돈이 실제로 오간 사례는 따로 있다. 이탈리아 Buzzi는 2024년 우크라이나 시멘트 사업을 CRH에 1억 유로에 팔았다.[[76]](https://www.buzzi.com/w/completata-la-cessione-delle-attivita-in-ucraina) **돈을 확실히 손에 쥔 쪽은 재건에 투자한 쪽이 아니라 우크라이나에서 빠져나간 쪽이었다.**
 
+### 서방 자본은 공사판에는 안 오고, 노른자만 집었다
+
+"서방 기업이 재건을 핑계로 우크라이나를 다 사들였다"는 말이 돈다. 사실과 다르다. 미국 기업들이 농지 1,700만ha를 샀다는 소문은 팩트체크에서 거짓으로 판명됐고, 우크라이나 법은 외국인의 농지 소유를 막고 있다.[[116]](https://fullfact.org/news/ukraine-land-sales-zelenskyy/) 블랙록이 설계하던 우크라이나 개발펀드는 투자자가 모이지 않아 2025년 1월 투자자 모집이 멈췄다.[[111]](https://www.pravda.com.ua/eng/news/2025/07/5/7520332/) 국영기업 민영화에도 외국 투자자는 거의 입질을 하지 않는다.[[115]](https://kyivindependent.com/ukraine-wants-foreign-investors-to-buy-its-state-assets-so-far-theyre-not-biting/)
+
+진짜 문제는 그 반대편에 있다. **위험한 공사판에는 서방 민간 돈이 들어오지 않았다. 대신 돈이 되는 자원은 먼저 챙겨졌다.**
+
+2025년 4월 미국과 우크라이나는 광물협정을 맺었다. 앞으로 새로 내주는 광물·석유·가스 개발권에서 우크라이나가 받는 수입의 절반을 공동 투자펀드에 넣고, 미국은 자기 몫의 출자를 군사지원으로 셈할 수 있는 구조다.[[112]](https://www.aljazeera.com/amp/news/2025/5/1/what-is-in-the-us-ukraine-minerals-deal) 이 펀드의 첫 투자처는 재건 사업이 아니라 군사 드론의 무선조종 장비 업체였다.[[29]](https://home.treasury.gov/news/press-releases/sb0424)
+
+2026년 1월에는 우크라이나 최대급 리튬 광상인 도브라의 개발권이 TechMet와 The Rock Holdings의 컨소시엄에 돌아갔다. TechMet는 미국 정부 기관인 국제개발금융공사(DFC)가 지분을 가진 회사다. 뉴욕타임스는 이 컨소시엄이 트럼프 대통령의 오랜 친구인 로널드 로더와 연결돼 있다고 보도했다. 그런데 공동펀드를 관리하는 기관도 같은 DFC다. 우크라이나 정부는 특혜가 아니라 심사에서 이긴 것이라고 반박했다. 약속된 투자는 최소 1억7,900만 달러이고, 생산분배계약의 조건은 공개되지 않았다.[[113]](https://kyivindependent.com/ukraine-to-attract-179-million-u-s-investment-in-key-lithium-deposit/)[[114]](https://www.pravda.com.ua/eng/news/2026/01/12/8015797/)
+
+**손실 위험이 큰 공사는 공공의 돈으로, 노른자 자원은 미국 정부 기관과 정권 인맥이 얽힌 자본에게. 재건이라는 이름 아래 벌어지고 있는 배분이다.**
+
 재건으로 먼저 돈을 버는 길은 정해져 있다. 자문료, 금융상품 보수, 자산 매각대금, 기대감에 오른 주식의 매도 차익. 모두 재건이 성공할 때까지 기다리지 않아도 되는 돈이다. 반대로 사업 운영자와 대출 보증자, 늦게 들어온 투자자, 공여국 납세자는 끝까지 기다려야 한다.
 
 ---
@@ -432,7 +444,7 @@ EU 안에 동결된 러시아 중앙은행 자산은 약 2,100억 유로다.[[53
 4. 우크라이나 정부는 원상복구가 아니라 국가개발 계획을 내밀고, 그 돈의 3분의 2를 외부에 기대했다.
 5. 그 필요액이 '시장 규모'로 둔갑했다. 사회보호와 지뢰 제거까지 들어 있는 숫자가 기업의 먹거리로 불렸다.
 6. 들어갈 수도 없는 마리우폴이 한국에 '기회'로 제시됐다.
-7. 한국에서는 해외매출 0원인 회사의 주가가 다섯 배가 됐고, 서방에서는 우크라이나 비중 0.18%짜리 '재건 ETF'가 팔렸다.
+7. 한국에서는 해외매출 0원인 회사의 주가가 다섯 배가 됐고, 서방에서는 우크라이나 비중 0.18%짜리 '재건 ETF'가 팔렸다. 공사판에 민간 돈은 오지 않았는데, 알짜 리튬 광상은 미국 정권 인맥이 얽힌 컨소시엄에 먼저 갔다.
 8. 마지막 빈칸은 아직 누구의 것도 아닌 러시아 돈으로 채워졌다.
 
 **오래 미룬 개발 부담을 재건의 명분으로 부풀린다. 아직 없는 돈을 시장처럼 설명한다. 실물보다 기대를 먼저 팔아 수익을 챙긴다. 그리고 운영과 회수의 위험은 다른 사람에게 떠넘긴다.** 내가 이 구조를 21세기 최악의 사기극이라고 부르는 이유다.
@@ -477,6 +489,7 @@ EU 안에 동결된 러시아 중앙은행 자산은 약 2,100억 유로다.[[53
 - **[25]** 우크라이나 재무부, EU 900억 유로 지원 결정 환영 (2025.12.19): [원문1](https://www.kmu.gov.ua/en/news/minfin-vitaie-rishennia-rady-ies-shchodo-namiru-nadaty-ukraini-90-mlrd-ievro-finansovoi-dopomohy-na-2026-2027-roky)
 - **[26]** 유럽연합 집행위원회 DG DEFIS, EUR 1.24 billion disbursement (2026.10.8): [원문1](https://defence-industry-space.ec.europa.eu/commission-disburses-eur124-billion-ukraine-drones-and-missiles-2026-10-08_en)
 - **[28]** 우크라이나 재무부, IMF 신규 프로그램 승인 (2026.2.27): [원문1](https://www.kmu.gov.ua/en/news/minfin-rada-vykonavchykh-dyrektoriv-mvf-skhvalyla-novu-prohramu-rozshyrenoho-finansuvannia-dlia-ukrainy-u-rozmiri-81-mlrd)
+- **[29]** 미 재무부, 미·우크라이나 재건투자기금 첫 투자(Sine Engineering, 드론 무선조종 장비) (2026.3): [원문1](https://home.treasury.gov/news/press-releases/sb0424)
 - **[31]** 우크라이나 내각, 205억 달러 유로본드 구조조정 완료 (2024.9): [원문1](https://www.kmu.gov.ua/en/news/ukraina-zavershyla-restrukturyzatsiiu-derzhavnykh-oblihatsii-ta-harantovanykh-derzhavoiu-ievrooblihatsii-na-sumu-205-mlrd-dolariv-ssha)
 - **[33]** 우크라이나 재무부, 2025년 국가채무 관리 결과 보고서 (2026): [원문1](https://mof.gov.ua/storage/files/ENG_Report_on_State_Debt_and_State-Guaranteed_Debt_Management_Results_for_2025.pdf)
 - **[34]** Berlin Economics·Ecoaction, The Green Reconstruction of the Residential Sector (2024.3): [원문1](https://en.ecoaction.org.ua/wp-content/uploads/2024/03/Executive_Summary_The_Green_Reconstruction_of_the_Residential_Sector.pdf)
@@ -541,3 +554,9 @@ EU 안에 동결된 러시아 중앙은행 자산은 약 2,100억 유로다.[[53
 - **[108]** Dragon Capital, 전쟁 격화와 추가 조달 필요에 관한 2026~27년 전망 갱신(2026.10.8): [원문1](https://dragon-capital.com/media/press-releases/onovleniy-makroprognoz-na-2026-2027-roki-ekonomichni-naslidki-posilennya-atak/)
 - **[109]** Ukrinform, Ukraine to attract up to $8B from Korea on preferential terms (2023.5.17; 스비리덴코 경제장관 발표, 40년·연 0.15%): [원문1](https://ukrinform.net/rubric-economy/3710300-ukraine-to-attract-up-to-8b-from-korea-on-preferential-terms.html)
 - **[110]** EU Perspectives, Gdańsk conference brings €10bn (2026.6; 스비리덴코 총리 "160건, 100억 유로 이상", EU 32억 유로·세계은행 34억 달러 포함): [원문1](https://euperspectives.eu/2026/06/gdansk-conference-brings-e10bn-to-impoverished-kyiv/)
+- **[111]** Ukrainska Pravda, BlackRock halts talks on investment fund for Ukraine (Bloomberg 인용, 2025.7.5): [원문1](https://www.pravda.com.ua/eng/news/2025/07/5/7520332/)
+- **[112]** Al Jazeera, What is in the US-Ukraine minerals deal? (2025.5.1): [원문1](https://www.aljazeera.com/amp/news/2025/5/1/what-is-in-the-us-ukraine-minerals-deal)
+- **[113]** Kyiv Independent, Ukraine officially awards lithium deposit to Trump-linked investors, $179 million set for development (2026.1): [원문1](https://kyivindependent.com/ukraine-to-attract-179-million-u-s-investment-in-key-lithium-deposit/)
+- **[114]** Ukrainska Pravda, PM confirms Kyiv is awarding one of its largest lithium deposits to Trump-linked investors (2026.1.12): [원문1](https://www.pravda.com.ua/eng/news/2026/01/12/8015797/)
+- **[115]** Kyiv Independent, Ukraine wants foreign investors to buy its state assets. So far, they're not biting (2026): [원문1](https://kyivindependent.com/ukraine-wants-foreign-investors-to-buy-its-state-assets-so-far-theyre-not-biting/)
+- **[116]** Full Fact, President Zelenskyy did not sell 17 million hectares of land to American conglomerates: [원문1](https://fullfact.org/news/ukraine-land-sales-zelenskyy/)
